@@ -1,0 +1,89 @@
+package com.blueraja.magicduelsimporter.carddata;
+
+import com.blueraja.magicduelsimporter.carddata.CardData;
+import com.blueraja.magicduelsimporter.utils.FileUtils;
+import com.blueraja.magicduelsimporter.utils.XmlUtils;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+public class CardDataManager {
+    public List<CardData> _cardEntries = new ArrayList<>();
+
+    public void addEntry(String name, int idMagicDuels, int idMagicAssist) {
+        CardData card = new CardData();
+        card.displayName = name;
+        card.idMagicDuels = idMagicDuels;
+        card.idMagicAssist = idMagicAssist;
+        _cardEntries.add(card);
+    }
+
+    public void clear() {
+        _cardEntries.clear();
+    }
+
+    public Iterable<CardData> getAllCards() {
+        return _cardEntries;
+    }
+
+    public Optional<CardData> getDataForMagicDuelsId(int id) {
+        return _cardEntries.stream()
+                .filter(card -> card.idMagicDuels == id)
+                .findFirst();
+    }
+
+    public Optional<CardData> getDataForMagicAssistId(int id) {
+        return _cardEntries.stream()
+                .filter(card -> card.idMagicAssist == id)
+                .findFirst();
+    }
+
+    public void writeXml() throws IOException, ParserConfigurationException, TransformerException {
+        try (Writer writer = new BufferedWriter(new OutputStreamWriter(
+                new FileOutputStream("CardData.xml"), "utf-8"))) {
+            writer.write(toXmlString());
+        }
+    }
+
+    public void readXml() throws ParserConfigurationException, IOException, SAXException {
+        this.clear();
+
+        Document doc = FileUtils.getFileAsXMLDocument("CardData.xml");
+        NodeList cards = doc.getElementsByTagName("card");
+        for(int i = 0; i < cards.getLength(); i++) {
+            Element element = (Element)cards.item(i);
+            String name = element.getAttribute("name");
+            String idMagicDuelsStr = element.getAttribute("idMagicDuels");
+            String idMagicAssistStr = element.getAttribute("idMagicAssist");
+
+            int idMagicDuels = Integer.parseInt(idMagicDuelsStr);
+            int idMagicAssist = Integer.parseInt(idMagicAssistStr);
+
+            this.addEntry(name, idMagicDuels, idMagicAssist);
+        }
+    }
+
+    private String toXmlString() throws TransformerException {
+        Document doc = XmlUtils.getNewXmlDocument();
+        Element rootElement = doc.createElement("cards");
+        doc.appendChild(rootElement);
+
+        for(CardData card: _cardEntries) {
+            Element cardElement = doc.createElement("card");
+            cardElement.setAttribute("name", card.displayName);
+            cardElement.setAttribute("idMagicDuels", Integer.toString(card.idMagicDuels));
+            cardElement.setAttribute("idMagicAssist", Integer.toString(card.idMagicAssist));
+            rootElement.appendChild(cardElement);
+        }
+
+        return XmlUtils.documentToString(doc);
+    }
+}

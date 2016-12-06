@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cards>
+<card idMagicAssist="370811" idMagicDuels="0" name="Accursed Spirit"/>
+<card idMagicAssist="383177" idMagicDuels="1" name="Aeronaut Tinkerer"/>
+<card idMagicAssist="398602" idMagicDuels="2" name="Suppression Bonds"/>
+<card idMagicAssist="26631" idMagicDuels="3" name="Yavimaya Wurm"/>
+<card idMagicAssist="407683" idMagicDuels="4" name="Meandering River"/>
+<card idMagicAssist="194316" idMagicDuels="5" name="Barrage Ogre"/>
+<card idMagicAssist="391801" idMagicDuels="6" name="Battlefront Krushok"/>
+<card idMagicAssist="386489" idMagicDuels="7" name="Bitter Revelation"/>
+<card idMagicAssist="240196" idMagicDuels="8" name="Bloodflow Connoisseur"/>
+<card idMagicAssist="175117" idMagicDuels="9" name="Bloodpyre Elemental"/>
+<card idMagicAssist="239983" idMagicDuels="10" name="Bone Splinters"/>
+<card idMagicAssist="383194" idMagicDuels="11" name="Boonweaver Giant"/>
+<card idMagicAssist="410047" idMagicDuels="12" name="Stone Quarry"/>
+<card idMagicAssist="389449" idMagicDuels="13" name="Bottle Gnomes"/>
+<card idMagicAssist="368520" idMagicDuels="14" name="Child of Night"/>
+<card idMagicAssist="265373" idMagicDuels="15" name="Chorus of Might"/>
+<card idMagicAssist="241980" idMagicDuels="16" name="Clifftop Retreat"/>
+<card idMagicAssist="193749" idMagicDuels="17" name="Coral Merfolk"/>
+<card idMagicAssist="370800" idMagicDuels="18" name="Corpse Hauler"/>
+<card idMagicAssist="380388" idMagicDuels="19" name="Countermand"/>
+<card idMagicAssist="194217" idMagicDuels="20" name="Darkslick Drake"/>
+<card idMagicAssist="383223" idMagicDuels="21" name="Dauntless River Marshal"/>
+<card idMagicAssist="45244" idMagicDuels="22" name="Dehydration"/>
+<card idMagicAssist="407688" idMagicDuels="23" name="Submerged Boneyard"/>
+<card idMagicAssist="386667" idMagicDuels="24" name="Siegecraft"/>
+<card idMagicAssist="191091" idMagicDuels="25" name="Dragonskull Summit"/>
+<card idMagicAssist="370683" idMagicDuels="26" name="Minotaur Abomination"/>
+<card idMagicAssist="191067" idMagicDuels="27" name="Drowned Catacomb"/>
+<card idMagicAssist="401874" idMagicDuels="28" name="Expedition Envoy"/>
+<card idMagicAssist="208008" idMagicDuels="29" name="Ember Hauler"/>
+<card idMagicAssist="180158" idMagicDuels="30" name="Esperzoa"/>
+<card idMagicAssist="111247" idMagicDuels="31" name="Flaring Flame-Kin"/>
+<card idMagicAssist="383240" idMagicDuels="32" name="Flesh to Dust"/>
+<card idMagicAssist="220479" idMagicDuels="33" name="Fog"/>
+<card idMagicAssist="-2146729973" idMagicDuels="34" name="Goblin Balloon Brigade"/>
+<card idMagicAssist="383248" idMagicDuels="35" name="Frost Lynx"/>
+<card idMagicAssist="389708" idMagicDuels="36" name="Sylvan Ranger"/>
+<card idMagicAssist="190562" idMagicDuels="37" name="Glacial Fortress"/>
+<card idMagicAssist="368478" idMagicDuels="38" name="Goblin Arsonist"/>
+<card idMagicAssist="191074" idMagicDuels="39" name="Goblin Piker"/>
+<card idMagicAssist="410043" idMagicDuels="40" name="Foul Orchard"/>
+<card idMagicAssist="27253" idMagicDuels="41" name="Gravedigger"/>
+<card idMagicAssist="407689" idMagicDuels="42" name="Timber Gorge"/>
+<card idMagicAssist="386549" idMagicDuels="43" name="Gurmag Swiftwing"/>
+<card idMagicAssist="383265" idMagicDuels="44" name="Heliod's Pilgrim"/>
+<card idMagicAssist="241988" idMagicDuels="45" name="Hinterland Harbor"/>
+<card idMagicAssist="383277" idMagicDuels="46" name="Inferno Fist"/>
+<card idMagicAssist="14507" idMagicDuels="47" name="Inspiration"/>
+<card idMagicAssist="220035" idMagicDuels="48" name="Into the Maw of Hell"/>
+<card idMagicAssist="241979" idMagicDuels="49" name="Isolated Chapel"/>
+<card idMagicAssist="410045" idMagicDuels="50" name="Highland Lake"/>
+<card idMagicAssist="401940" idMagicDuels="51" name="Lifespring Druid"/>
+<card idMagicAssist="383288" idMagicDuels="52" name="Jorubai Murk Lurker"/>
+<card idMagicAssist="220484" idMagicDuels="53" name="Juggernaut"/>
+<card idMagicAssist="383291" idMagicDuels="54" name="Kapsho Kitefins"/>
+<card idMagicAssist="394379" idMagicDuels="55" name="Kinsbaile Skirmisher"/>
+<card idMagicAssist="383293" idMagicDuels="56" name="Kird Chieftain"/>
+<card idMagicAssist="389584" idMagicDuels="57" name="Lys Alana Huntmaster"/>
+<card idMagicAssist="143021" idMagicDuels="58" name="Lys Alana Scarblade"/>
+<card idMagicAssist="394569" idMagicDuels="59" name="Explosive Vegetation"/>
+<card idMagicAssist="382317" idMagicDuels="60" name="Necromantic Thirst"/>
+<card idMagicAssist="383326" idMagicDuels="61" name="Nightfire Giant"/>
+<card idMagicAssist="180346" idMagicDuels="62" name="Nimbus Wings"/>
+<card idMagicAssist="410041" idMagicDuels="63" name="Forsaken Sanctuary"/>
+<card idMagicAssist="383197" idMagicDuels="64" name="Bronze Sable"/>
+<card idMagicAssist="193407" idMagicDuels="65" name="Primal Bellow"/>
+<card idMagicAssist="249677" idMagicDuels="66" name="Primal Huntbeast"/>
+<card idMagicAssist="407678" idMagicDuels="67" name="Cinder Barrens"/>
+<card idMagicAssist="45178" idMagicDuels="68" name="Razorfoot Griffin"/>
+<card idMagicAssist="389651" idMagicDuels="69" name="Reclamation Sage"/>
+<card idMagicAssist="3210" idMagicDuels="70" name="Reprisal"/>
+<card idMagicAssist="405359" idMagicDuels="71" name="Rise from the Grave"/>
+<card idMagicAssist="191057" idMagicDuels="72" name="Rootbound Crag"/>
+<card idMagicAssist="139674" idMagicDuels="73" name="Scarred Vinebreeder"/>
+<card idMagicAssist="383372" idMagicDuels="74" name="Scrapyard Mongrel"/>
+<card idMagicAssist="407690" idMagicDuels="75" name="Tranquil Expanse"/>
+<card idMagicAssist="193931" idMagicDuels="76" name="Siege Mastodon"/>
+<card idMagicAssist="410051" idMagicDuels="77" name="Woodland Stream"/>
+<card idMagicAssist="194103" idMagicDuels="78" name="Sky-Eel School"/>
+<card idMagicAssist="389678" idMagicDuels="79" name="Skyhunter Skirmisher"/>
+<card idMagicAssist="189875" idMagicDuels="80" name="Solemn Offering"/>
+<card idMagicAssist="407677" idMagicDuels="81" name="Strider Harness"/>
+<card idMagicAssist="241987" idMagicDuels="82" name="Sulfur Falls"/>
+<card idMagicAssist="383406" idMagicDuels="83" name="Sunblade Elf"/>
+<card idMagicAssist="191100" idMagicDuels="84" name="Sunpetal Grove"/>
+<card idMagicAssist="45189" idMagicDuels="85" name="Suntail Hawk"/>
+<card idMagicAssist="397728" idMagicDuels="86" name="Telling Time"/>
+<card idMagicAssist="240048" idMagicDuels="87" name="Timberland Guide"/>
+<card idMagicAssist="289228" idMagicDuels="88" name="Traitorous Instinct"/>
+<card idMagicAssist="394733" idMagicDuels="89" name="Twin Bolt"/>
+<card idMagicAssist="276416" idMagicDuels="90" name="Welkin Tern"/>
+<card idMagicAssist="393997" idMagicDuels="91" name="Wildsize"/>
+<card idMagicAssist="241983" idMagicDuels="92" name="Woodland Cemetery"/>
+<card idMagicAssist="398411" idMagicDuels="93" name="Abbot of Keral Keep"/>
+<card idMagicAssist="386299" idMagicDuels="94" name="Act of Treason"/>
+<card idMagicAssist="398656" idMagicDuels="95" name="Akroan Jailer"/>
+<card idMagicAssist="398604" idMagicDuels="96" name="Akroan Sergeant"/>
+<card idMagicAssist="398640" idMagicDuels="97" name="Alchemist's Vial"/>
+<card idMagicAssist="398436" idMagicDuels="98" name="Alhammarret, High Arbiter"/>
+<card idMagicAssist="398603" idMagicDuels="99" name="Ampryn Tactician"/>
+<card idMagicAssist="398474" idMagicDuels="100" name="Anchor to the Æther"/>
+<card idMagicAssist="398437" idMagicDuels="101" name="Animist's Awakening"/>
+<card idMagicAssist="398455" idMagicDuels="102" name="Anointer of Champions"/>
+<card idMagicAssist="398571" idMagicDuels="103" name="Archangel of Tithes"/>
+<card idMagicAssist="398462" idMagicDuels="104" name="Artificer's Epiphany"/>
+<card idMagicAssist="398674" idMagicDuels="105" name="Aspiring Aeronaut"/>
+<card idMagicAssist="373402" idMagicDuels="106" name="Auramancer"/>
+<card idMagicAssist="398667" idMagicDuels="107" name="Avaricious Dragon"/>
+<card idMagicAssist="398439" idMagicDuels="108" name="Bellows Lizard"/>
+<card idMagicAssist="398660" idMagicDuels="109" name="Blazing Hellhound"/>
+<card idMagicAssist="398628" idMagicDuels="110" name="Blessed Spirits"/>
+<card idMagicAssist="370761" idMagicDuels="111" name="Blightcaster"/>
+<card idMagicAssist="398527" idMagicDuels="112" name="Blood-Cursed Knight"/>
+<card idMagicAssist="398665" idMagicDuels="113" name="Bonded Construct"/>
+<card idMagicAssist="262845" idMagicDuels="114" name="Bone to Ash"/>
+<card idMagicAssist="398635" idMagicDuels="115" name="Bounding Krasis"/>
+<card idMagicAssist="398480" idMagicDuels="116" name="Calculated Dismissal"/>
+<card idMagicAssist="398457" idMagicDuels="117" name="Call of the Full Moon"/>
+<card idMagicAssist="394355" idMagicDuels="118" name="Celestial Flare"/>
+<card idMagicAssist="398422" idMagicDuels="119" name="Chandra, Fire of Kaladesh"/>
+<card idMagicAssist="398416" idMagicDuels="120" name="Chandra's Ignition"/>
+<card idMagicAssist="398581" idMagicDuels="121" name="Chief of the Foundry"/>
+<card idMagicAssist="398672" idMagicDuels="122" name="Citadel Castellan"/>
+<card idMagicAssist="380259" idMagicDuels="123" name="Claustrophobia"/>
+<card idMagicAssist="398451" idMagicDuels="124" name="Cleric of the Forward Order"/>
+<card idMagicAssist="398419" idMagicDuels="125" name="Conclave Naturalists"/>
+<card idMagicAssist="398512" idMagicDuels="126" name="Consecrated by Blood"/>
+<card idMagicAssist="398446" idMagicDuels="127" name="Consul's Lieutenant"/>
+<card idMagicAssist="398415" idMagicDuels="128" name="Cruel Revival"/>
+<card idMagicAssist="398500" idMagicDuels="129" name="Deadbridge Shaman"/>
+<card idMagicAssist="398587" idMagicDuels="130" name="Despoiler of Souls"/>
+<card idMagicAssist="398583" idMagicDuels="131" name="Disciple of the Ring"/>
+<card idMagicAssist="370818" idMagicDuels="132" name="Disperse"/>
+<card idMagicAssist="398580" idMagicDuels="133" name="Displacement Wave"/>
+<card idMagicAssist="220456" idMagicDuels="134" name="Dragon Fodder"/>
+<card idMagicAssist="398546" idMagicDuels="135" name="Dwynen, Gilt-Leaf Daen"/>
+<card idMagicAssist="398609" idMagicDuels="136" name="Dwynen's Elite"/>
+<card idMagicAssist="398406" idMagicDuels="137" name="Elemental Bond"/>
+<card idMagicAssist="389501" idMagicDuels="138" name="Elvish Visionary"/>
+<card idMagicAssist="398576" idMagicDuels="139" name="Embermaw Hellion"/>
+<card idMagicAssist="398493" idMagicDuels="140" name="Enthralling Victor"/>
+<card idMagicAssist="398584" idMagicDuels="141" name="Erebos's Titan"/>
+<card idMagicAssist="398573" idMagicDuels="142" name="Evolutionary Leap"/>
+<card idMagicAssist="401872" idMagicDuels="143" name="Evolving Wilds"/>
+<card idMagicAssist="398513" idMagicDuels="144" name="Exquisite Firecraft"/>
+<card idMagicAssist="398535" idMagicDuels="145" name="Eyeblight Assassin"/>
+<card idMagicAssist="398459" idMagicDuels="146" name="Faerie Miscreant"/>
+<card idMagicAssist="398497" idMagicDuels="147" name="Fiery Conclusion"/>
+<card idMagicAssist="398516" idMagicDuels="148" name="Fiery Impulse"/>
+<card idMagicAssist="398590" idMagicDuels="149" name="Firefiend Elemental"/>
+<card idMagicAssist="398547" idMagicDuels="150" name="Flameshadow Conjuring"/>
+<card idMagicAssist="393889" idMagicDuels="151" name="Fleshbag Marauder"/>
+<card idMagicAssist="398613" idMagicDuels="152" name="Foundry of the Consuls"/>
+<card idMagicAssist="205033" idMagicDuels="153" name="Gaea's Revenge"/>
+<card idMagicAssist="398448" idMagicDuels="154" name="Gather the Pack"/>
+<card idMagicAssist="398517" idMagicDuels="155" name="Ghirapur Æther Grid"/>
+<card idMagicAssist="398681" idMagicDuels="156" name="Ghirapur Gearcrafter"/>
+<card idMagicAssist="398495" idMagicDuels="157" name="Gilt-Leaf Winnower"/>
+<card idMagicAssist="398598" idMagicDuels="158" name="Goblin Glory Chaser"/>
+<card idMagicAssist="398558" idMagicDuels="159" name="Grasp of the Hieromancer"/>
+<card idMagicAssist="398526" idMagicDuels="160" name="Graveblade Marauder"/>
+<card idMagicAssist="398509" idMagicDuels="161" name="Guardian Automaton"/>
+<card idMagicAssist="398553" idMagicDuels="162" name="Guardians of Meletis"/>
+<card idMagicAssist="398569" idMagicDuels="163" name="Harbinger of the Tides"/>
+<card idMagicAssist="398460" idMagicDuels="164" name="Herald of the Pantheon"/>
+<card idMagicAssist="398611" idMagicDuels="165" name="Hixus, Prison Warden"/>
+<card idMagicAssist="398666" idMagicDuels="166" name="Hydrolash"/>
+<card idMagicAssist="398582" idMagicDuels="167" name="Infectious Bloodlust"/>
+<card idMagicAssist="398638" idMagicDuels="168" name="Infernal Scarring"/>
+<card idMagicAssist="398653" idMagicDuels="169" name="Iroas's Champion"/>
+<card idMagicAssist="398434" idMagicDuels="170" name="Jace, Vryn's Prodigy"/>
+<card idMagicAssist="398536" idMagicDuels="171" name="Jhessian Thief"/>
+<card idMagicAssist="398420" idMagicDuels="172" name="Knight of the Pilgrim's Road"/>
+<card idMagicAssist="243423" idMagicDuels="173" name="Knight of the White Orchid"/>
+<card idMagicAssist="398622" idMagicDuels="174" name="Knightly Valor"/>
+<card idMagicAssist="398443" idMagicDuels="175" name="Kothophed, Soul Hoarder"/>
+<card idMagicAssist="398428" idMagicDuels="176" name="Kytheon, Hero of Akros"/>
+<card idMagicAssist="398561" idMagicDuels="177" name="Kytheon's Irregulars"/>
+<card idMagicAssist="398470" idMagicDuels="178" name="Kytheon's Tactics"/>
+<card idMagicAssist="398597" idMagicDuels="179" name="Languish"/>
+<card idMagicAssist="398441" idMagicDuels="180" name="Liliana, Heretical Healer"/>
+<card idMagicAssist="126147" idMagicDuels="181" name="Llanowar Empath"/>
+<card idMagicAssist="398426" idMagicDuels="182" name="Mage-Ring Bully"/>
+<card idMagicAssist="398556" idMagicDuels="183" name="Malakir Cullblade"/>
+<card idMagicAssist="383308" idMagicDuels="184" name="Meteorite"/>
+<card idMagicAssist="398662" idMagicDuels="185" name="Might of the Masses"/>
+<card idMagicAssist="398649" idMagicDuels="186" name="Molten Vortex"/>
+<card idMagicAssist="398440" idMagicDuels="187" name="Nantuko Husk"/>
+<card idMagicAssist="398491" idMagicDuels="188" name="Necromantic Summons"/>
+<card idMagicAssist="398438" idMagicDuels="189" name="Nissa, Vastwood Seer"/>
+<card idMagicAssist="398593" idMagicDuels="190" name="Nissa's Pilgrimage"/>
+<card idMagicAssist="398506" idMagicDuels="191" name="Nissa's Revelation"/>
+<card idMagicAssist="234855" idMagicDuels="192" name="Orchard Spirit"/>
+<card idMagicAssist="398668" idMagicDuels="193" name="Outland Colossus"/>
+<card idMagicAssist="398631" idMagicDuels="194" name="Patron of the Valiant"/>
+<card idMagicAssist="398531" idMagicDuels="195" name="Pharika's Disciple"/>
+<card idMagicAssist="398453" idMagicDuels="196" name="Pia and Kiran Nalaar"/>
+<card idMagicAssist="398657" idMagicDuels="197" name="Possessed Skaab"/>
+<card idMagicAssist="398639" idMagicDuels="198" name="Priest of the Blood Rite"/>
+<card idMagicAssist="398557" idMagicDuels="199" name="Rabid Bloodsucker"/>
+<card idMagicAssist="398601" idMagicDuels="200" name="Ravaging Blaze"/>
+<card idMagicAssist="389649" idMagicDuels="201" name="Read the Bones"/>
+<card idMagicAssist="398591" idMagicDuels="202" name="Reave Soul"/>
+<card idMagicAssist="398521" idMagicDuels="203" name="Reclusive Artificer"/>
+<card idMagicAssist="398476" idMagicDuels="204" name="Relic Seeker"/>
+<card idMagicAssist="398663" idMagicDuels="205" name="Rhox Maulers"/>
+<card idMagicAssist="398464" idMagicDuels="206" name="Ringwarden Owl"/>
+<card idMagicAssist="405362" idMagicDuels="207" name="Rogue's Passage"/>
+<card idMagicAssist="222737" idMagicDuels="208" name="Runed Servitor"/>
+<card idMagicAssist="240035" idMagicDuels="209" name="Scrapskin Drake"/>
+<card idMagicAssist="245207" idMagicDuels="210" name="Screeching Skaab"/>
+<card idMagicAssist="398608" idMagicDuels="211" name="Separatist Voidmage"/>
+<card idMagicAssist="398522" idMagicDuels="212" name="Shadows of the Past"/>
+<card idMagicAssist="398489" idMagicDuels="213" name="Shaman of the Pack"/>
+<card idMagicAssist="398552" idMagicDuels="214" name="Shambling Ghoul"/>
+<card idMagicAssist="405377" idMagicDuels="215" name="Sigil of the Empty Throne"/>
+<card idMagicAssist="398515" idMagicDuels="216" name="Sigil of Valor"/>
+<card idMagicAssist="380498" idMagicDuels="217" name="Sigiled Starfish"/>
+<card idMagicAssist="398485" idMagicDuels="218" name="Soulblade Djinn"/>
+<card idMagicAssist="398520" idMagicDuels="219" name="Sphinx's Tutelage"/>
+<card idMagicAssist="398624" idMagicDuels="220" name="Stalwart Aven"/>
+<card idMagicAssist="398458" idMagicDuels="221" name="Subterranean Scout"/>
+<card idMagicAssist="398654" idMagicDuels="222" name="Enshrouding Mist"/>
+<card idMagicAssist="398612" idMagicDuels="223" name="Tainted Remedy"/>
+<card idMagicAssist="398483" idMagicDuels="224" name="Talent of the Telepath"/>
+<card idMagicAssist="398514" idMagicDuels="225" name="Thopter Engineer"/>
+<card idMagicAssist="398519" idMagicDuels="226" name="Thopter Spy Network"/>
+<card idMagicAssist="398407" idMagicDuels="227" name="Thornbow Archer"/>
+<card idMagicAssist="398595" idMagicDuels="228" name="Throwing Knife"/>
+<card idMagicAssist="398655" idMagicDuels="229" name="Thunderclap Wyvern"/>
+<card idMagicAssist="249694" idMagicDuels="230" name="Timberpack Wolf"/>
+<card idMagicAssist="221203" idMagicDuels="231" name="Titanic Growth"/>
+<card idMagicAssist="398680" idMagicDuels="232" name="Titan's Strength"/>
+<card idMagicAssist="398619" idMagicDuels="233" name="Topan Freeblade"/>
+<card idMagicAssist="398599" idMagicDuels="234" name="Totem-Guide Hartebeest"/>
+<card idMagicAssist="262665" idMagicDuels="235" name="Tower Geist"/>
+<card idMagicAssist="398610" idMagicDuels="236" name="Tragic Arrogance"/>
+<card idMagicAssist="398484" idMagicDuels="237" name="Undead Servant"/>
+<card idMagicAssist="398568" idMagicDuels="238" name="Undercity Troll"/>
+<card idMagicAssist="398452" idMagicDuels="239" name="Unholy Hunger"/>
+<card idMagicAssist="398447" idMagicDuels="240" name="Valeron Wardens"/>
+<card idMagicAssist="398529" idMagicDuels="241" name="Valor in Akros"/>
+<card idMagicAssist="398498" idMagicDuels="242" name="Veteran's Sidearm"/>
+<card idMagicAssist="398567" idMagicDuels="243" name="Vryn Wingmare"/>
+<card idMagicAssist="398410" idMagicDuels="244" name="Whirler Rogue"/>
+<card idMagicAssist="398508" idMagicDuels="245" name="Wild Instincts"/>
+<card idMagicAssist="398502" idMagicDuels="246" name="Willbreaker"/>
+<card idMagicAssist="398511" idMagicDuels="247" name="Woodland Bellower"/>
+<card idMagicAssist="265840" idMagicDuels="248" name="Yeva's Forcemage"/>
+<card idMagicAssist="398661" idMagicDuels="249" name="Zendikar Incarnate"/>
+<card idMagicAssist="398518" idMagicDuels="250" name="Zendikar's Roil"/>
+<card idMagicAssist="401803" idMagicDuels="251" name="Adverse Conditions"/>
+<card idMagicAssist="401804" idMagicDuels="252" name="Akoum Firebird"/>
+<card idMagicAssist="401805" idMagicDuels="253" name="Akoum Hellkite"/>
+<card idMagicAssist="401806" idMagicDuels="254" name="Akoum Stonewaker"/>
+<card idMagicAssist="401807" idMagicDuels="255" name="Aligned Hedron Network"/>
+<card idMagicAssist="401809" idMagicDuels="256" name="Altar's Reap"/>
+<card idMagicAssist="401810" idMagicDuels="257" name="Angel of Renewal"/>
+<card idMagicAssist="401815" idMagicDuels="258" name="Barrage Tyrant"/>
+<card idMagicAssist="401819" idMagicDuels="259" name="Blight Herder"/>
+<card idMagicAssist="401822" idMagicDuels="260" name="Blighted Gorge"/>
+<card idMagicAssist="401823" idMagicDuels="261" name="Blighted Steppe"/>
+<card idMagicAssist="401825" idMagicDuels="262" name="Blisterpod"/>
+<card idMagicAssist="401826" idMagicDuels="263" name="Bloodbond Vampire"/>
+<card idMagicAssist="401827" idMagicDuels="264" name="Boiling Earth"/>
+<card idMagicAssist="401829" idMagicDuels="265" name="Breaker of Armies"/>
+<card idMagicAssist="401830" idMagicDuels="266" name="Brilliant Spectrum"/>
+<card idMagicAssist="401832" idMagicDuels="267" name="Brood Butcher"/>
+<card idMagicAssist="401834" idMagicDuels="268" name="Broodhunter Wurm"/>
+<card idMagicAssist="401835" idMagicDuels="269" name="Brutal Expulsion"/>
+<card idMagicAssist="401837" idMagicDuels="270" name="Canopy Vista"/>
+<card idMagicAssist="401838" idMagicDuels="271" name="Carrier Thrall"/>
+<card idMagicAssist="401840" idMagicDuels="272" name="Chasm Guide"/>
+<card idMagicAssist="401841" idMagicDuels="273" name="Cinder Glade"/>
+<card idMagicAssist="401844" idMagicDuels="274" name="Clutch of Currents"/>
+<card idMagicAssist="401845" idMagicDuels="275" name="Coastal Discovery"/>
+<card idMagicAssist="401846" idMagicDuels="276" name="Complete Disregard"/>
+<card idMagicAssist="401848" idMagicDuels="277" name="Coralhelm Guide"/>
+<card idMagicAssist="401849" idMagicDuels="278" name="Courier Griffin"/>
+<card idMagicAssist="401851" idMagicDuels="279" name="Cryptic Cruiser"/>
+<card idMagicAssist="401852" idMagicDuels="280" name="Culling Drone"/>
+<card idMagicAssist="401854" idMagicDuels="281" name="Deathless Behemoth"/>
+<card idMagicAssist="401855" idMagicDuels="282" name="Defiant Bloodlord"/>
+<card idMagicAssist="401856" idMagicDuels="283" name="Demon's Grasp"/>
+<card idMagicAssist="401857" idMagicDuels="284" name="Desolation Twin"/>
+<card idMagicAssist="401858" idMagicDuels="285" name="Dispel"/>
+<card idMagicAssist="401859" idMagicDuels="286" name="Dominator Drone"/>
+<card idMagicAssist="401862" idMagicDuels="287" name="Drana's Emissary"/>
+<card idMagicAssist="401863" idMagicDuels="288" name="Drowner of Hope"/>
+<card idMagicAssist="401864" idMagicDuels="289" name="Dust Stalker"/>
+<card idMagicAssist="401867" idMagicDuels="290" name="Eldrazi Devastator"/>
+<card idMagicAssist="401868" idMagicDuels="291" name="Eldrazi Skyspawner"/>
+<card idMagicAssist="401869" idMagicDuels="292" name="Emeria Shepherd"/>
+<card idMagicAssist="401875" idMagicDuels="293" name="Eyeless Watcher"/>
+<card idMagicAssist="401877" idMagicDuels="294" name="Felidar Cub"/>
+<card idMagicAssist="401879" idMagicDuels="295" name="Fertile Thicket"/>
+<card idMagicAssist="401880" idMagicDuels="296" name="Firemantle Mage"/>
+<card idMagicAssist="401881" idMagicDuels="297" name="Forerunner of Slaughter"/>
+<card idMagicAssist="401892" idMagicDuels="298" name="Fortified Rampart"/>
+<card idMagicAssist="401893" idMagicDuels="299" name="From Beyond"/>
+<card idMagicAssist="401895" idMagicDuels="300" name="Ghostly Sentinel"/>
+<card idMagicAssist="401896" idMagicDuels="301" name="Giant Mantis"/>
+<card idMagicAssist="401897" idMagicDuels="302" name="Gideon, Ally of Zendikar"/>
+<card idMagicAssist="401898" idMagicDuels="303" name="Gideon's Reproach"/>
+<card idMagicAssist="401899" idMagicDuels="304" name="Goblin War Paint"/>
+<card idMagicAssist="401901" idMagicDuels="305" name="Greenwarden of Murasa"/>
+<card idMagicAssist="401903" idMagicDuels="306" name="Grove Rumbler"/>
+<card idMagicAssist="401905" idMagicDuels="307" name="Gruesome Slaughter"/>
+<card idMagicAssist="401906" idMagicDuels="308" name="Guardian of Tazeem"/>
+<card idMagicAssist="401907" idMagicDuels="309" name="Guul Draz Overseer"/>
+<card idMagicAssist="401908" idMagicDuels="310" name="Hagra Sharpshooter"/>
+<card idMagicAssist="401913" idMagicDuels="311" name="Hero of Goma Fada"/>
+<card idMagicAssist="401914" idMagicDuels="312" name="Horribly Awry"/>
+<card idMagicAssist="401915" idMagicDuels="313" name="Incubator Drone"/>
+<card idMagicAssist="401916" idMagicDuels="314" name="Infuse with the Elements"/>
+<card idMagicAssist="401928" idMagicDuels="315" name="Jaddi Offshoot"/>
+<card idMagicAssist="401929" idMagicDuels="316" name="Kalastria Healer"/>
+<card idMagicAssist="401930" idMagicDuels="317" name="Kalastria Nightwatch"/>
+<card idMagicAssist="401931" idMagicDuels="318" name="Kiora, Master of the Depths"/>
+<card idMagicAssist="401934" idMagicDuels="319" name="Kor Castigator"/>
+<card idMagicAssist="401935" idMagicDuels="320" name="Kor Entanglers"/>
+<card idMagicAssist="401938" idMagicDuels="321" name="Lantern Scout"/>
+<card idMagicAssist="401939" idMagicDuels="322" name="Lavastep Raider"/>
+<card idMagicAssist="401942" idMagicDuels="323" name="Looming Spires"/>
+<card idMagicAssist="401943" idMagicDuels="324" name="Lumbering Falls"/>
+<card idMagicAssist="401945" idMagicDuels="325" name="Makindi Sliderunner"/>
+<card idMagicAssist="401946" idMagicDuels="326" name="Malakir Familiar"/>
+<card idMagicAssist="401949" idMagicDuels="327" name="Mire's Malice"/>
+<card idMagicAssist="401952" idMagicDuels="328" name="Mortuary Mire"/>
+<card idMagicAssist="401963" idMagicDuels="329" name="Munda, Ambush Leader"/>
+<card idMagicAssist="401964" idMagicDuels="330" name="Murasa Ranger"/>
+<card idMagicAssist="401966" idMagicDuels="331" name="Natural Connection"/>
+<card idMagicAssist="401967" idMagicDuels="332" name="Nettle Drone"/>
+<card idMagicAssist="401968" idMagicDuels="333" name="Nirkana Assassin"/>
+<card idMagicAssist="401969" idMagicDuels="334" name="Nissa's Renewal"/>
+<card idMagicAssist="401971" idMagicDuels="335" name="Ob Nixilis Reignited"/>
+<card idMagicAssist="401972" idMagicDuels="336" name="Oblivion Sower"/>
+<card idMagicAssist="401973" idMagicDuels="337" name="Omnath, Locus of Rage"/>
+<card idMagicAssist="401975" idMagicDuels="338" name="Ondu Greathorn"/>
+<card idMagicAssist="401976" idMagicDuels="339" name="Ondu Rising"/>
+<card idMagicAssist="401977" idMagicDuels="340" name="Oracle of Dust"/>
+<card idMagicAssist="401978" idMagicDuels="341" name="Oran-Rief Hydra"/>
+<card idMagicAssist="401982" idMagicDuels="342" name="Part the Waterveil"/>
+<card idMagicAssist="401984" idMagicDuels="343" name="Pilgrim's Eye"/>
+<card idMagicAssist="401995" idMagicDuels="344" name="Planar Outburst"/>
+<card idMagicAssist="401996" idMagicDuels="345" name="Plated Crusher"/>
+<card idMagicAssist="220514" idMagicDuels="346" name="Plummet"/>
+<card idMagicAssist="401998" idMagicDuels="347" name="Prairie Stream"/>
+<card idMagicAssist="401999" idMagicDuels="348" name="Prism Array"/>
+<card idMagicAssist="402000" idMagicDuels="349" name="Processor Assault"/>
+<card idMagicAssist="402002" idMagicDuels="350" name="Radiant Flames"/>
+<card idMagicAssist="402003" idMagicDuels="351" name="Reckless Cohort"/>
+<card idMagicAssist="402006" idMagicDuels="352" name="Retreat to Coralhelm"/>
+<card idMagicAssist="402007" idMagicDuels="353" name="Retreat to Emeria"/>
+<card idMagicAssist="402008" idMagicDuels="354" name="Retreat to Hagra"/>
+<card idMagicAssist="402009" idMagicDuels="355" name="Retreat to Kazandu"/>
+<card idMagicAssist="402010" idMagicDuels="356" name="Retreat to Valakut"/>
+<card idMagicAssist="402011" idMagicDuels="357" name="Rising Miasma"/>
+<card idMagicAssist="402012" idMagicDuels="358" name="Roil Spout"/>
+<card idMagicAssist="402013" idMagicDuels="359" name="Roil's Retribution"/>
+<card idMagicAssist="402015" idMagicDuels="360" name="Rolling Thunder"/>
+<card idMagicAssist="402016" idMagicDuels="361" name="Rot Shambler"/>
+<card idMagicAssist="402021" idMagicDuels="362" name="Salvage Drone"/>
+<card idMagicAssist="402023" idMagicDuels="363" name="Sandstone Bridge"/>
+<card idMagicAssist="402024" idMagicDuels="364" name="Scatter to the Winds"/>
+<card idMagicAssist="402026" idMagicDuels="365" name="Scythe Leopard"/>
+<card idMagicAssist="402028" idMagicDuels="366" name="Serene Steward"/>
+<card idMagicAssist="402030" idMagicDuels="367" name="Shadow Glider"/>
+<card idMagicAssist="402031" idMagicDuels="368" name="Shambling Vent"/>
+<card idMagicAssist="402032" idMagicDuels="369" name="Shatterskull Recruit"/>
+<card idMagicAssist="402033" idMagicDuels="370" name="Sheer Drop"/>
+<card idMagicAssist="402036" idMagicDuels="371" name="Sire of Stagnation"/>
+<card idMagicAssist="402037" idMagicDuels="372" name="Skitterskin"/>
+<card idMagicAssist="402038" idMagicDuels="373" name="Skyline Cascade"/>
+<card idMagicAssist="402039" idMagicDuels="374" name="Skyrider Elf"/>
+<card idMagicAssist="402040" idMagicDuels="375" name="Slab Hammer"/>
+<card idMagicAssist="402041" idMagicDuels="376" name="Sludge Crawler"/>
+<card idMagicAssist="402043" idMagicDuels="377" name="Smoldering Marsh"/>
+<card idMagicAssist="402044" idMagicDuels="378" name="Smothering Abomination"/>
+<card idMagicAssist="402045" idMagicDuels="379" name="Snapping Gnarlid"/>
+<card idMagicAssist="402047" idMagicDuels="380" name="Spell Shrivel"/>
+<card idMagicAssist="402049" idMagicDuels="381" name="Stone Haven Medic"/>
+<card idMagicAssist="402050" idMagicDuels="382" name="Stonefury"/>
+<card idMagicAssist="402051" idMagicDuels="383" name="Sunken Hollow"/>
+<card idMagicAssist="402064" idMagicDuels="384" name="Swell of Growth"/>
+<card idMagicAssist="402067" idMagicDuels="385" name="Tajuru Stalwart"/>
+<card idMagicAssist="402069" idMagicDuels="386" name="Tandem Tactics"/>
+<card idMagicAssist="402070" idMagicDuels="387" name="Territorial Baloth"/>
+<card idMagicAssist="402071" idMagicDuels="388" name="Tide Drifter"/>
+<card idMagicAssist="402072" idMagicDuels="389" name="Tightening Coils"/>
+<card idMagicAssist="402073" idMagicDuels="390" name="Titan's Presence"/>
+<card idMagicAssist="402074" idMagicDuels="391" name="Touch of the Void"/>
+<card idMagicAssist="402079" idMagicDuels="392" name="Ulamog, the Ceaseless Hunger"/>
+<card idMagicAssist="402080" idMagicDuels="393" name="Ulamog's Despoiler"/>
+<card idMagicAssist="402081" idMagicDuels="394" name="Ulamog's Nullifier"/>
+<card idMagicAssist="402082" idMagicDuels="395" name="Ulamog's Reclaimer"/>
+<card idMagicAssist="402084" idMagicDuels="396" name="Unified Front"/>
+<card idMagicAssist="402085" idMagicDuels="397" name="Unnatural Aggression"/>
+<card idMagicAssist="402086" idMagicDuels="398" name="Valakut Invoker"/>
+<card idMagicAssist="402088" idMagicDuels="399" name="Vampiric Rites"/>
+<card idMagicAssist="402089" idMagicDuels="400" name="Vestige of Emrakul"/>
+<card idMagicAssist="402090" idMagicDuels="401" name="Veteran Warleader"/>
+<card idMagicAssist="402091" idMagicDuels="402" name="Vile Aggregate"/>
+<card idMagicAssist="402092" idMagicDuels="403" name="Void Attendant"/>
+<card idMagicAssist="402095" idMagicDuels="404" name="Voracious Null"/>
+<card idMagicAssist="402096" idMagicDuels="405" name="Wasteland Strangler"/>
+<card idMagicAssist="402097" idMagicDuels="406" name="Wave-Wing Elemental"/>
+<card idMagicAssist="402098" idMagicDuels="407" name="Windrider Patrol"/>
+<card idMagicAssist="402099" idMagicDuels="408" name="Woodland Wanderer"/>
+<card idMagicAssist="401818" idMagicDuels="409" name="Benthic Infiltrator"/>
+<card idMagicAssist="401842" idMagicDuels="410" name="Cliffside Lookout"/>
+<card idMagicAssist="401933" idMagicDuels="411" name="Kor Bladewhirl"/>
+<card idMagicAssist="401944" idMagicDuels="412" name="Makindi Patrol"/>
+<card idMagicAssist="401948" idMagicDuels="413" name="Mind Raker"/>
+<card idMagicAssist="401950" idMagicDuels="414" name="Mist Intruder"/>
+<card idMagicAssist="401965" idMagicDuels="415" name="Murk Strider"/>
+<card idMagicAssist="401974" idMagicDuels="416" name="Ondu Champion"/>
+<card idMagicAssist="402017" idMagicDuels="417" name="Ruin Processor"/>
+<card idMagicAssist="401672" idMagicDuels="418" name="Stonework Puma"/>
+<card idMagicAssist="407631" idMagicDuels="419" name="Birthing Hulk"/>
+<card idMagicAssist="407612" idMagicDuels="420" name="Boulder Salvo"/>
+<card idMagicAssist="407566" idMagicDuels="421" name="Grip of the Roil"/>
+<card idMagicAssist="407581" idMagicDuels="422" name="Havoc Sower"/>
+<card idMagicAssist="407568" idMagicDuels="423" name="Jwar Isle Avenger"/>
+<card idMagicAssist="407625" idMagicDuels="424" name="Pyromancer's Assault"/>
+<card idMagicAssist="407588" idMagicDuels="425" name="Sky Scourer"/>
+<card idMagicAssist="407634" idMagicDuels="426" name="Stalking Drone"/>
+<card idMagicAssist="407550" idMagicDuels="427" name="Abstruse Interference"/>
+<card idMagicAssist="407611" idMagicDuels="428" name="Akoum Flameseeker"/>
+<card idMagicAssist="407525" idMagicDuels="429" name="Allied Reinforcements"/>
+<card idMagicAssist="407560" idMagicDuels="430" name="Ancient Crab"/>
+<card idMagicAssist="407661" idMagicDuels="431" name="Ayli, Eternal Pilgrim"/>
+<card idMagicAssist="407662" idMagicDuels="432" name="Baloth Null"/>
+<card idMagicAssist="407637" idMagicDuels="433" name="Baloth Pup"/>
+<card idMagicAssist="407577" idMagicDuels="434" name="Bearer of Silence"/>
+<card idMagicAssist="407551" idMagicDuels="435" name="Blinding Drone"/>
+<card idMagicAssist="407638" idMagicDuels="436" name="Bonds of Mortality"/>
+<card idMagicAssist="189270" idMagicDuels="437" name="Bone Saw"/>
+<card idMagicAssist="407613" idMagicDuels="438" name="Brute Strength"/>
+<card idMagicAssist="407526" idMagicDuels="439" name="Call the Gatewatch"/>
+<card idMagicAssist="407639" idMagicDuels="440" name="Canopy Gorger"/>
+<card idMagicAssist="407614" idMagicDuels="441" name="Chandra, Flamecaller"/>
+<card idMagicAssist="407673" idMagicDuels="442" name="Chitinous Cloak"/>
+<card idMagicAssist="407615" idMagicDuels="443" name="Cinder Hellion"/>
+<card idMagicAssist="407663" idMagicDuels="444" name="Cliffhaven Vampire"/>
+<card idMagicAssist="407561" idMagicDuels="445" name="Comparative Analysis"/>
+<card idMagicAssist="407562" idMagicDuels="446" name="Containment Membrane"/>
+<card idMagicAssist="407680" idMagicDuels="447" name="Crumbling Vestige"/>
+<card idMagicAssist="407563" idMagicDuels="448" name="Crush of Tentacles"/>
+<card idMagicAssist="407564" idMagicDuels="449" name="Cyclone Sire"/>
+<card idMagicAssist="407527" idMagicDuels="450" name="Dazzling Reflection"/>
+<card idMagicAssist="407553" idMagicDuels="451" name="Deepfathom Skulker"/>
+<card idMagicAssist="407616" idMagicDuels="452" name="Devour in Flames"/>
+<card idMagicAssist="407554" idMagicDuels="453" name="Dimensional Infiltrator"/>
+<card idMagicAssist="407594" idMagicDuels="454" name="Drana's Chosen"/>
+<card idMagicAssist="407605" idMagicDuels="455" name="Eldrazi Aggressor"/>
+<card idMagicAssist="407523" idMagicDuels="456" name="Eldrazi Displacer"/>
+<card idMagicAssist="407512" idMagicDuels="457" name="Eldrazi Mimic"/>
+<card idMagicAssist="407606" idMagicDuels="458" name="Eldrazi Obligator"/>
+<card idMagicAssist="407640" idMagicDuels="459" name="Elemental Uprising"/>
+<card idMagicAssist="407617" idMagicDuels="460" name="Embodiment of Fury"/>
+<card idMagicAssist="407641" idMagicDuels="461" name="Embodiment of Insight"/>
+<card idMagicAssist="407513" idMagicDuels="462" name="Endbringer"/>
+<card idMagicAssist="407579" idMagicDuels="463" name="Essence Depleter"/>
+<card idMagicAssist="407618" idMagicDuels="464" name="Expedite"/>
+<card idMagicAssist="407528" idMagicDuels="465" name="Expedition Raptor"/>
+<card idMagicAssist="407619" idMagicDuels="466" name="Fall of the Titans"/>
+<card idMagicAssist="407658" idMagicDuels="467" name="Flayer Drone"/>
+<card idMagicAssist="407529" idMagicDuels="468" name="General Tazri"/>
+<card idMagicAssist="407595" idMagicDuels="469" name="Grasp of Darkness"/>
+<card idMagicAssist="407555" idMagicDuels="470" name="Gravity Negator"/>
+<card idMagicAssist="407681" idMagicDuels="471" name="Hissing Quagmire"/>
+<card idMagicAssist="407607" idMagicDuels="472" name="Immobilizer Eldrazi"/>
+<card idMagicAssist="407532" idMagicDuels="473" name="Isolation Zone"/>
+<card idMagicAssist="407664" idMagicDuels="474" name="Joraga Auxiliary"/>
+<card idMagicAssist="407665" idMagicDuels="475" name="Jori En, Ruin Diver"/>
+<card idMagicAssist="407596" idMagicDuels="476" name="Kalitas, Traitor of Ghet"/>
+<card idMagicAssist="407622" idMagicDuels="477" name="Kazuul's Toll Collector"/>
+<card idMagicAssist="407533" idMagicDuels="478" name="Kor Scythemaster"/>
+<card idMagicAssist="407534" idMagicDuels="479" name="Kor Sky Climber"/>
+<card idMagicAssist="407514" idMagicDuels="480" name="Kozilek, the Great Distortion"/>
+<card idMagicAssist="407515" idMagicDuels="481" name="Kozilek's Pathfinder"/>
+<card idMagicAssist="407608" idMagicDuels="482" name="Kozilek's Return"/>
+<card idMagicAssist="407583" idMagicDuels="483" name="Kozilek's Shrieker"/>
+<card idMagicAssist="407584" idMagicDuels="484" name="Kozilek's Translator"/>
+<card idMagicAssist="407644" idMagicDuels="485" name="Lead by Example"/>
+<card idMagicAssist="407535" idMagicDuels="486" name="Linvala, the Preserver"/>
+<card idMagicAssist="407645" idMagicDuels="487" name="Loam Larva"/>
+<card idMagicAssist="407536" idMagicDuels="488" name="Make a Stand"/>
+<card idMagicAssist="407537" idMagicDuels="489" name="Makindi Aeronaut"/>
+<card idMagicAssist="407597" idMagicDuels="490" name="Malakir Soothsayer"/>
+<card idMagicAssist="407516" idMagicDuels="491" name="Matter Reshaper"/>
+<card idMagicAssist="407609" idMagicDuels="492" name="Maw of Kozilek"/>
+<card idMagicAssist="407666" idMagicDuels="493" name="Mina and Denn, Wildborn"/>
+<card idMagicAssist="407659" idMagicDuels="494" name="Mindmelter"/>
+<card idMagicAssist="407685" idMagicDuels="495" name="Needle Spires"/>
+<card idMagicAssist="407648" idMagicDuels="496" name="Nissa, Voice of Zendikar"/>
+<card idMagicAssist="407649" idMagicDuels="497" name="Nissa's Judgment"/>
+<card idMagicAssist="407623" idMagicDuels="498" name="Oath of Chandra"/>
+<card idMagicAssist="407540" idMagicDuels="499" name="Oath of Gideon"/>
+<card idMagicAssist="407570" idMagicDuels="500" name="Oath of Jace"/>
+<card idMagicAssist="407650" idMagicDuels="501" name="Oath of Nissa"/>
+<card idMagicAssist="407585" idMagicDuels="502" name="Oblivion Strike"/>
+<card idMagicAssist="407541" idMagicDuels="503" name="Ondu War Cleric"/>
+<card idMagicAssist="407624" idMagicDuels="504" name="Press into Service"/>
+<card idMagicAssist="407556" idMagicDuels="505" name="Prophet of Distortion"/>
+<card idMagicAssist="407651" idMagicDuels="506" name="Pulse of Murasa"/>
+<card idMagicAssist="407610" idMagicDuels="507" name="Reality Hemorrhage"/>
+<card idMagicAssist="407517" idMagicDuels="508" name="Reality Smasher"/>
+<card idMagicAssist="407586" idMagicDuels="509" name="Reaver Drone"/>
+<card idMagicAssist="407667" idMagicDuels="510" name="Reflector Mage"/>
+<card idMagicAssist="407668" idMagicDuels="511" name="Relentless Hunter"/>
+<card idMagicAssist="407572" idMagicDuels="512" name="Roiling Waters"/>
+<card idMagicAssist="407632" idMagicDuels="513" name="Ruin in Their Wake"/>
+<card idMagicAssist="407686" idMagicDuels="514" name="Ruins of Oran-Rief"/>
+<card idMagicAssist="407652" idMagicDuels="515" name="Saddleback Lagac"/>
+<card idMagicAssist="407633" idMagicDuels="516" name="Scion Summoner"/>
+<card idMagicAssist="407653" idMagicDuels="517" name="Seed Guardian"/>
+<card idMagicAssist="407675" idMagicDuels="518" name="Seer's Lantern"/>
+<card idMagicAssist="407544" idMagicDuels="519" name="Shoulder to Shoulder"/>
+<card idMagicAssist="407587" idMagicDuels="520" name="Sifter of Skulls"/>
+<card idMagicAssist="407589" idMagicDuels="521" name="Slaughter Drone"/>
+<card idMagicAssist="407557" idMagicDuels="522" name="Slip Through Space"/>
+<card idMagicAssist="407627" idMagicDuels="523" name="Sparkmage's Gambit"/>
+<card idMagicAssist="407518" idMagicDuels="524" name="Spatial Contortion"/>
+<card idMagicAssist="407545" idMagicDuels="525" name="Spawnbinder Mage"/>
+<card idMagicAssist="407546" idMagicDuels="526" name="Steppe Glider"/>
+<card idMagicAssist="407548" idMagicDuels="527" name="Stoneforge Acolyte"/>
+<card idMagicAssist="407676" idMagicDuels="528" name="Stoneforge Masterwork"/>
+<card idMagicAssist="407669" idMagicDuels="529" name="Stormchaser Mage"/>
+<card idMagicAssist="407574" idMagicDuels="530" name="Sweep Away"/>
+<card idMagicAssist="407654" idMagicDuels="531" name="Sylvan Advocate"/>
+<card idMagicAssist="407655" idMagicDuels="532" name="Tajuru Pathwarden"/>
+<card idMagicAssist="407600" idMagicDuels="533" name="Tar Snare"/>
+<card idMagicAssist="407558" idMagicDuels="534" name="Thought Harvester"/>
+<card idMagicAssist="407519" idMagicDuels="535" name="Thought-Knot Seer"/>
+<card idMagicAssist="407575" idMagicDuels="536" name="Umara Entangler"/>
+<card idMagicAssist="407576" idMagicDuels="537" name="Unity of Purpose"/>
+<card idMagicAssist="407601" idMagicDuels="538" name="Untamed Hunger"/>
+<card idMagicAssist="407602" idMagicDuels="539" name="Vampire Envoy"/>
+<card idMagicAssist="407635" idMagicDuels="540" name="Vile Redeemer"/>
+<card idMagicAssist="407656" idMagicDuels="541" name="Vines of the Recluse"/>
+<card idMagicAssist="407591" idMagicDuels="542" name="Visions of Brutality"/>
+<card idMagicAssist="407660" idMagicDuels="543" name="Void Grafter"/>
+<card idMagicAssist="407520" idMagicDuels="544" name="Walker of the Wastes"/>
+<card idMagicAssist="407549" idMagicDuels="545" name="Wall of Resurgence"/>
+<card idMagicAssist="407692" idMagicDuels="546" name="Wandering Fumarole"/>
+<card idMagicAssist="407521" idMagicDuels="547" name="Warden of Geometries"/>
+<card idMagicAssist="407522" idMagicDuels="548" name="Warping Wail"/>
+<card idMagicAssist="407670" idMagicDuels="549" name="Weapons Trainer"/>
+<card idMagicAssist="407592" idMagicDuels="550" name="Witness the End"/>
+<card idMagicAssist="407630" idMagicDuels="551" name="Zada's Commando"/>
+<card idMagicAssist="407603" idMagicDuels="552" name="Zulaport Chainmage"/>
+<card idMagicAssist="409790" idMagicDuels="553" name="Aberrant Researcher"/>
+<card idMagicAssist="409845" idMagicDuels="554" name="Alms of the Vein"/>
+<card idMagicAssist="410005" idMagicDuels="555" name="Altered Ego"/>
+<card idMagicAssist="409737" idMagicDuels="556" name="Always Watching"/>
+<card idMagicAssist="409739" idMagicDuels="557" name="Angelic Purge"/>
+<card idMagicAssist="410006" idMagicDuels="558" name="Anguished Unmaking"/>
+<card idMagicAssist="409740" idMagicDuels="559" name="Apothecary Geist"/>
+<card idMagicAssist="409741" idMagicDuels="560" name="Archangel Avacyn"/>
+<card idMagicAssist="410007" idMagicDuels="561" name="Arlinn Kord"/>
+<card idMagicAssist="409846" idMagicDuels="562" name="Asylum Visitor"/>
+<card idMagicAssist="409743" idMagicDuels="563" name="Avacynian Missionaries"/>
+<card idMagicAssist="409895" idMagicDuels="564" name="Avacyn's Judgment"/>
+<card idMagicAssist="409849" idMagicDuels="565" name="Biting Rain"/>
+<card idMagicAssist="409896" idMagicDuels="566" name="Bloodmad Vampire"/>
+<card idMagicAssist="410017" idMagicDuels="567" name="Brain in a Jar"/>
+<card idMagicAssist="409897" idMagicDuels="568" name="Breakneck Rider"/>
+<card idMagicAssist="409792" idMagicDuels="569" name="Broken Concentration"/>
+<card idMagicAssist="409746" idMagicDuels="570" name="Bygone Bishop"/>
+<card idMagicAssist="409954" idMagicDuels="571" name="Byway Courier"/>
+<card idMagicAssist="409850" idMagicDuels="572" name="Call the Bloodline"/>
+<card idMagicAssist="45245" idMagicDuels="573" name="Catalog"/>
+<card idMagicAssist="409618" idMagicDuels="574" name="Compelling Deterrence"/>
+<card idMagicAssist="409795" idMagicDuels="575" name="Confirm Suspicions"/>
+<card idMagicAssist="409956" idMagicDuels="576" name="Confront the Unknown"/>
+<card idMagicAssist="409900" idMagicDuels="577" name="Convicted Killer"/>
+<card idMagicAssist="409959" idMagicDuels="578" name="Cult of the Waxing Moon"/>
+<card idMagicAssist="409749" idMagicDuels="579" name="Dauntless Cathar"/>
+<card idMagicAssist="220393" idMagicDuels="580" name="Dead Weight"/>
+<card idMagicAssist="409960" idMagicDuels="581" name="Deathcap Cultivator"/>
+<card idMagicAssist="409750" idMagicDuels="582" name="Declaration in Stone"/>
+<card idMagicAssist="409903" idMagicDuels="583" name="Devils' Playground"/>
+<card idMagicAssist="409854" idMagicDuels="584" name="Diregraf Colossus"/>
+<card idMagicAssist="409799" idMagicDuels="585" name="Drownyard Explorers"/>
+<card idMagicAssist="410039" idMagicDuels="586" name="Drownyard Temple"/>
+<card idMagicAssist="409800" idMagicDuels="587" name="Drunau Corpse Trawler"/>
+<card idMagicAssist="409961" idMagicDuels="588" name="Duskwatch Recruiter"/>
+<card idMagicAssist="409855" idMagicDuels="589" name="Elusive Tormentor"/>
+<card idMagicAssist="409906" idMagicDuels="590" name="Ember-Eye Wolf"/>
+<card idMagicAssist="409755" idMagicDuels="591" name="Emissary of the Sleepless"/>
+<card idMagicAssist="409963" idMagicDuels="592" name="Equestrian Skill"/>
+<card idMagicAssist="409803" idMagicDuels="593" name="Erdwal Illuminator"/>
+<card idMagicAssist="409804" idMagicDuels="594" name="Essence Flux"/>
+<card idMagicAssist="409857" idMagicDuels="595" name="Ever After"/>
+<card idMagicAssist="409757" idMagicDuels="596" name="Expose Evil"/>
+<card idMagicAssist="409858" idMagicDuels="597" name="Farbog Revenant"/>
+<card idMagicAssist="410009" idMagicDuels="598" name="Fevered Visions"/>
+<card idMagicAssist="409908" idMagicDuels="599" name="Fiery Temper"/>
+<card idMagicAssist="409909" idMagicDuels="600" name="Flameblade Angel"/>
+<card idMagicAssist="409806" idMagicDuels="601" name="Forgotten Creation"/>
+<card idMagicAssist="409964" idMagicDuels="602" name="Fork in the Road"/>
+<card idMagicAssist="409859" idMagicDuels="603" name="From Under the Floorboards"/>
+<card idMagicAssist="409807" idMagicDuels="604" name="Furtive Homunculus"/>
+<card idMagicAssist="409910" idMagicDuels="605" name="Gatstaf Arsonists"/>
+<card idMagicAssist="409912" idMagicDuels="606" name="Geier Reach Bandit"/>
+<card idMagicAssist="409914" idMagicDuels="607" name="Geistblast"/>
+<card idMagicAssist="409860" idMagicDuels="608" name="Ghoulcaller's Accomplice"/>
+<card idMagicAssist="409861" idMagicDuels="609" name="Ghoulsteed"/>
+<card idMagicAssist="409862" idMagicDuels="610" name="Gisa's Bidding"/>
+<card idMagicAssist="409759" idMagicDuels="611" name="Hanweir Militia Captain"/>
+<card idMagicAssist="410021" idMagicDuels="612" name="Harvest Hand"/>
+<card idMagicAssist="410023" idMagicDuels="613" name="Haunted Cloak"/>
+<card idMagicAssist="409864" idMagicDuels="614" name="Heir of Falkenrath"/>
+<card idMagicAssist="409968" idMagicDuels="615" name="Hermit of the Natterknolls"/>
+<card idMagicAssist="409970" idMagicDuels="616" name="Hinterland Logger"/>
+<card idMagicAssist="409761" idMagicDuels="617" name="Hope Against Hope"/>
+<card idMagicAssist="409972" idMagicDuels="618" name="Howlpack Resurgence"/>
+<card idMagicAssist="409920" idMagicDuels="619" name="Incorrigible Youths"/>
+<card idMagicAssist="409973" idMagicDuels="620" name="Inexorable Blob"/>
+<card idMagicAssist="409921" idMagicDuels="621" name="Inner Struggle"/>
+<card idMagicAssist="409763" idMagicDuels="622" name="Inquisitor's Ox"/>
+<card idMagicAssist="409922" idMagicDuels="623" name="Insolent Neonate"/>
+<card idMagicAssist="409764" idMagicDuels="624" name="Inspiring Captain"/>
+<card idMagicAssist="409974" idMagicDuels="625" name="Intrepid Provisioner"/>
+<card idMagicAssist="410011" idMagicDuels="626" name="Invocation of Saint Traft"/>
+<card idMagicAssist="409812" idMagicDuels="627" name="Jace, Unraveler of Secrets"/>
+<card idMagicAssist="409814" idMagicDuels="628" name="Just the Wind"/>
+<card idMagicAssist="409923" idMagicDuels="629" name="Kessig Forgemaster"/>
+<card idMagicAssist="409976" idMagicDuels="630" name="Lambholt Pacifist"/>
+<card idMagicAssist="409815" idMagicDuels="631" name="Lamplighter of Selhoff"/>
+<card idMagicAssist="409925" idMagicDuels="632" name="Lightning Axe"/>
+<card idMagicAssist="97116" idMagicDuels="633" name="Macabre Waltz"/>
+<card idMagicAssist="409873" idMagicDuels="634" name="Merciless Resolve"/>
+<card idMagicAssist="409979" idMagicDuels="635" name="Might Beyond Reason"/>
+<card idMagicAssist="409765" idMagicDuels="636" name="Militant Inquisitor"/>
+<card idMagicAssist="409617" idMagicDuels="637" name="Mindwrack Demon"/>
+<card idMagicAssist="409766" idMagicDuels="638" name="Moorland Drifter"/>
+<card idMagicAssist="409875" idMagicDuels="639" name="Morkrut Necropod"/>
+<card idMagicAssist="410025" idMagicDuels="640" name="Murderer's Axe"/>
+<card idMagicAssist="409876" idMagicDuels="641" name="Murderous Compulsion"/>
+<card idMagicAssist="409817" idMagicDuels="642" name="Nagging Thoughts"/>
+<card idMagicAssist="410012" idMagicDuels="643" name="Nahiri, the Harbinger"/>
+<card idMagicAssist="409767" idMagicDuels="644" name="Nahiri's Machinations"/>
+<card idMagicAssist="410026" idMagicDuels="645" name="Neglected Heirloom"/>
+<card idMagicAssist="409982" idMagicDuels="646" name="Obsessive Skinner"/>
+<card idMagicAssist="410013" idMagicDuels="647" name="Olivia, Mobilized for War"/>
+<card idMagicAssist="409877" idMagicDuels="648" name="Olivia's Bloodsworn"/>
+<card idMagicAssist="409983" idMagicDuels="649" name="Pack Guardian"/>
+<card idMagicAssist="409772" idMagicDuels="650" name="Paranoid Parish-Blade"/>
+<card idMagicAssist="409821" idMagicDuels="651" name="Pieces of the Puzzle"/>
+<card idMagicAssist="409773" idMagicDuels="652" name="Pious Evangel"/>
+<card idMagicAssist="409604" idMagicDuels="653" name="Pore Over the Pages"/>
+<card idMagicAssist="409823" idMagicDuels="654" name="Press for Answers"/>
+<card idMagicAssist="410014" idMagicDuels="655" name="Prized Amalgam"/>
+<card idMagicAssist="193566" idMagicDuels="656" name="Puncturing Light"/>
+<card idMagicAssist="409929" idMagicDuels="657" name="Pyre Hound"/>
+<card idMagicAssist="409984" idMagicDuels="658" name="Quilled Wolf"/>
+<card idMagicAssist="409985" idMagicDuels="659" name="Rabid Bite"/>
+<card idMagicAssist="409880" idMagicDuels="660" name="Rancid Rats"/>
+<card idMagicAssist="409824" idMagicDuels="661" name="Rattlechains"/>
+<card idMagicAssist="409930" idMagicDuels="662" name="Ravenous Bloodseeker"/>
+<card idMagicAssist="409776" idMagicDuels="663" name="Reaper of Flight Moonsilver"/>
+<card idMagicAssist="382340" idMagicDuels="664" name="Reckless Scholar"/>
+<card idMagicAssist="409931" idMagicDuels="665" name="Reduce to Ashes"/>
+<card idMagicAssist="409826" idMagicDuels="666" name="Rise from the Tides"/>
+<card idMagicAssist="409932" idMagicDuels="667" name="Rush of Adrenaline"/>
+<card idMagicAssist="409987" idMagicDuels="668" name="Sage of Ancient Lore"/>
+<card idMagicAssist="409883" idMagicDuels="669" name="Sanitarium Skeleton"/>
+<card idMagicAssist="409934" idMagicDuels="670" name="Scourge Wolf"/>
+<card idMagicAssist="409935" idMagicDuels="671" name="Senseless Rage"/>
+<card idMagicAssist="409991" idMagicDuels="672" name="Silverfur Partisan"/>
+<card idMagicAssist="409885" idMagicDuels="673" name="Sinister Concoction"/>
+<card idMagicAssist="410030" idMagicDuels="674" name="Skeleton Key"/>
+<card idMagicAssist="410031" idMagicDuels="675" name="Slayer's Plate"/>
+<card idMagicAssist="409830" idMagicDuels="676" name="Sleep Paralysis"/>
+<card idMagicAssist="409992" idMagicDuels="677" name="Solitary Hunter"/>
+<card idMagicAssist="410016" idMagicDuels="678" name="Sorin, Grim Nemesis"/>
+<card idMagicAssist="409778" idMagicDuels="679" name="Spectral Shepherd"/>
+<card idMagicAssist="409940" idMagicDuels="680" name="Stensia Masquerade"/>
+<card idMagicAssist="409833" idMagicDuels="681" name="Stitched Mangler"/>
+<card idMagicAssist="409995" idMagicDuels="682" name="Stoic Builder"/>
+<card idMagicAssist="409835" idMagicDuels="683" name="Stormrider Spirit"/>
+<card idMagicAssist="409781" idMagicDuels="684" name="Survive the Night"/>
+<card idMagicAssist="410032" idMagicDuels="685" name="Tamiyo's Journal"/>
+<card idMagicAssist="409782" idMagicDuels="686" name="Tenacity"/>
+<card idMagicAssist="409783" idMagicDuels="687" name="Thalia's Lieutenant"/>
+<card idMagicAssist="410010" idMagicDuels="688" name="The Gitrog Monster"/>
+<card idMagicAssist="409836" idMagicDuels="689" name="Thing in the Ice"/>
+<card idMagicAssist="409996" idMagicDuels="690" name="Thornhide Wolves"/>
+<card idMagicAssist="410033" idMagicDuels="691" name="Thraben Gargoyle"/>
+<card idMagicAssist="386698" idMagicDuels="692" name="Throttle"/>
+<card idMagicAssist="409997" idMagicDuels="693" name="Tireless Tracker"/>
+<card idMagicAssist="409640" idMagicDuels="694" name="Tooth Collector"/>
+<card idMagicAssist="409597" idMagicDuels="695" name="Topplegeist"/>
+<card idMagicAssist="409892" idMagicDuels="696" name="Twins of Maurer Estate"/>
+<card idMagicAssist="409943" idMagicDuels="697" name="Ulrich's Kindred"/>
+<card idMagicAssist="409999" idMagicDuels="698" name="Ulvenwald Hydra"/>
+<card idMagicAssist="410000" idMagicDuels="699" name="Ulvenwald Mysteries"/>
+<card idMagicAssist="409789" idMagicDuels="700" name="Vessel of Ephemera"/>
+<card idMagicAssist="409894" idMagicDuels="701" name="Vessel of Malignity"/>
+<card idMagicAssist="409841" idMagicDuels="702" name="Vessel of Paramnesia"/>
+<card idMagicAssist="409945" idMagicDuels="703" name="Vessel of Volatility"/>
+<card idMagicAssist="410002" idMagicDuels="704" name="Veteran Cathar"/>
+<card idMagicAssist="409948" idMagicDuels="705" name="Voldaren Duelist"/>
+<card idMagicAssist="410048" idMagicDuels="706" name="Warped Landscape"/>
+<card idMagicAssist="409842" idMagicDuels="707" name="Welcome to the Fold"/>
+<card idMagicAssist="410049" idMagicDuels="708" name="Westvale Abbey"/>
+<card idMagicAssist="410037" idMagicDuels="709" name="Wild-Field Scarecrow"/>
+<card idMagicAssist="409949" idMagicDuels="710" name="Wolf of Devil's Breach"/>
+<card idMagicAssist="394515" idMagicDuels="711" name="Champion of Arashin"/>
+<card idMagicAssist="409852" idMagicDuels="712" name="Crow of Dark Tidings"/>
+<card idMagicAssist="366306" idMagicDuels="713" name="Ember Beast"/>
+<card idMagicAssist="409867" idMagicDuels="714" name="Indulgent Aristocrat"/>
+<card idMagicAssist="409868" idMagicDuels="715" name="Kindly Stranger"/>
+<card idMagicAssist="366293" idMagicDuels="716" name="Metropolis Sprite"/>
+<card idMagicAssist="409980" idMagicDuels="717" name="Moldgraf Scavenger"/>
+<card idMagicAssist="380489" idMagicDuels="718" name="Rotted Hulk"/>
+<card idMagicAssist="45410" idMagicDuels="719" name="Spined Wurm"/>
+<card idMagicAssist="409886" idMagicDuels="720" name="Stallion of Ashmouth"/>
+<card idMagicAssist="409887" idMagicDuels="721" name="Stromkirk Mentor"/>
+<card idMagicAssist="410001" idMagicDuels="722" name="Vessel of Nascency"/>
+</cards>
