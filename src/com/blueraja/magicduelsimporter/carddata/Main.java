@@ -1,8 +1,5 @@
 package com.blueraja.magicduelsimporter.carddata;
 
-import com.blueraja.magicduelsimporter.carddata.CardDataManager;
-import com.blueraja.magicduelsimporter.magicassist.Deck;
-import com.blueraja.magicduelsimporter.magicassist.MagicAssistDeckManager;
 import com.blueraja.magicduelsimporter.utils.FileUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -89,13 +86,5 @@ public class Main {
         LoadAllMagicAssistCards();
         LoadMagicDuelsCardPool();
         _cardDataManager.writeXml();
-
-        //_cardDataManager.readXml();
-
-//        MagicAssistDeckManager magicAssistDeckManager = new MagicAssistDeckManager(_cardDataManager);
-//        for(File file: magicAssistDeckManager.getMagicAssistDeckFiles()) {
-//            Deck deck = magicAssistDeckManager.magicAssistDeckFileToDeck(file);
-//            magicAssistDeckManager.deckToMagicAssistDeckFile(deck);
-//        }
     }
 }

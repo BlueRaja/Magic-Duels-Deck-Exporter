@@ -1,6 +1,5 @@
 package com.blueraja.magicduelsimporter.carddata;
 
-import com.blueraja.magicduelsimporter.carddata.CardData;
 import com.blueraja.magicduelsimporter.utils.FileUtils;
 import com.blueraja.magicduelsimporter.utils.XmlUtils;
 import org.w3c.dom.Document;
@@ -12,18 +11,23 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
 public class CardDataManager {
+    public static abstract class Lands {
+        public static final CardData FOREST = new CardData("Forest", -1, 383241);
+        public static final CardData ISLAND = new CardData("Island", -2, 383281);
+        public static final CardData MOUNTAIN = new CardData("Mountain", -3, 383315);
+        public static final CardData PLAINS = new CardData("Plains", -4, 383346);
+        public static final CardData SWAMP = new CardData("Swamp", -5, 383408);
+    }
+
     public List<CardData> _cardEntries = new ArrayList<>();
 
     public void addEntry(String name, int idMagicDuels, int idMagicAssist) {
-        CardData card = new CardData();
-        card.displayName = name;
-        card.idMagicDuels = idMagicDuels;
-        card.idMagicAssist = idMagicAssist;
-        _cardEntries.add(card);
+        _cardEntries.add(new CardData(name, idMagicDuels, idMagicAssist));
     }
 
     public void clear() {
@@ -32,6 +36,19 @@ public class CardDataManager {
 
     public Iterable<CardData> getAllCards() {
         return _cardEntries;
+    }
+
+    public Iterable<CardData> getAllLands() {
+        return Arrays.asList(new CardData[] {Lands.FOREST, Lands.ISLAND, Lands.MOUNTAIN, Lands.PLAINS, Lands.SWAMP});
+    }
+
+    public boolean isLand(CardData cardData) {
+        for(CardData land: getAllLands()) {
+            if(land.equals(cardData)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public Optional<CardData> getDataForMagicDuelsId(int id) {

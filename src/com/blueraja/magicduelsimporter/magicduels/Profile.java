@@ -3,6 +3,8 @@ package com.blueraja.magicduelsimporter.magicduels;
 import java.io.*;
 import java.nio.*;
 import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class Profile {
 
@@ -43,9 +45,9 @@ public class Profile {
             content[offset+i] = (byte)((cards[2*i] & 0x0F) + ((cards[2*i+1]<<4) & 0xF0));
     }
     
-    public Deck readDeck(int deckPos) {
+    public MagicDuelsDeck readDeck(int deckPos) {
         int offset = 0x122C + (504*deckPos);
-        Deck myDeck = new Deck();
+        MagicDuelsDeck myDeck = new MagicDuelsDeck();
         byte[] deckContent = new byte[4];
         for (int i=0; i<4; i++) {
             System.arraycopy(content, i*4+offset, deckContent, 0, 4);
@@ -83,7 +85,7 @@ public class Profile {
         return myDeck;
     }
     
-    public void writeDeck(Deck myDeck, int deckPos) {
+    public void writeDeck(MagicDuelsDeck myDeck, int deckPos) {
         int offset = 0x122C + (504*deckPos);
         byte[] deckContent;
         for (int i=0; i<4; i++) {
@@ -148,7 +150,8 @@ public class Profile {
             hash = (hash * 0x1000193) & 0xFFFFFFFFL;
             hash ^= fileContent[i] & 0xFF;
         }
-        RandomAccessFile hashRAFile = new RandomAccessFile("hash.file", "rw");
+        Path profileDir = profileFile.toPath().getParent();
+        RandomAccessFile hashRAFile = new RandomAccessFile(profileDir.resolve("hash.file").toString(), "rw");
         hashRAFile.write(numToBytes(hash, 4));
         hashRAFile.close();
     }
@@ -172,17 +175,17 @@ public class Profile {
         profileContentRAFile.close();
     }
     
-    public Deck importDeck(String deckFileName, String cardPoolsFileName) throws FileNotFoundException, IOException {
+    public MagicDuelsDeck importDeck(String deckFileName, String cardPoolsFileName) throws FileNotFoundException, IOException {
         String cardName;
         byte cardNum;
         String[] cardsNames = new String[100];
         byte[] cardsNums = new byte[100];
-        // Create New Deck
-        Deck myDeck = new Deck();
+        // Create New MagicDuelsDeck
+        MagicDuelsDeck myDeck = new MagicDuelsDeck();
         myDeck.name = deckFileName.substring(0, deckFileName.length()-4);
         if (myDeck.name.length() > 15)
             myDeck.name = myDeck.name.substring(0, 15);
-        // Read XML File with content of Deck
+        // Read XML File with content of MagicDuelsDeck
         BufferedReader in = new BufferedReader(new FileReader(deckFileName));
         int i = 0; int pt = 0;
         String line = in.readLine();
@@ -231,18 +234,18 @@ public class Profile {
         return myDeck;
     }
     
-    public Deck importDeck_(String deckFileName, String cardPoolsFileName) throws FileNotFoundException, IOException {
+    public MagicDuelsDeck importDeck_(String deckFileName, String cardPoolsFileName) throws FileNotFoundException, IOException {
         int pt, i, j;
         String line;
         String cardName;
         String[] cardsNames = new String[100];
         byte[] cardsNums = new byte[100];
-        // Create New Deck
-        Deck myDeck = new Deck();
+        // Create New MagicDuelsDeck
+        MagicDuelsDeck myDeck = new MagicDuelsDeck();
         myDeck.name = deckFileName.substring(0, deckFileName.length()-4);
         if (myDeck.name.length() > 15)
             myDeck.name = myDeck.name.substring(0, 15);
-        // Read XML File with content of Deck
+        // Read XML File with content of MagicDuelsDeck
         BufferedReader in = new BufferedReader(new FileReader(deckFileName));
         i = 0;
         while ((line = in.readLine()) != null) {
@@ -327,13 +330,13 @@ public class Profile {
             (new RandomAccessFile("Cards.bin", "rw")).write(cards);
 //            (new RandomAccessFile("Cards.bin", "r")).read(cards);
 //            myProfile.writeCards(cards);
-//            Deck myDeck = myProfile.readDeck(0);
-//            Deck myDeck = myProfile.importDeck("Test.xml", "CardPools.xml");
+//            MagicDuelsDeck myDeck = myProfile.readDeck(0);
+//            MagicDuelsDeck myDeck = myProfile.importDeck("Test.xml", "CardPools.xml");
 //            myProfile.writeDeck(myDeck, 0);
 //            myProfile.importProfile(profileFile.toString()+".bin");
             System.setOut(new PrintStream(new File("Decks.txt")));
             for (int deckPos=0; deckPos<32; deckPos++) {
-                Deck myDeck = myProfile.readDeck(deckPos);
+                MagicDuelsDeck myDeck = myProfile.readDeck(deckPos);
                 int offset = (myProfile.content[0x45E] & 0xFF) + ((myProfile.content[0x45F] & 0xFF)<<8) + 0x115C + (504*deckPos);
                 byte[] deckContent = new byte[504];
                 System.arraycopy(myProfile.content, offset, deckContent, 0, deckContent.length);
@@ -346,40 +349,25 @@ public class Profile {
                 for (int i=0; i<100; i++)
                     if (myDeck.cards[1][i] > 0)
                         System.out.printf("Card: "+myDeck.cards[0][i]+" x"+myDeck.cards[1][i]+"\r\n");
-                System.out.printf("Plains: "+myDeck.lands[0]+"\r\n");
-                System.out.printf("Islands: "+myDeck.lands[1]+"\r\n");
-                System.out.printf("Swamps: "+myDeck.lands[2]+"\r\n");
-                System.out.printf("Mountains: "+myDeck.lands[3]+"\r\n");
-                System.out.printf("Forests: "+myDeck.lands[4]+"\r\n");
+                System.out.printf("Plains: "+myDeck.lands[MagicDuelsDeck.LAND_PLAINS]+"\r\n");
+                System.out.printf("Islands: "+myDeck.lands[MagicDuelsDeck.LAND_ISLANDS]+"\r\n");
+                System.out.printf("Swamps: "+myDeck.lands[MagicDuelsDeck.LAND_SWAMPS]+"\r\n");
+                System.out.printf("Mountains: "+myDeck.lands[MagicDuelsDeck.LAND_MOUNTAINS]+"\r\n");
+                System.out.printf("Forests: "+myDeck.lands[MagicDuelsDeck.LAND_FORESTS]+"\r\n");
                 System.out.printf("Icon1: "+myDeck.icon1+"\r\n");
                 System.out.printf("Icon2: "+myDeck.icon2+"\r\n");
                 System.out.printf("Archetype: "+myDeck.archetype+"\r\n");
                 for (int i=0; i<7; i++)
                     System.out.printf("Cards with cost "+i+": "+myDeck.cardsCosts[i]+"\r\n");
-                System.out.printf("Deck Number: "+myDeck.deckNumber+"\r\n");
-                System.out.printf("Online Deck Number: "+myDeck.onlineDeckNumber+"\r\n");
+                System.out.printf("MagicDuelsDeck Number: "+myDeck.deckNumber+"\r\n");
+                System.out.printf("Online MagicDuelsDeck Number: "+myDeck.onlineDeckNumber+"\r\n");
                 System.out.printf("\r\n\r\n");
             }
 
             System.setOut(new PrintStream(new FileOutputStream(FileDescriptor.out)));
-
-            //TODO: Delete
-            //Write a new deck
-            Deck myDeck = myProfile.readDeck(3);
-            System.out.println("Hello " + myDeck.cards[0][5]);
-            for(int i = 0; i < 100; i++) {
-                if(myDeck.cards[1][i] > 0) {
-                    myDeck.cards[0][i] = 573;
-                }
-            }
-            myProfile.writeDeck(myDeck, 3);
-            myProfile.save();
-
-
         }
         catch (Exception e){
             System.out.printf("Error");
         }
     }
-    
 }

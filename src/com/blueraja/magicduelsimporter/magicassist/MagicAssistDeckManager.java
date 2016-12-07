@@ -26,16 +26,25 @@ public class MagicAssistDeckManager {
         _cardDataManager = cardDataManager;
     }
 
-    public Iterable<File> getMagicAssistDeckFiles() {
+    public List<Deck> getDecks() throws IOException, SAXException, ParserConfigurationException {
+        List<Deck> returnMe = new ArrayList<>();
+        for(File file: getMagicAssistDeckFiles()) {
+            returnMe.add(magicAssistDeckFileToDeck(file));
+        }
+        return returnMe;
+    }
+
+    private Iterable<File> getMagicAssistDeckFiles() {
         String path = Main.MAGIC_ASSIST_DB_PATH + "/Decks";
         return FileUtils.getAllFilesWithExtension(path, ".xml");
     }
 
-    public Deck magicAssistDeckFileToDeck(File magicAssistDeckFile) throws ParserConfigurationException, SAXException, IOException {
+    private Deck magicAssistDeckFileToDeck(File magicAssistDeckFile) throws ParserConfigurationException, SAXException, IOException {
         Document doc = FileUtils.getFileAsXMLDocument(magicAssistDeckFile);
         String name = doc.getElementsByTagName("name").item(0).getTextContent();
         NodeList cards = doc.getElementsByTagName("mcp");
-        List<CardWithCount> cardList = new ArrayList<>();
+        Deck deck = new Deck(name);
+
         for(int i = 0; i < cards.getLength(); i++) {
             Element cardElement = (Element) cards.item(i);
             String idStr = cardElement.getElementsByTagName("id").item(0).getTextContent();
@@ -46,42 +55,36 @@ public class MagicAssistDeckManager {
             Optional<CardData> cardData = _cardDataManager.getDataForMagicAssistId(id);
 
             if(cardData.isPresent()) {
-                CardWithCount cardWithCount = new CardWithCount();
-                cardWithCount.card = cardData.get();
-                cardWithCount.count = count;
-                cardList.add(cardWithCount);
+                deck.addCard(cardData.get(), count);
             }
         }
 
-        Deck deck = new Deck();
-        deck.cards = cardList;
-        deck.name = name;
         return deck;
     }
 
-    public void deckToMagicAssistDeckFile(Deck deck)
+    public void writeDeckToMagicAssistDeckFile(Deck deck, boolean isCollection)
             throws FileNotFoundException, TransformerException {
-        String path = Main.MAGIC_ASSIST_DB_PATH + "/Decks/" + deck.name + ".xml";
-        String xml = getXmlStringFromDeck(deck);
+        String path = Main.MAGIC_ASSIST_DB_PATH + (isCollection ? "/Collections/" : "/Decks/") + deck.getName() + ".xml";
+        String xml = getXmlStringFromDeck(deck, isCollection);
         FileUtils.writeToFile(path, xml);
     }
 
-    private String getXmlStringFromDeck(Deck deck) throws TransformerException {
+    private String getXmlStringFromDeck(Deck deck, boolean isCollection) throws TransformerException {
         Document doc = XmlUtils.getNewXmlDocument();
         Element rootElement = doc.createElement("cards");
         doc.appendChild(rootElement);
 
-        addMetadata(deck, doc, rootElement);
-        addCards(deck, doc, rootElement);
+        addMetadata(deck, doc, rootElement, isCollection);
+        addCards(deck, doc, rootElement, isCollection);
 
         return XmlUtils.documentToString(doc);
     }
 
-    private void addCards(Deck deck, Document doc, Element rootElement) {
+    private void addCards(Deck deck, Document doc, Element rootElement, boolean isCollection) {
         Element listElement = doc.createElement("list");
         rootElement.appendChild(listElement);
 
-        for(CardWithCount cardWithCount: deck.cards) {
+        for(CardData cardData: deck.getCards()) {
             Element mcpElement = doc.createElement("mcp");
             listElement.appendChild(mcpElement);
 
@@ -89,34 +92,34 @@ public class MagicAssistDeckManager {
             mcpElement.appendChild(cardElement);
 
             Element idElement = doc.createElement("id");
-            idElement.setTextContent(Integer.toString(cardWithCount.card.idMagicAssist));
+            idElement.setTextContent(Integer.toString(cardData.idMagicAssist));
             cardElement.appendChild(idElement);
 
             Element nameElement = doc.createElement("name");
-            nameElement.setTextContent(cardWithCount.card.displayName);
+            nameElement.setTextContent(cardData.displayName);
             cardElement.appendChild(nameElement);
 
             Element countElement = doc.createElement("count");
-            countElement.setTextContent(Integer.toString(cardWithCount.count));
+            countElement.setTextContent(Integer.toString(deck.getCardCount(cardData)));
             mcpElement.appendChild(countElement);
 
             Element locationElement = doc.createElement("location");
-            locationElement.setTextContent("Decks/" + deck.name);
+            locationElement.setTextContent((isCollection ? "Collections/" : "Decks/") + deck.getName());
             mcpElement.appendChild(locationElement);
         }
     }
 
-    private void addMetadata(Deck deck, Document doc, Element rootElement) {
+    private void addMetadata(Deck deck, Document doc, Element rootElement, boolean isCollection) {
         Element nameElement = doc.createElement("name");
-        nameElement.setTextContent(deck.name);
+        nameElement.setTextContent(deck.getName());
         rootElement.appendChild(nameElement);
 
         Element keyElement = doc.createElement("key");
-        keyElement.setTextContent("Decks/" + deck.name);
+        keyElement.setTextContent((isCollection ? "Collections/" : "Decks/") + deck.getName());
         rootElement.appendChild(keyElement);
 
         Element typeElement = doc.createElement("type");
-        typeElement.setTextContent("deck");
+        typeElement.setTextContent(isCollection ? "collection" : "deck");
         rootElement.appendChild(typeElement);
 
         Element propertiesElement = doc.createElement("properties");
@@ -129,7 +132,7 @@ public class MagicAssistDeckManager {
 
         Element virtualPropertyElement = doc.createElement("property");
         virtualPropertyElement.setAttribute("name", "virtual");
-        virtualPropertyElement.setAttribute("value", "true");
+        virtualPropertyElement.setAttribute("value", isCollection ? "false" : "true");
         propertiesElement.appendChild(virtualPropertyElement);
     }
 }

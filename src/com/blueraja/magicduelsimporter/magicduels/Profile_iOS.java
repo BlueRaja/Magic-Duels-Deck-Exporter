@@ -42,9 +42,9 @@ public class Profile_iOS {
             content[offset+i] = (byte)((cards[2*i] & 0x0F) + ((cards[2*i+1]<<4) & 0xF0));
     }
     
-    public Deck readDeck(int deckPos) {
+    public MagicDuelsDeck readDeck(int deckPos) {
         int offset = 0x16C8 + (536*deckPos);
-        Deck myDeck = new Deck();
+        MagicDuelsDeck myDeck = new MagicDuelsDeck();
         byte[] deckContent = new byte[60];
         System.arraycopy(content, offset, deckContent, 0, 60);
         char[] deckName = new char[15];
@@ -73,7 +73,7 @@ public class Profile_iOS {
         return myDeck;
     }
     
-    public void writeDeck(Deck myDeck, int deckPos) {
+    public void writeDeck(MagicDuelsDeck myDeck, int deckPos) {
         int offset = 0x16C8 + (536*deckPos);
         byte[] deckContent;
         char[] deckName = myDeck.name.toCharArray();
@@ -174,7 +174,7 @@ public class Profile_iOS {
 //            myProfile.writeCards(cards);
             System.setOut(new PrintStream(new File("Decks.txt")));
             for (int deckPos=0; deckPos<32; deckPos++) {
-                Deck myDeck = myProfile.readDeck(deckPos);
+                MagicDuelsDeck myDeck = myProfile.readDeck(deckPos);
                 int offset = (myProfile.content[0x45E] & 0xFF) + ((myProfile.content[0x45F] & 0xFF)<<8) + 0x115C + (504*deckPos);
                 byte[] deckContent = new byte[504];
                 System.arraycopy(myProfile.content, offset, deckContent, 0, deckContent.length);
@@ -197,11 +197,11 @@ public class Profile_iOS {
                 System.out.printf("Archetype: "+myDeck.archetype+"\r\n");
                 for (int i=0; i<7; i++)
                     System.out.printf("Cards with cost "+i+": "+myDeck.cardsCosts[i]+"\r\n");
-                System.out.printf("Deck Number: "+myDeck.deckNumber+"\r\n");
-                System.out.printf("Online Deck Number: "+myDeck.onlineDeckNumber+"\r\n");
+                System.out.printf("MagicDuelsDeck Number: "+myDeck.deckNumber+"\r\n");
+                System.out.printf("Online MagicDuelsDeck Number: "+myDeck.onlineDeckNumber+"\r\n");
                 System.out.printf("\r\n\r\n");
             }
-//            Deck myDeck = myProfile.readDeck(0);
+//            MagicDuelsDeck myDeck = myProfile.readDeck(0);
 //            myProfile.writeDeck(myDeck, 0);
 //            myProfile.importProfile(profileFile.toString()+".bin");
             myProfile.save();
