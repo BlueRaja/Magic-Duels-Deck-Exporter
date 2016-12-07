@@ -38,7 +38,7 @@ public class CardDataManager {
         return _cardEntries;
     }
 
-    public Iterable<CardData> getAllLands() {
+    public List<CardData> getAllLands() {
         return Arrays.asList(new CardData[] {Lands.FOREST, Lands.ISLAND, Lands.MOUNTAIN, Lands.PLAINS, Lands.SWAMP});
     }
 
@@ -58,6 +58,13 @@ public class CardDataManager {
     }
 
     public Optional<CardData> getDataForMagicAssistId(int id) {
+        Optional<CardData> landCard = getAllLands().stream()
+                .filter(card -> card.idMagicAssist == id)
+                .findFirst();
+        if(landCard.isPresent()) {
+            return landCard;
+        }
+
         return _cardEntries.stream()
                 .filter(card -> card.idMagicAssist == id)
                 .findFirst();
