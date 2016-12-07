@@ -20,7 +20,7 @@ public class Main {
     }
 
     public static final String MAGIC_ASSIST_DB_PATH = "C:\\Users\\BlueRaja\\Documents\\MagicAssistantWorkspace\\magiccards";
-    public static final String MAGIC_DUELS_CARD_POOL = "C:\\Users\\BlueRaja\\Downloads\\CardPool.xml";
+    public static final String MAGIC_DUELS_CARD_POOL = "C:\\Projects\\Java\\Magic Duels Profile Editor\\CardPool.xml";
     public static Map<String, MagicAssistEntry> _nameToMagicAssistEntry = new HashMap<>();
     public static CardDataManager _cardDataManager = new CardDataManager();
 

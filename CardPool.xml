@@ -1,0 +1,1023 @@
+<card_pool id="1" plane_id="1" collection_logo_location="Art_Assets\\Frontend\\Collection\\shoebox_filter_button" content_id="0">
+  <card name="ACCURSED_SPIRIT_390708" id="0" rarity="C" />
+  <card name="AERONAUT_TINKERER_390427" id="1" rarity="C" />
+  <card name="SUPPRESSION_BONDS_397948" id="2" rarity="C" />
+  <card name="YAVIMAYA_WURM_397947" id="3" rarity="C" />
+  <card name="MEANDERING_RIVER_399134" id="4" rarity="C" />
+  <card name="BARRAGE_OGRE_390452" id="5" rarity="U" />
+  <card name="BATTLEFRONT_KRUSHOK_390405" id="6" rarity="U" />
+  <card name="BITTER_REVELATION_390409" id="7" rarity="C" />
+  <card name="BLOODFLOW_CONNOISSEUR_390704" id="8" rarity="C" />
+  <card name="BLOODPYRE_ELEMENTAL_390385" id="9" rarity="C" />
+  <card name="BONE_SPLINTERS_390388" id="10" rarity="C" />
+  <card name="BOONWEAVER_GIANT_391545" id="11" rarity="U" />
+  <card name="STONE_QUARRY_397623" id="12" rarity="C" />
+  <card name="BOTTLE_GNOMES_390383" id="13" rarity="U" />
+  <card name="CHILD_OF_NIGHT_390428" id="14" rarity="C" />
+  <card name="CHORUS_OF_MIGHT_391555" id="15" rarity="C" />
+  <card name="CLIFFTOP_RETREAT_391679" id="16" rarity="R" />
+  <card name="CORAL_MERFOLK_390304" id="17" rarity="C" />
+  <card name="CORPSE_HAULER_393498" id="18" rarity="C" />
+  <card name="COUNTERMAND_390706" id="19" rarity="C" />
+  <card name="DARKSLICK_DRAKE_391550" id="20" rarity="U" />
+  <card name="DAUNTLESS_RIVER_MARSHAL_390429" id="21" rarity="U" />
+  <card name="DEHYDRATION_391551" id="22" rarity="C" />
+  <card name="SUBMERGED_BONEYARD_399135" id="23" rarity="C" />
+  <card name="SIEGECRAFT_397945" id="24" rarity="C" />
+  <card name="DRAGONSKULL_SUMMIT_391683" id="25" rarity="R" />
+  <card name="MINOTAUR_ABOMINATION_397949" id="26" rarity="C" />
+  <card name="DROWNED_CATACOMB_389972" id="27" rarity="R" />
+  <card name="EXPEDITION_ENVOY_397392" id="28" rarity="U" />
+  <card name="EMBER_HAULER_390414" id="29" rarity="U" />
+  <card name="ESPERZOA_391981" id="30" rarity="U" />
+  <card name="FLARING_FLAMEKIN_390390" id="31" rarity="U" />
+  <card name="FLESH_TO_DUST_391678" id="32" rarity="C" />
+  <card name="FOG_390424" id="33" rarity="C" />
+  <card name="GOBLIN_BALLOON_BRIGADE_397395" id="34" rarity="C" />
+  <card name="FROST_LYNX_390432" id="35" rarity="C" />
+  <card name="SYLVAN_RANGER_390732" id="36" rarity="C" />
+  <card name="GLACIAL_FORTRESS_391684" id="37" rarity="R" />
+  <card name="GOBLIN_ARSONIST_390707" id="38" rarity="C" />
+  <card name="GOBLIN_PIKER_390416" id="39" rarity="C" />
+  <card name="FOUL_ORCHARD_397621" id="40" rarity="C" />
+  <card name="GRAVEDIGGER_390012" id="41" rarity="U" />
+  <card name="TIMBER_GORGE_399136" id="42" rarity="C" />
+  <card name="GURMAG_SWIFTWING_391553" id="43" rarity="U" />
+  <card name="HELIODS_PILGRIM_390434" id="44" rarity="C" />
+  <card name="HINTERLAND_HARBOR_391680" id="45" rarity="R" />
+  <card name="INFERNO_FIST_391546" id="46" rarity="C" />
+  <card name="INSPIRATION_390045" id="47" rarity="C" />
+  <card name="INTO_THE_MAW_OF_HELL_390407" id="48" rarity="U" />
+  <card name="ISOLATED_CHAPEL_391681" id="49" rarity="R" />
+  <card name="HIGHLAND_LAKE_397622" id="50" rarity="C" />
+  <card name="LIFESPRING_DRUID_397393" id="51" rarity="U" />
+  <card name="JORUBAI_MURK_LURKER_390435" id="52" rarity="U" />
+  <card name="JUGGERNAUT_390294" id="53" rarity="U" />
+  <card name="KAPSHO_KITEFINS_391547" id="54" rarity="U" />
+  <card name="KINSBAILE_SKIRMISHER_391548" id="55" rarity="C" />
+  <card name="KIRD_CHIEFTAIN_390436" id="56" rarity="U" />
+  <card name="LYS_ALANA_HUNTMASTER_390411" id="57" rarity="C" />
+  <card name="LYS_ALANA_SCARBLADE_390412" id="58" rarity="U" />
+  <card name="EXPLOSIVE_VEGETATION_397394" id="59" rarity="C" />
+  <card name="NECROMANTIC_THIRST_393499" id="60" rarity="C" />
+  <card name="NIGHTFIRE_GIANT_390437" id="61" rarity="U" />
+  <card name="NIMBUS_WINGS_393501" id="62" rarity="C" />
+  <card name="FORSAKEN_SANCTUARY_397620" id="63" rarity="C" />
+  <card name="BRONZE_SABLE_397946" id="64" rarity="C" />
+  <card name="PRIMAL_BELLOW_390073" id="65" rarity="U" />
+  <card name="PRIMAL_HUNTBEAST_390420" id="66" rarity="C" />
+  <card name="CINDER_BARRENS_399133" id="67" rarity="C" />
+  <card name="RAZORFOOT_GRIFFIN_390439" id="68" rarity="C" />
+  <card name="RECLAMATION_SAGE_390712" id="69" rarity="U" />
+  <card name="REPRISAL_390408" id="70" rarity="U" />
+  <card name="RISE_FROM_THE_GRAVE_390421" id="71" rarity="U" />
+  <card name="ROOTBOUND_CRAG_389980" id="72" rarity="R" />
+  <card name="SCARRED_VINEBREEDER_389948" id="73" rarity="C" />
+  <card name="SCRAPYARD_MONGREL_390887" id="74" rarity="C" />
+  <card name="TRANQUIL_EXPANSE_399137" id="75" rarity="C" />
+  <card name="SIEGE_MASTODON_390425" id="76" rarity="C" />
+  <card name="WOODLAND_STREAM_397624" id="77" rarity="C" />
+  <card name="SKYEEL_SCHOOL_390454" id="78" rarity="C" />
+  <card name="SKYHUNTER_SKIRMISHER_390703" id="79" rarity="U" />
+  <card name="SOLEMN_OFFERING_390426" id="80" rarity="C" />
+  <card name="STRIDER_HARNESS_390455" id="81" rarity="C" />
+  <card name="SULFUR_FALLS_391682" id="82" rarity="R" />
+  <card name="SUNBLADE_ELF_390441" id="83" rarity="U" />
+  <card name="SUNPETAL_GROVE_391685" id="84" rarity="R" />
+  <card name="SUNTAIL_HAWK_390710" id="85" rarity="C" />
+  <card name="TELLING_TIME_390384" id="86" rarity="U" />
+  <card name="TIMBERLAND_GUIDE_390389" id="87" rarity="C" />
+  <card name="TRAITOROUS_INSTINCT_390714" id="88" rarity="C" />
+  <card name="TWIN_BOLT_390404" id="89" rarity="C" />
+  <card name="WELKIN_TERN_390017" id="90" rarity="C" />
+  <card name="WILDSIZE_393500" id="91" rarity="C" />
+  <card name="WOODLAND_CEMETERY_389919" id="92" rarity="R" />
+  <card name="ABBOT_OF_KERAL_KEEP_387870" id="93" rarity="R" />
+  <card name="ACT_OF_TREASON_385940" id="94" rarity="C" />
+  <card name="AKROAN_JAILER_387005" id="95" rarity="C" />
+  <card name="AKROAN_SERGEANT_381576" id="96" rarity="C" />
+  <card name="ALCHEMISTS_VIAL_387984" id="97" rarity="C" />
+  <card name="ALHAMMARRET_HIGH_ARBITER_381520" id="98" rarity="R" />
+  <card name="AMPRYN_TACTICIAN_389668" id="99" rarity="C" />
+  <card name="ANCHOR_TO_THE_AETHER_386049" id="100" rarity="U" />
+  <card name="ANIMISTS_AWAKENING_377899" id="101" rarity="R" />
+  <card name="ANOINTER_OF_CHAMPIONS_388917" id="102" rarity="U" />
+  <card name="ARCHANGEL_OF_TITHES_387878" id="103" rarity="M" />
+  <card name="ARTIFICERS_EPIPHANY_389011" id="104" rarity="C" />
+  <card name="ASPIRING_AERONAUT_384891" id="105" rarity="C" />
+  <card name="AURAMANCER_390840" id="106" rarity="C" />
+  <card name="AVARICIOUS_DRAGON_387874" id="107" rarity="M" />
+  <card name="BELLOWS_LIZARD_385995" id="108" rarity="C" />
+  <card name="BLAZING_HELLHOUND_386050" id="109" rarity="U" />
+  <card name="BLESSED_SPIRITS_381650" id="110" rarity="U" />
+  <card name="BLIGHTCASTER_390850" id="111" rarity="U" />
+  <card name="BLOODCURSED_KNIGHT_386055" id="112" rarity="U" />
+  <card name="BONDED_CONSTRUCT_386150" id="113" rarity="C" />
+  <card name="BONE_TO_ASH_392250" id="114" rarity="C" />
+  <card name="BOUNDING_KRASIS_387388" id="115" rarity="U" />
+  <card name="CALCULATED_DISMISSAL_381524" id="116" rarity="C" />
+  <card name="CALL_OF_THE_FULL_MOON_388922" id="117" rarity="U" />
+  <card name="CELESTIAL_FLARE_391038" id="118" rarity="C" />
+  <card name="CHANDRA_FIRE_OF_KALADESH_381530" id="119" rarity="M" />
+  <card name="CHANDRAS_IGNITION_384899" id="120" rarity="R" />
+  <card name="CHIEF_OF_THE_FOUNDRY_387397" id="121" rarity="U" />
+  <card name="CITADEL_CASTELLAN_386048" id="122" rarity="U" />
+  <card name="CLAUSTROPHOBIA_386160" id="123" rarity="C" />
+  <card name="CLERIC_OF_THE_FORWARD_ORDER_388571" id="124" rarity="C" />
+  <card name="CONCLAVE_NATURALISTS_388436" id="125" rarity="U" />
+  <card name="CONSECRATED_BY_BLOOD_388402" id="126" rarity="U" />
+  <card name="CONSULS_LIEUTENANT_381515" id="127" rarity="U" />
+  <card name="CRUEL_REVIVAL_387020" id="128" rarity="U" />
+  <card name="DEADBRIDGE_SHAMAN_378034" id="129" rarity="C" />
+  <card name="DESPOILER_OF_SOULS_387873" id="130" rarity="R" />
+  <card name="DISCIPLE_OF_THE_RING_385297" id="131" rarity="M" />
+  <card name="DISPERSE_390843" id="132" rarity="C" />
+  <card name="DISPLACEMENT_WAVE_385304" id="133" rarity="R" />
+  <card name="DRAGON_FODDER_390849" id="134" rarity="C" />
+  <card name="DWYNEN_GILTLEAF_DAEN_387451" id="135" rarity="R" />
+  <card name="DWYNENS_ELITE_388403" id="136" rarity="U" />
+  <card name="ELEMENTAL_BOND_387217" id="137" rarity="U" />
+  <card name="ELVISH_VISIONARY_392249" id="138" rarity="C" />
+  <card name="EMBERMAW_HELLION_384933" id="139" rarity="R" />
+  <card name="ENTHRALLING_VICTOR_388433" id="140" rarity="U" />
+  <card name="EREBOSS_TITAN_386035" id="141" rarity="M" />
+  <card name="EVOLUTIONARY_LEAP_377932" id="142" rarity="R" />
+  <card name="EVOLVING_WILDS_390772" id="143" rarity="C" />
+  <card name="EXQUISITE_FIRECRAFT_388947" id="144" rarity="R" />
+  <card name="EYEBLIGHT_ASSASSIN_386156" id="145" rarity="C" />
+  <card name="FAERIE_MISCREANT_386148" id="146" rarity="C" />
+  <card name="FIERY_CONCLUSION_390889" id="147" rarity="U" />
+  <card name="FIERY_IMPULSE_384862" id="148" rarity="C" />
+  <card name="FIREFIEND_ELEMENTAL_381627" id="149" rarity="C" />
+  <card name="FLAMESHADOW_CONJURING_388919" id="150" rarity="R" />
+  <card name="FLESHBAG_MARAUDER_391451" id="151" rarity="U" />
+  <card name="FOUNDRY_OF_THE_CONSULS_385283" id="152" rarity="U" />
+  <card name="GAEAS_REVENGE_390760" id="153" rarity="R" />
+  <card name="GATHER_THE_PACK_381705" id="154" rarity="U" />
+  <card name="GHIRAPUR_AETHER_GRID_381655" id="155" rarity="U" />
+  <card name="GHIRAPUR_GEARCRAFTER_385277" id="156" rarity="C" />
+  <card name="GILTLEAF_WINNOWER_388913" id="157" rarity="R" />
+  <card name="GOBLIN_GLORY_CHASER_381552" id="158" rarity="U" />
+  <card name="GRASP_OF_THE_HIEROMANCER_377996" id="159" rarity="C" />
+  <card name="GRAVEBLADE_MARAUDER_389666" id="160" rarity="R" />
+  <card name="GUARDIAN_AUTOMATON_381692" id="161" rarity="C" />
+  <card name="GUARDIANS_OF_MELETIS_386025" id="162" rarity="C" />
+  <card name="HARBINGER_OF_THE_TIDES_387448" id="163" rarity="R" />
+  <card name="HERALD_OF_THE_PANTHEON_388914" id="164" rarity="R" />
+  <card name="HIXUS_PRISON_WARDEN_384897" id="165" rarity="R" />
+  <card name="HYDROLASH_387986" id="166" rarity="U" />
+  <card name="INFECTIOUS_BLOODLUST_388434" id="167" rarity="C" />
+  <card name="INFERNAL_SCARRING_388572" id="168" rarity="C" />
+  <card name="IROASS_CHAMPION_387395" id="169" rarity="U" />
+  <card name="JACE_VRYNS_PRODIGY_377965" id="170" rarity="M" />
+  <card name="JHESSIAN_THIEF_377942" id="171" rarity="U" />
+  <card name="KNIGHT_OF_THE_PILGRIMS_ROAD_386137" id="172" rarity="C" />
+  <card name="KNIGHT_OF_THE_WHITE_ORCHID_390954" id="173" rarity="R" />
+  <card name="KNIGHTLY_VALOR_390998" id="174" rarity="U" />
+  <card name="KOTHOPHED_SOUL_HOARDER_381504" id="175" rarity="R" />
+  <card name="KYTHEON_HERO_OF_AKROS_381607" id="176" rarity="M" />
+  <card name="KYTHEONS_IRREGULARS_384916" id="177" rarity="R" />
+  <card name="KYTHEONS_TACTICS_384873" id="178" rarity="C" />
+  <card name="LANGUISH_386051" id="179" rarity="R" />
+  <card name="LILIANA_HERETICAL_HEALER_381703" id="180" rarity="M" />
+  <card name="LLANOWAR_EMPATH_391092" id="181" rarity="C" />
+  <card name="MAGERING_BULLY_385286" id="182" rarity="C" />
+  <card name="MALAKIR_CULLBLADE_385303" id="183" rarity="U" />
+  <card name="METEORITE_391094" id="184" rarity="U" />
+  <card name="MIGHT_OF_THE_MASSES_390649" id="185" rarity="C" />
+  <card name="MOLTEN_VORTEX_385267" id="186" rarity="R" />
+  <card name="NANTUKO_HUSK_391522" id="187" rarity="C" />
+  <card name="NECROMANTIC_SUMMONS_377959" id="188" rarity="U" />
+  <card name="NISSA_VASTWOOD_SEER_378046" id="189" rarity="M" />
+  <card name="NISSAS_PILGRIMAGE_377874" id="190" rarity="C" />
+  <card name="NISSAS_REVELATION_390995" id="191" rarity="R" />
+  <card name="ORCHARD_SPIRIT_391518" id="192" rarity="C" />
+  <card name="OUTLAND_COLOSSUS_384929" id="193" rarity="R" />
+  <card name="PATRON_OF_THE_VALIANT_388435" id="194" rarity="U" />
+  <card name="PHARIKAS_DISCIPLE_387985" id="195" rarity="C" />
+  <card name="PIA_AND_KIRAN_NALAAR_381700" id="196" rarity="R" />
+  <card name="POSSESSED_SKAAB_385301" id="197" rarity="U" />
+  <card name="PRIEST_OF_THE_BLOOD_RITE_387885" id="198" rarity="R" />
+  <card name="RABID_BLOODSUCKER_385302" id="199" rarity="C" />
+  <card name="RAVAGING_BLAZE_381642" id="200" rarity="U" />
+  <card name="READ_THE_BONES_390463" id="201" rarity="C" />
+  <card name="REAVE_SOUL_387486" id="202" rarity="C" />
+  <card name="RECLUSIVE_ARTIFICER_386037" id="203" rarity="U" />
+  <card name="RELIC_SEEKER_384932" id="204" rarity="R" />
+  <card name="RHOX_MAULERS_381711" id="205" rarity="C" />
+  <card name="RINGWARDEN_OWL_384915" id="206" rarity="C" />
+  <card name="ROGUES_PASSAGE_386065" id="207" rarity="U" />
+  <card name="RUNED_SERVITOR_391093" id="208" rarity="U" />
+  <card name="SCRAPSKIN_DRAKE_391516" id="209" rarity="C" />
+  <card name="SCREECHING_SKAAB_391007" id="210" rarity="C" />
+  <card name="SEPARATIST_VOIDMAGE_386149" id="211" rarity="C" />
+  <card name="SHADOWS_OF_THE_PAST_381526" id="212" rarity="U" />
+  <card name="SHAMAN_OF_THE_PACK_386034" id="213" rarity="U" />
+  <card name="SHAMBLING_GHOUL_385274" id="214" rarity="C" />
+  <card name="SIGIL_OF_THE_EMPTY_THRONE_392278" id="215" rarity="R" />
+  <card name="SIGIL_OF_VALOR_386027" id="216" rarity="U" />
+  <card name="SIGILED_STARFISH_390854" id="217" rarity="U" />
+  <card name="SOULBLADE_DJINN_385430" id="218" rarity="R" />
+  <card name="SPHINXS_TUTELAGE_381677" id="219" rarity="U" />
+  <card name="STALWART_AVEN_381500" id="220" rarity="C" />
+  <card name="SUBTERRANEAN_SCOUT_386151" id="221" rarity="C" />
+  <card name="ENSHROUDING_MIST_386144" id="222" rarity="C" />
+  <card name="TAINTED_REMEDY_385278" id="223" rarity="R" />
+  <card name="TALENT_OF_THE_TELEPATH_388945" id="224" rarity="R" />
+  <card name="THOPTER_ENGINEER_385294" id="225" rarity="U" />
+  <card name="THOPTER_SPY_NETWORK_386036" id="226" rarity="R" />
+  <card name="THORNBOW_ARCHER_381664" id="227" rarity="C" />
+  <card name="THROWING_KNIFE_381599" id="228" rarity="U" />
+  <card name="THUNDERCLAP_WYVERN_386053" id="229" rarity="U" />
+  <card name="TIMBERPACK_WOLF_390646" id="230" rarity="C" />
+  <card name="TITANIC_GROWTH_390648" id="231" rarity="C" />
+  <card name="TITANS_STRENGTH_390182" id="232" rarity="C" />
+  <card name="TOPAN_FREEBLADE_381625" id="233" rarity="C" />
+  <card name="TOTEMGUIDE_HARTEBEEST_388566" id="234" rarity="U" />
+  <card name="TOWER_GEIST_390892" id="235" rarity="U" />
+  <card name="TRAGIC_ARROGANCE_384894" id="236" rarity="R" />
+  <card name="UNDEAD_SERVANT_387884" id="237" rarity="C" />
+  <card name="UNDERCITY_TROLL_386145" id="238" rarity="U" />
+  <card name="UNHOLY_HUNGER_378112" id="239" rarity="C" />
+  <card name="VALERON_WARDENS_381690" id="240" rarity="U" />
+  <card name="VALOR_IN_AKROS_381538" id="241" rarity="U" />
+  <card name="VETERANS_SIDEARM_381671" id="242" rarity="C" />
+  <card name="VRYN_WINGMARE_387392" id="243" rarity="R" />
+  <card name="WHIRLER_ROGUE_386041" id="244" rarity="U" />
+  <card name="WILD_INSTINCTS_386033" id="245" rarity="C" />
+  <card name="WILLBREAKER_384920" id="246" rarity="R" />
+  <card name="WOODLAND_BELLOWER_388575" id="247" rarity="M" />
+  <card name="YEVAS_FORCEMAGE_390733" id="248" rarity="C" />
+  <card name="ZENDIKAR_INCARNATE_386047" id="249" rarity="U" />
+  <card name="ZENDIKARS_ROIL_381631" id="250" rarity="U" />
+  <card name="ADVERSE_CONDITIONS_379064" id="251" rarity="U" />
+  <card name="AKOUM_FIREBIRD_385317" id="252" rarity="M" />
+  <card name="AKOUM_HELLKITE_378865" id="253" rarity="R" />
+  <card name="AKOUM_STONEWAKER_378993" id="254" rarity="U" />
+  <card name="ALIGNED_HEDRON_NETWORK_382521" id="255" rarity="R" />
+  <card name="ALTARS_REAP_379059" id="256" rarity="C" />
+  <card name="ANGEL_OF_RENEWAL_379122" id="257" rarity="U" />
+  <card name="BARRAGE_TYRANT_388518" id="258" rarity="R" />
+  <card name="BLIGHT_HERDER_385332" id="259" rarity="R" />
+  <card name="BLIGHTED_GORGE_385372" id="260" rarity="U" />
+  <card name="BLIGHTED_STEPPE_385349" id="261" rarity="U" />
+  <card name="BLISTERPOD_379075" id="262" rarity="C" />
+  <card name="BLOODBOND_VAMPIRE_385348" id="263" rarity="U" />
+  <card name="BOILING_EARTH_385327" id="264" rarity="C" />
+  <card name="BREAKER_OF_ARMIES_388526" id="265" rarity="U" />
+  <card name="BRILLIANT_SPECTRUM_391982" id="266" rarity="C" />
+  <card name="BROOD_BUTCHER_388488" id="267" rarity="R" />
+  <card name="BROODHUNTER_WURM_391985" id="268" rarity="C" />
+  <card name="BRUTAL_EXPULSION_385398" id="269" rarity="R" />
+  <card name="CANOPY_VISTA_388514" id="270" rarity="R" />
+  <card name="CARRIER_THRALL_385386" id="271" rarity="U" />
+  <card name="CHASM_GUIDE_378885" id="272" rarity="U" />
+  <card name="CINDER_GLADE_388513" id="273" rarity="R" />
+  <card name="CLUTCH_OF_CURRENTS_379083" id="274" rarity="C" />
+  <card name="COASTAL_DISCOVERY_379023" id="275" rarity="U" />
+  <card name="COMPLETE_DISREGARD_378963" id="276" rarity="C" />
+  <card name="CORALHELM_GUIDE_378966" id="277" rarity="C" />
+  <card name="COURIER_GRIFFIN_385360" id="278" rarity="C" />
+  <card name="CRYPTIC_CRUISER_379035" id="279" rarity="U" />
+  <card name="CULLING_DRONE_382516" id="280" rarity="C" />
+  <card name="DEATHLESS_BEHEMOTH_392001" id="281" rarity="U" />
+  <card name="DEFIANT_BLOODLORD_385396" id="282" rarity="R" />
+  <card name="DEMONS_GRASP_385350" id="283" rarity="C" />
+  <card name="DESOLATION_TWIN_378897" id="284" rarity="R" />
+  <card name="DISPEL_379078" id="285" rarity="C" />
+  <card name="DOMINATOR_DRONE_385340" id="286" rarity="C" />
+  <card name="DRANAS_EMISSARY_382499" id="287" rarity="U" />
+  <card name="DROWNER_OF_HOPE_385416" id="288" rarity="R" />
+  <card name="DUST_STALKER_378874" id="289" rarity="R" />
+  <card name="ELDRAZI_DEVASTATOR_391995" id="290" rarity="C" />
+  <card name="ELDRAZI_SKYSPAWNER_379028" id="291" rarity="C" />
+  <card name="EMERIA_SHEPHERD_379094" id="292" rarity="R" />
+  <card name="EYELESS_WATCHER_385401" id="293" rarity="C" />
+  <card name="FELIDAR_CUB_379081" id="294" rarity="C" />
+  <card name="FERTILE_THICKET_388496" id="295" rarity="C" />
+  <card name="FIREMANTLE_MAGE_379110" id="296" rarity="U" />
+  <card name="FORERUNNER_OF_SLAUGHTER_382485" id="297" rarity="U" />
+  <card name="FORTIFIED_RAMPART_378877" id="298" rarity="C" />
+  <card name="FROM_BEYOND_378893" id="299" rarity="R" />
+  <card name="GHOSTLY_SENTINEL_379036" id="300" rarity="C" />
+  <card name="GIANT_MANTIS_379074" id="301" rarity="C" />
+  <card name="GIDEON_ALLY_OF_ZENDIKAR_388511" id="302" rarity="M" />
+  <card name="GIDEONS_REPROACH_388521" id="303" rarity="C" />
+  <card name="GOBLIN_WAR_PAINT_385323" id="304" rarity="C" />
+  <card name="GREENWARDEN_OF_MURASA_388501" id="305" rarity="M" />
+  <card name="GROVE_RUMBLER_382518" id="306" rarity="U" />
+  <card name="GRUESOME_SLAUGHTER_378910" id="307" rarity="R" />
+  <card name="GUARDIAN_OF_TAZEEM_378971" id="308" rarity="R" />
+  <card name="GUUL_DRAZ_OVERSEER_378908" id="309" rarity="R" />
+  <card name="HAGRA_SHARPSHOOTER_379058" id="310" rarity="U" />
+  <card name="HERO_OF_GOMA_FADA_385368" id="311" rarity="R" />
+  <card name="HORRIBLY_AWRY_385378" id="312" rarity="U" />
+  <card name="INCUBATOR_DRONE_378938" id="313" rarity="C" />
+  <card name="INFUSE_WITH_THE_ELEMENTS_379026" id="314" rarity="U" />
+  <card name="JADDI_OFFSHOOT_379138" id="315" rarity="U" />
+  <card name="KALASTRIA_HEALER_378937" id="316" rarity="C" />
+  <card name="KALASTRIA_NIGHTWATCH_385334" id="317" rarity="C" />
+  <card name="KIORA_MASTER_OF_THE_DEPTHS_388529" id="318" rarity="M" />
+  <card name="KOR_CASTIGATOR_378923" id="319" rarity="C" />
+  <card name="KOR_ENTANGLERS_385383" id="320" rarity="U" />
+  <card name="LANTERN_SCOUT_378933" id="321" rarity="R" />
+  <card name="LAVASTEP_RAIDER_385367" id="322" rarity="C" />
+  <card name="LOOMING_SPIRES_388499" id="323" rarity="C" />
+  <card name="LUMBERING_FALLS_378870" id="324" rarity="R" />
+  <card name="MAKINDI_SLIDERUNNER_378968" id="325" rarity="C" />
+  <card name="MALAKIR_FAMILIAR_379111" id="326" rarity="U" />
+  <card name="MIRES_MALICE_379052" id="327" rarity="C" />
+  <card name="MORTUARY_MIRE_388533" id="328" rarity="C" />
+  <card name="MUNDA_AMBUSH_LEADER_385355" id="329" rarity="R" />
+  <card name="MURASA_RANGER_385403" id="330" rarity="U" />
+  <card name="NATURAL_CONNECTION_385325" id="331" rarity="C" />
+  <card name="NETTLE_DRONE_379007" id="332" rarity="C" />
+  <card name="NIRKANA_ASSASSIN_391986" id="333" rarity="C" />
+  <card name="NISSAS_RENEWAL_378843" id="334" rarity="R" />
+  <card name="OB_NIXILIS_REIGNITED_388507" id="335" rarity="M" />
+  <card name="OBLIVION_SOWER_385354" id="336" rarity="M" />
+  <card name="OMNATH_LOCUS_OF_RAGE_385379" id="337" rarity="M" />
+  <card name="ONDU_GREATHORN_378997" id="338" rarity="C" />
+  <card name="ONDU_RISING_378953" id="339" rarity="U" />
+  <card name="ORACLE_OF_DUST_388500" id="340" rarity="C" />
+  <card name="ORANRIEF_HYDRA_378909" id="341" rarity="R" />
+  <card name="PART_THE_WATERVEIL_385356" id="342" rarity="M" />
+  <card name="PILGRIMS_EYE_378946" id="343" rarity="U" />
+  <card name="PLANAR_OUTBURST_382492" id="344" rarity="R" />
+  <card name="PLATED_CRUSHER_378895" id="345" rarity="U" />
+  <card name="PLUMMET_379106" id="346" rarity="C" />
+  <card name="PRAIRIE_STREAM_388534" id="347" rarity="R" />
+  <card name="PRISM_ARRAY_388490" id="348" rarity="R" />
+  <card name="PROCESSOR_ASSAULT_391999" id="349" rarity="U" />
+  <card name="RADIANT_FLAMES_379134" id="350" rarity="R" />
+  <card name="RECKLESS_COHORT_382482" id="351" rarity="C" />
+  <card name="RETREAT_TO_CORALHELM_385338" id="352" rarity="U" />
+  <card name="RETREAT_TO_EMERIA_385369" id="353" rarity="U" />
+  <card name="RETREAT_TO_HAGRA_385335" id="354" rarity="U" />
+  <card name="RETREAT_TO_KAZANDU_385382" id="355" rarity="U" />
+  <card name="RETREAT_TO_VALAKUT_385359" id="356" rarity="U" />
+  <card name="RISING_MIASMA_385328" id="357" rarity="U" />
+  <card name="ROIL_SPOUT_382504" id="358" rarity="U" />
+  <card name="ROILS_RETRIBUTION_379016" id="359" rarity="U" />
+  <card name="ROLLING_THUNDER_378894" id="360" rarity="U" />
+  <card name="ROT_SHAMBLER_382524" id="361" rarity="U" />
+  <card name="SALVAGE_DRONE_379061" id="362" rarity="C" />
+  <card name="SANDSTONE_BRIDGE_388519" id="363" rarity="C" />
+  <card name="SCATTER_TO_THE_WINDS_385326" id="364" rarity="R" />
+  <card name="SCYTHE_LEOPARD_378886" id="365" rarity="U" />
+  <card name="SERENE_STEWARD_385361" id="366" rarity="U" />
+  <card name="SHADOW_GLIDER_385362" id="367" rarity="C" />
+  <card name="SHAMBLING_VENT_379125" id="368" rarity="R" />
+  <card name="SHATTERSKULL_RECRUIT_388491" id="369" rarity="C" />
+  <card name="SHEER_DROP_378924" id="370" rarity="C" />
+  <card name="SIRE_OF_STAGNATION_385357" id="371" rarity="M" />
+  <card name="SKITTERSKIN_385390" id="372" rarity="U" />
+  <card name="SKYLINE_CASCADE_388531" id="373" rarity="C" />
+  <card name="SKYRIDER_ELF_379056" id="374" rarity="U" />
+  <card name="SLAB_HAMMER_378949" id="375" rarity="U" />
+  <card name="SLUDGE_CRAWLER_385413" id="376" rarity="C" />
+  <card name="SMOLDERING_MARSH_388493" id="377" rarity="R" />
+  <card name="SMOTHERING_ABOMINATION_378972" id="378" rarity="R" />
+  <card name="SNAPPING_GNARLID_391983" id="379" rarity="C" />
+  <card name="SPELL_SHRIVEL_378866" id="380" rarity="C" />
+  <card name="STONE_HAVEN_MEDIC_385402" id="381" rarity="C" />
+  <card name="STONEFURY_385411" id="382" rarity="C" />
+  <card name="SUNKEN_HOLLOW_388509" id="383" rarity="R" />
+  <card name="SWELL_OF_GROWTH_388506" id="384" rarity="C" />
+  <card name="TAJURU_STALWART_382515" id="385" rarity="C" />
+  <card name="TANDEM_TACTICS_385408" id="386" rarity="C" />
+  <card name="TERRITORIAL_BALOTH_378876" id="387" rarity="C" />
+  <card name="TIDE_DRIFTER_378840" id="388" rarity="U" />
+  <card name="TIGHTENING_COILS_385414" id="389" rarity="C" />
+  <card name="TITANS_PRESENCE_391990" id="390" rarity="U" />
+  <card name="TOUCH_OF_THE_VOID_385373" id="391" rarity="C" />
+  <card name="ULAMOG_THE_CEASELESS_HUNGER_382490" id="392" rarity="M" />
+  <card name="ULAMOGS_DESPOILER_378920" id="393" rarity="U" />
+  <card name="ULAMOGS_NULLIFIER_382519" id="394" rarity="U" />
+  <card name="ULAMOGS_RECLAIMER_391993" id="395" rarity="U" />
+  <card name="UNIFIED_FRONT_382512" id="396" rarity="U" />
+  <card name="UNNATURAL_AGGRESSION_379072" id="397" rarity="C" />
+  <card name="VALAKUT_INVOKER_385370" id="398" rarity="C" />
+  <card name="VAMPIRIC_RITES_388504" id="399" rarity="U" />
+  <card name="VESTIGE_OF_EMRAKUL_378852" id="400" rarity="C" />
+  <card name="VETERAN_WARLEADER_382517" id="401" rarity="R" />
+  <card name="VILE_AGGREGATE_382520" id="402" rarity="U" />
+  <card name="VOID_ATTENDANT_379107" id="403" rarity="U" />
+  <card name="VORACIOUS_NULL_378860" id="404" rarity="C" />
+  <card name="WASTELAND_STRANGLER_385384" id="405" rarity="R" />
+  <card name="WAVEWING_ELEMENTAL_378942" id="406" rarity="C" />
+  <card name="WINDRIDER_PATROL_379130" id="407" rarity="U" />
+  <card name="WOODLAND_WANDERER_388502" id="408" rarity="R" />
+  <card name="BENTHIC_INFILTRATOR_395268" id="409" rarity="C" />
+  <card name="CLIFFSIDE_LOOKOUT_395269" id="410" rarity="C" />
+  <card name="KOR_BLADEWHIRL_395270" id="411" rarity="U" />
+  <card name="MAKINDI_PATROL_395271" id="412" rarity="C" />
+  <card name="MIND_RAKER_395272" id="413" rarity="C" />
+  <card name="MIST_INTRUDER_395273" id="414" rarity="C" />
+  <card name="MURK_STRIDER_395274" id="415" rarity="C" />
+  <card name="ONDU_CHAMPION_395275" id="416" rarity="C" />
+  <card name="RUIN_PROCESSOR_395276" id="417" rarity="C" />
+  <card name="STONEWORK_PUMA_393648" id="418" rarity="C" />
+  <card name="BIRTHING_HULK_396096" id="419" rarity="U" />
+  <card name="BOULDER_SALVO_396097" id="420" rarity="C" />
+  <card name="GRIP_OF_THE_ROIL_396098" id="421" rarity="U" />
+  <card name="HAVOC_SOWER_396099" id="422" rarity="U" />
+  <card name="JWAR_ISLE_AVENGER_396100" id="423" rarity="C" />
+  <card name="PYROMANCERS_ASSAULT_396101" id="424" rarity="U" />
+  <card name="SKY_SCOURER_396102" id="425" rarity="C" />
+  <card name="STALKING_DRONE_396103" id="426" rarity="C" />
+  <card name="ABSTRUSE_INTERFERENCE_382541" id="427" rarity="C" />
+  <card name="AKOUM_FLAMESEEKER_389613" id="428" rarity="C" />
+  <card name="ALLIED_REINFORCEMENTS_387059" id="429" rarity="U" />
+  <card name="ANCIENT_CRAB_391591" id="430" rarity="C" />
+  <card name="AYLI_ETERNAL_PILGRIM_391432" id="431" rarity="R" />
+  <card name="BALOTH_NULL_389653" id="432" rarity="U" />
+  <card name="BALOTH_PUP_389648" id="433" rarity="U" />
+  <card name="BEARER_OF_SILENCE_391435" id="434" rarity="R" />
+  <card name="BLINDING_DRONE_391576" id="435" rarity="C" />
+  <card name="BONDS_OF_MORTALITY_391148" id="436" rarity="U" />
+  <card name="BONE_SAW_387064" id="437" rarity="C" />
+  <card name="BRUTE_STRENGTH_391134" id="438" rarity="C" />
+  <card name="CALL_THE_GATEWATCH_390097" id="439" rarity="R" />
+  <card name="CANOPY_GORGER_391440" id="440" rarity="C" />
+  <card name="CHANDRA_FLAMECALLER_387065" id="441" rarity="M" />
+  <card name="CHITINOUS_CLOAK_390151" id="442" rarity="U" />
+  <card name="CINDER_HELLION_389553" id="443" rarity="C" />
+  <card name="CLIFFHAVEN_VAMPIRE_390152" id="444" rarity="U" />
+  <card name="COMPARATIVE_ANALYSIS_390137" id="445" rarity="C" />
+  <card name="CONTAINMENT_MEMBRANE_391109" id="446" rarity="C" />
+  <card name="CRUMBLING_VESTIGE_389644" id="447" rarity="C" />
+  <card name="CRUSH_OF_TENTACLES_390349" id="448" rarity="M" />
+  <card name="CYCLONE_SIRE_389596" id="449" rarity="U" />
+  <card name="DAZZLING_REFLECTION_391447" id="450" rarity="C" />
+  <card name="DEEPFATHOM_SKULKER_391527" id="451" rarity="R" />
+  <card name="DEVOUR_IN_FLAMES_391441" id="452" rarity="U" />
+  <card name="DIMENSIONAL_INFILTRATOR_391543" id="453" rarity="R" />
+  <card name="DRANAS_CHOSEN_391528" id="454" rarity="R" />
+  <card name="ELDRAZI_AGGRESSOR_389649" id="455" rarity="C" />
+  <card name="ELDRAZI_DISPLACER_390345" id="456" rarity="R" />
+  <card name="ELDRAZI_MIMIC_391584" id="457" rarity="R" />
+  <card name="ELDRAZI_OBLIGATOR_390821" id="458" rarity="R" />
+  <card name="ELEMENTAL_UPRISING_391579" id="459" rarity="C" />
+  <card name="EMBODIMENT_OF_FURY_387050" id="460" rarity="U" />
+  <card name="EMBODIMENT_OF_INSIGHT_389544" id="461" rarity="U" />
+  <card name="ENDBRINGER_391585" id="462" rarity="R" />
+  <card name="ESSENCE_DEPLETER_391450" id="463" rarity="U" />
+  <card name="EXPEDITE_390815" id="464" rarity="C" />
+  <card name="EXPEDITION_RAPTOR_391448" id="465" rarity="C" />
+  <card name="FALL_OF_THE_TITANS_390133" id="466" rarity="R" />
+  <card name="FLAYER_DRONE_390127" id="467" rarity="U" />
+  <card name="GENERAL_TAZRI_390329" id="468" rarity="M" />
+  <card name="GRASP_OF_DARKNESS_387055" id="469" rarity="U" />
+  <card name="GRAVITY_NEGATOR_389552" id="470" rarity="C" />
+  <card name="HISSING_QUAGMIRE_379070" id="471" rarity="R" />
+  <card name="IMMOBILIZER_ELDRAZI_390106" id="472" rarity="U" />
+  <card name="ISOLATION_ZONE_389602" id="473" rarity="C" />
+  <card name="JORAGA_AUXILIARY_390994" id="474" rarity="U" />
+  <card name="JORI_EN_RUIN_DIVER_389641" id="475" rarity="R" />
+  <card name="KALITAS_TRAITOR_OF_GHET_391590" id="476" rarity="M" />
+  <card name="KAZUULS_TOLL_COLLECTOR_391141" id="477" rarity="U" />
+  <card name="KOR_SCYTHEMASTER_391132" id="478" rarity="C" />
+  <card name="KOR_SKY_CLIMBER_389659" id="479" rarity="C" />
+  <card name="KOZILEK_THE_GREAT_DISTORTION_390135" id="480" rarity="M" />
+  <card name="KOZILEKS_PATHFINDER_389629" id="481" rarity="C" />
+  <card name="KOZILEKS_RETURN_390156" id="482" rarity="M" />
+  <card name="KOZILEKS_SHRIEKER_389548" id="483" rarity="C" />
+  <card name="KOZILEKS_TRANSLATOR_391533" id="484" rarity="C" />
+  <card name="LEAD_BY_EXAMPLE_389642" id="485" rarity="C" />
+  <card name="LINVALA_THE_PRESERVER_391137" id="486" rarity="M" />
+  <card name="LOAM_LARVA_389626" id="487" rarity="C" />
+  <card name="MAKE_A_STAND_390975" id="488" rarity="U" />
+  <card name="MAKINDI_AERONAUT_389612" id="489" rarity="C" />
+  <card name="MALAKIR_SOOTHSAYER_391150" id="490" rarity="U" />
+  <card name="MATTER_RESHAPER_391436" id="491" rarity="R" />
+  <card name="MAW_OF_KOZILEK_389555" id="492" rarity="C" />
+  <card name="MINA_AND_DENN_WILDBORN_391526" id="493" rarity="R" />
+  <card name="MINDMELTER_390157" id="494" rarity="U" />
+  <card name="NEEDLE_SPIRES_379008" id="495" rarity="R" />
+  <card name="NISSA_VOICE_OF_ZENDIKAR_387066" id="496" rarity="M" />
+  <card name="NISSAS_JUDGMENT_391431" id="497" rarity="U" />
+  <card name="OATH_OF_CHANDRA_390976" id="498" rarity="R" />
+  <card name="OATH_OF_GIDEON_390977" id="499" rarity="R" />
+  <card name="OATH_OF_JACE_390986" id="500" rarity="R" />
+  <card name="OATH_OF_NISSA_390991" id="501" rarity="R" />
+  <card name="OBLIVION_STRIKE_389599" id="502" rarity="C" />
+  <card name="ONDU_WAR_CLERIC_389600" id="503" rarity="C" />
+  <card name="PRESS_INTO_SERVICE_390826" id="504" rarity="U" />
+  <card name="PROPHET_OF_DISTORTION_390096" id="505" rarity="U" />
+  <card name="PULSE_OF_MURASA_391135" id="506" rarity="C" />
+  <card name="REALITY_HEMORRHAGE_387058" id="507" rarity="C" />
+  <card name="REALITY_SMASHER_391592" id="508" rarity="R" />
+  <card name="REAVER_DRONE_389643" id="509" rarity="U" />
+  <card name="REFLECTOR_MAGE_390141" id="510" rarity="U" />
+  <card name="RELENTLESS_HUNTER_390160" id="511" rarity="U" />
+  <card name="ROILING_WATERS_390824" id="512" rarity="U" />
+  <card name="RUIN_IN_THEIR_WAKE_391594" id="513" rarity="U" />
+  <card name="RUINS_OF_ORANRIEF_391577" id="514" rarity="R" />
+  <card name="SADDLEBACK_LAGAC_389549" id="515" rarity="C" />
+  <card name="SCION_SUMMONER_390102" id="516" rarity="C" />
+  <card name="SEED_GUARDIAN_390810" id="517" rarity="U" />
+  <card name="SEERS_LANTERN_391103" id="518" rarity="C" />
+  <card name="SHOULDER_TO_SHOULDER_391106" id="519" rarity="C" />
+  <card name="SIFTER_OF_SKULLS_391443" id="520" rarity="R" />
+  <card name="SLAUGHTER_DRONE_390811" id="521" rarity="C" />
+  <card name="SLIP_THROUGH_SPACE_391439" id="522" rarity="C" />
+  <card name="SPARKMAGES_GAMBIT_390154" id="523" rarity="C" />
+  <card name="SPATIAL_CONTORTION_392474" id="524" rarity="U" />
+  <card name="SPAWNBINDER_MAGE_389550" id="525" rarity="C" />
+  <card name="STEPPE_GLIDER_391139" id="526" rarity="U" />
+  <card name="STONEFORGE_ACOLYTE_389627" id="527" rarity="U" />
+  <card name="STONEFORGE_MASTERWORK_391580" id="528" rarity="R" />
+  <card name="STORMCHASER_MAGE_390124" id="529" rarity="U" />
+  <card name="SWEEP_AWAY_389595" id="530" rarity="C" />
+  <card name="SYLVAN_ADVOCATE_391589" id="531" rarity="R" />
+  <card name="TAJURU_PATHWARDEN_391138" id="532" rarity="C" />
+  <card name="TAR_SNARE_389617" id="533" rarity="C" />
+  <card name="THOUGHT_HARVESTER_391437" id="534" rarity="U" />
+  <card name="THOUGHTKNOT_SEER_391119" id="535" rarity="R" />
+  <card name="UMARA_ENTANGLER_389562" id="536" rarity="C" />
+  <card name="UNITY_OF_PURPOSE_382532" id="537" rarity="U" />
+  <card name="UNTAMED_HUNGER_391444" id="538" rarity="C" />
+  <card name="VAMPIRE_ENVOY_389608" id="539" rarity="C" />
+  <card name="VILE_REDEEMER_391587" id="540" rarity="R" />
+  <card name="VINES_OF_THE_RECLUSE_391149" id="541" rarity="C" />
+  <card name="VISIONS_OF_BRUTALITY_390354" id="542" rarity="U" />
+  <card name="VOID_GRAFTER_391143" id="543" rarity="U" />
+  <card name="WALKER_OF_THE_WASTES_391442" id="544" rarity="U" />
+  <card name="WALL_OF_RESURGENCE_391107" id="545" rarity="U" />
+  <card name="WANDERING_FUMAROLE_378992" id="546" rarity="R" />
+  <card name="WARDEN_OF_GEOMETRIES_394968" id="547" rarity="C" />
+  <card name="WARPING_WAIL_391147" id="548" rarity="U" />
+  <card name="WEAPONS_TRAINER_390162" id="549" rarity="U" />
+  <card name="WITNESS_THE_END_389615" id="550" rarity="C" />
+  <card name="ZADAS_COMMANDO_389598" id="551" rarity="C" />
+  <card name="ZULAPORT_CHAINMAGE_390125" id="552" rarity="C" />
+  <card name="ABERRANT_RESEARCHER_388789" id="553" rarity="U" />
+  <card name="ALMS_OF_THE_VEIN_386575" id="554" rarity="C" />
+  <card name="ALTERED_EGO_388729" id="555" rarity="R" />
+  <card name="ALWAYS_WATCHING_388761" id="556" rarity="R" />
+  <card name="ANGELIC_PURGE_386483" id="557" rarity="C" />
+  <card name="ANGUISHED_UNMAKING_388734" id="558" rarity="R" />
+  <card name="APOTHECARY_GEIST_386536" id="559" rarity="C" />
+  <card name="ARCHANGEL_AVACYN_392163" id="560" rarity="M" />
+  <card name="ARLINN_KORD_388826" id="561" rarity="M" />
+  <card name="ASYLUM_VISITOR_388844" id="562" rarity="R" />
+  <card name="AVACYNIAN_MISSIONARIES_388898" id="563" rarity="U" />
+  <card name="AVACYNS_JUDGMENT_388828" id="564" rarity="R" />
+  <card name="BITING_RAIN_388769" id="565" rarity="U" />
+  <card name="BLOODMAD_VAMPIRE_386487" id="566" rarity="C" />
+  <card name="BRAIN_IN_A_JAR_388732" id="567" rarity="R" />
+  <card name="BREAKNECK_RIDER_392188" id="568" rarity="U" />
+  <card name="BROKEN_CONCENTRATION_388748" id="569" rarity="U" />
+  <card name="BYGONE_BISHOP_391019" id="570" rarity="R" />
+  <card name="BYWAY_COURIER_386588" id="571" rarity="C" />
+  <card name="CALL_THE_BLOODLINE_386561" id="572" rarity="U" />
+  <card name="CATALOG_386535" id="573" rarity="C" />
+  <card name="COMPELLING_DETERRENCE_386493" id="574" rarity="U" />
+  <card name="CONFIRM_SUSPICIONS_388720" id="575" rarity="R" />
+  <card name="CONFRONT_THE_UNKNOWN_386551" id="576" rarity="C" />
+  <card name="CONVICTED_KILLER_386594" id="577" rarity="C" />
+  <card name="CULT_OF_THE_WAXING_MOON_388723" id="578" rarity="U" />
+  <card name="DAUNTLESS_CATHAR_386601" id="579" rarity="C" />
+  <card name="DEAD_WEIGHT_392161" id="580" rarity="C" />
+  <card name="DEATHCAP_CULTIVATOR_386660" id="581" rarity="R" />
+  <card name="DECLARATION_IN_STONE_388808" id="582" rarity="R" />
+  <card name="DEVILS_PLAYGROUND_388767" id="583" rarity="R" />
+  <card name="DIREGRAF_COLOSSUS_388726" id="584" rarity="R" />
+  <card name="DROWNYARD_EXPLORERS_386672" id="585" rarity="C" />
+  <card name="DROWNYARD_TEMPLE_395170" id="586" rarity="R" />
+  <card name="DRUNAU_CORPSE_TRAWLER_388776" id="587" rarity="U" />
+  <card name="DUSKWATCH_RECRUITER_388793" id="588" rarity="U" />
+  <card name="ELUSIVE_TORMENTOR_388865" id="589" rarity="R" />
+  <card name="EMBEREYE_WOLF_386624" id="590" rarity="C" />
+  <card name="EMISSARY_OF_THE_SLEEPLESS_386661" id="591" rarity="C" />
+  <card name="EQUESTRIAN_SKILL_386584" id="592" rarity="C" />
+  <card name="ERDWAL_ILLUMINATOR_388812" id="593" rarity="U" />
+  <card name="ESSENCE_FLUX_388891" id="594" rarity="U" />
+  <card name="EVER_AFTER_392177" id="595" rarity="R" />
+  <card name="EXPOSE_EVIL_386578" id="596" rarity="C" />
+  <card name="FARBOG_REVENANT_386544" id="597" rarity="C" />
+  <card name="FEVERED_VISIONS_391021" id="598" rarity="R" />
+  <card name="FIERY_TEMPER_386658" id="599" rarity="C" />
+  <card name="FLAMEBLADE_ANGEL_388791" id="600" rarity="R" />
+  <card name="FORGOTTEN_CREATION_388841" id="601" rarity="R" />
+  <card name="FORK_IN_THE_ROAD_386503" id="602" rarity="C" />
+  <card name="FROM_UNDER_THE_FLOORBOARDS_388870" id="603" rarity="R" />
+  <card name="FURTIVE_HOMUNCULUS_386619" id="604" rarity="C" />
+  <card name="GATSTAF_ARSONISTS_386636" id="605" rarity="C" />
+  <card name="GEIER_REACH_BANDIT_388815" id="606" rarity="R" />
+  <card name="GEISTBLAST_386546" id="607" rarity="U" />
+  <card name="GHOULCALLERS_ACCOMPLICE_388882" id="608" rarity="C" />
+  <card name="GHOULSTEED_386637" id="609" rarity="U" />
+  <card name="GISAS_BIDDING_388713" id="610" rarity="U" />
+  <card name="HANWEIR_MILITIA_CAPTAIN_386629" id="611" rarity="R" />
+  <card name="HARVEST_HAND_388814" id="612" rarity="U" />
+  <card name="HAUNTED_CLOAK_388907" id="613" rarity="U" />
+  <card name="HEIR_OF_FALKENRATH_386626" id="614" rarity="U" />
+  <card name="HERMIT_OF_THE_NATTERKNOLLS_388902" id="615" rarity="U" />
+  <card name="HINTERLAND_LOGGER_386570" id="616" rarity="C" />
+  <card name="HOPE_AGAINST_HOPE_388770" id="617" rarity="U" />
+  <card name="HOWLPACK_RESURGENCE_386497" id="618" rarity="U" />
+  <card name="INCORRIGIBLE_YOUTHS_388818" id="619" rarity="U" />
+  <card name="INEXORABLE_BLOB_388872" id="620" rarity="R" />
+  <card name="INNER_STRUGGLE_386510" id="621" rarity="U" />
+  <card name="INQUISITORS_OX_386651" id="622" rarity="C" />
+  <card name="INSOLENT_NEONATE_386545" id="623" rarity="C" />
+  <card name="INSPIRING_CAPTAIN_386678" id="624" rarity="C" />
+  <card name="INTREPID_PROVISIONER_386596" id="625" rarity="C" />
+  <card name="INVOCATION_OF_SAINT_TRAFT_388712" id="626" rarity="R" />
+  <card name="JACE_UNRAVELER_OF_SECRETS_388718" id="627" rarity="M" />
+  <card name="JUST_THE_WIND_386512" id="628" rarity="C" />
+  <card name="KESSIG_FORGEMASTER_388832" id="629" rarity="U" />
+  <card name="LAMBHOLT_PACIFIST_392185" id="630" rarity="U" />
+  <card name="LAMPLIGHTER_OF_SELHOFF_392190" id="631" rarity="C" />
+  <card name="LIGHTNING_AXE_386528" id="632" rarity="U" />
+  <card name="MACABRE_WALTZ_386579" id="633" rarity="C" />
+  <card name="MERCILESS_RESOLVE_386591" id="634" rarity="C" />
+  <card name="MIGHT_BEYOND_REASON_386554" id="635" rarity="C" />
+  <card name="MILITANT_INQUISITOR_388772" id="636" rarity="C" />
+  <card name="MINDWRACK_DEMON_388809" id="637" rarity="M" />
+  <card name="MOORLAND_DRIFTER_386622" id="638" rarity="C" />
+  <card name="MORKRUT_NECROPOD_388725" id="639" rarity="U" />
+  <card name="MURDERERS_AXE_388830" id="640" rarity="U" />
+  <card name="MURDEROUS_COMPULSION_388803" id="641" rarity="C" />
+  <card name="NAGGING_THOUGHTS_386517" id="642" rarity="C" />
+  <card name="NAHIRI_THE_HARBINGER_388794" id="643" rarity="M" />
+  <card name="NAHIRIS_MACHINATIONS_388856" id="644" rarity="U" />
+  <card name="NEGLECTED_HEIRLOOM_388719" id="645" rarity="U" />
+  <card name="OBSESSIVE_SKINNER_388737" id="646" rarity="U" />
+  <card name="OLIVIA_MOBILIZED_FOR_WAR_388899" id="647" rarity="M" />
+  <card name="OLIVIAS_BLOODSWORN_388715" id="648" rarity="U" />
+  <card name="PACK_GUARDIAN_386494" id="649" rarity="U" />
+  <card name="PARANOID_PARISHBLADE_386638" id="650" rarity="U" />
+  <card name="PIECES_OF_THE_PUZZLE_386640" id="651" rarity="C" />
+  <card name="PIOUS_EVANGEL_388740" id="652" rarity="U" />
+  <card name="PORE_OVER_THE_PAGES_386676" id="653" rarity="U" />
+  <card name="PRESS_FOR_ANSWERS_392176" id="654" rarity="C" />
+  <card name="PRIZED_AMALGAM_392199" id="655" rarity="R" />
+  <card name="PUNCTURING_LIGHT_386628" id="656" rarity="C" />
+  <card name="PYRE_HOUND_392173" id="657" rarity="C" />
+  <card name="QUILLED_WOLF_386642" id="658" rarity="C" />
+  <card name="RABID_BITE_386654" id="659" rarity="C" />
+  <card name="RANCID_RATS_386604" id="660" rarity="C" />
+  <card name="RATTLECHAINS_386613" id="661" rarity="R" />
+  <card name="RAVENOUS_BLOODSEEKER_388850" id="662" rarity="U" />
+  <card name="REAPER_OF_FLIGHT_MOONSILVER_388831" id="663" rarity="U" />
+  <card name="RECKLESS_SCHOLAR_386547" id="664" rarity="U" />
+  <card name="REDUCE_TO_ASHES_391032" id="665" rarity="C" />
+  <card name="RISE_FROM_THE_TIDES_388896" id="666" rarity="U" />
+  <card name="RUSH_OF_ADRENALINE_386567" id="667" rarity="C" />
+  <card name="SAGE_OF_ANCIENT_LORE_388825" id="668" rarity="R" />
+  <card name="SANITARIUM_SKELETON_391012" id="669" rarity="C" />
+  <card name="SCOURGE_WOLF_388806" id="670" rarity="R" />
+  <card name="SENSELESS_RAGE_386597" id="671" rarity="C" />
+  <card name="SILVERFUR_PARTISAN_388739" id="672" rarity="R" />
+  <card name="SINISTER_CONCOCTION_386669" id="673" rarity="U" />
+  <card name="SKELETON_KEY_388833" id="674" rarity="U" />
+  <card name="SLAYERS_PLATE_388847" id="675" rarity="R" />
+  <card name="SLEEP_PARALYSIS_386652" id="676" rarity="C" />
+  <card name="SOLITARY_HUNTER_386534" id="677" rarity="C" />
+  <card name="SORIN_GRIM_NEMESIS_388816" id="678" rarity="M" />
+  <card name="SPECTRAL_SHEPHERD_388741" id="679" rarity="U" />
+  <card name="STENSIA_MASQUERADE_388786" id="680" rarity="U" />
+  <card name="STITCHED_MANGLER_391029" id="681" rarity="C" />
+  <card name="STOIC_BUILDER_386496" id="682" rarity="C" />
+  <card name="STORMRIDER_SPIRIT_392172" id="683" rarity="C" />
+  <card name="SURVIVE_THE_NIGHT_386675" id="684" rarity="C" />
+  <card name="TAMIYOS_JOURNAL_388787" id="685" rarity="R" />
+  <card name="TENACITY_392189" id="686" rarity="U" />
+  <card name="THALIAS_LIEUTENANT_388889" id="687" rarity="R" />
+  <card name="THE_GITROG_MONSTER_388862" id="688" rarity="M" />
+  <card name="THING_IN_THE_ICE_386663" id="689" rarity="R" />
+  <card name="THORNHIDE_WOLVES_386526" id="690" rarity="C" />
+  <card name="THRABEN_GARGOYLE_388800" id="691" rarity="U" />
+  <card name="THROTTLE_391023" id="692" rarity="C" />
+  <card name="TIRELESS_TRACKER_392175" id="693" rarity="R" />
+  <card name="TOOTH_COLLECTOR_388784" id="694" rarity="U" />
+  <card name="TOPPLEGEIST_388752" id="695" rarity="U" />
+  <card name="TWINS_OF_MAURER_ESTATE_386533" id="696" rarity="C" />
+  <card name="ULRICHS_KINDRED_388765" id="697" rarity="U" />
+  <card name="ULVENWALD_HYDRA_388839" id="698" rarity="M" />
+  <card name="ULVENWALD_MYSTERIES_386548" id="699" rarity="U" />
+  <card name="VESSEL_OF_EPHEMERA_388877" id="700" rarity="C" />
+  <card name="VESSEL_OF_MALIGNITY_392196" id="701" rarity="C" />
+  <card name="VESSEL_OF_PARAMNESIA_392180" id="702" rarity="C" />
+  <card name="VESSEL_OF_VOLATILITY_392184" id="703" rarity="C" />
+  <card name="VETERAN_CATHAR_388777" id="704" rarity="U" />
+  <card name="VOLDAREN_DUELIST_386621" id="705" rarity="C" />
+  <card name="WARPED_LANDSCAPE_388750" id="706" rarity="C" />
+  <card name="WELCOME_TO_THE_FOLD_388880" id="707" rarity="R" />
+  <card name="WESTVALE_ABBEY_388860" id="708" rarity="R" />
+  <card name="WILDFIELD_SCARECROW_391026" id="709" rarity="U" />
+  <card name="WOLF_OF_DEVILS_BREACH_386627" id="710" rarity="M" />
+  <card name="CHAMPION_OF_ARASHIN_397625" id="711" rarity="C" />
+  <card name="CROW_OF_DARK_TIDINGS_399125" id="712" rarity="C" />
+  <card name="EMBER_BEAST_397626" id="713" rarity="C" />
+  <card name="INDULGENT_ARISTOCRAT_399126" id="714" rarity="U" />
+  <card name="KINDLY_STRANGER_399127" id="715" rarity="U" />
+  <card name="METROPOLIS_SPRITE_397627" id="716" rarity="C" />
+  <card name="MOLDGRAF_SCAVENGER_399128" id="717" rarity="C" />
+  <card name="ROTTED_HULK_397628" id="718" rarity="C" />
+  <card name="SPINED_WURM_397629" id="719" rarity="C" />
+  <card name="STALLION_OF_ASHMOUTH_399129" id="720" rarity="C" />
+  <card name="STROMKIRK_MENTOR_399130" id="721" rarity="C" />
+  <card name="VESSEL_OF_NASCENCY_399131" id="722" rarity="C" />
+  <card name="ABANDON_REASON_395028" id="723" rarity="U" />
+  <card name="ABUNDANT_MAW_393189" id="724" rarity="U" />
+  <card name="ADVANCED_STITCHWING_392706" id="725" rarity="U" />
+  <card name="BACKWOODS_SURVIVALISTS_392484" id="726" rarity="C" />
+  <card name="BEDLAM_REVELER_395100" id="727" rarity="R" />
+  <card name="BLESSED_ALLIANCE_387089" id="728" rarity="U" />
+  <card name="BLOOD_MIST_393471" id="729" rarity="U" />
+  <card name="BLOODBRIAR_392711" id="730" rarity="C" />
+  <card name="BLOODHALL_PRIEST_394846" id="731" rarity="R" />
+  <card name="BOLD_IMPALER_392485" id="732" rarity="C" />
+  <card name="BOON_OF_EMRAKUL_394112" id="733" rarity="C" />
+  <card name="BORROWED_GRACE_387087" id="734" rarity="C" />
+  <card name="BORROWED_HOSTILITY_393477" id="735" rarity="C" />
+  <card name="BORROWED_MALEVOLENCE_394923" id="736" rarity="C" />
+  <card name="BRUNA_THE_FADING_LIGHT_389340" id="737" rarity="R" />
+  <card name="CAMPAIGN_OF_VENGEANCE_393166" id="738" rarity="U" />
+  <card name="CEMETERY_RECRUITMENT_394809" id="739" rarity="C" />
+  <card name="CERTAIN_DEATH_389352" id="740" rarity="C" />
+  <card name="COLLECTIVE_DEFIANCE_395097" id="741" rarity="R" />
+  <card name="COLLECTIVE_EFFORT_394908" id="742" rarity="R" />
+  <card name="CONDUIT_OF_STORMS_389360" id="743" rarity="U" />
+  <card name="CONVOLUTE_392502" id="744" rarity="C" />
+  <card name="COURAGEOUS_OUTRIDER_394084" id="745" rarity="U" />
+  <card name="CROP_SIGIL_394831" id="746" rarity="U" />
+  <card name="CROSSROADS_CONSECRATOR_392524" id="747" rarity="C" />
+  <card name="CRYPTBREAKER_395092" id="748" rarity="R" />
+  <card name="CULTISTS_STAFF_392739" id="749" rarity="C" />
+  <card name="DARK_SALVATION_394916" id="750" rarity="R" />
+  <card name="DECIMATOR_OF_THE_PROVINCES_394902" id="751" rarity="M" />
+  <card name="DESPERATE_SENTRY_394101" id="752" rarity="C" />
+  <card name="DISPLACE_392505" id="753" rarity="C" />
+  <card name="DISTEMPER_OF_THE_BLOOD_392500" id="754" rarity="C" />
+  <card name="DISTENDED_MINDBENDER_395083" id="755" rarity="R" />
+  <card name="DOCENT_OF_PERFECTION_393464" id="756" rarity="R" />
+  <card name="DRAG_UNDER_392523" id="757" rarity="C" />
+  <card name="ELDER_DEEPFIEND_387097" id="758" rarity="R" />
+  <card name="ELDRITCH_EVOLUTION_395096" id="759" rarity="R" />
+  <card name="EMRAKULS_EVANGEL_392727" id="760" rarity="R" />
+  <card name="EMRAKULS_INFLUENCE_394813" id="761" rarity="U" />
+  <card name="EXTRICATOR_OF_SIN_395025" id="762" rarity="U" />
+  <card name="EXULTANT_CULTIST_394930" id="763" rarity="C" />
+  <card name="FAITH_UNBROKEN_393447" id="764" rarity="U" />
+  <card name="FAITHBEARER_PALADIN_392480" id="765" rarity="C" />
+  <card name="FALKENRATH_REAVER_392508" id="766" rarity="C" />
+  <card name="FOGWALKER_394847" id="767" rarity="C" />
+  <card name="FURYBLADE_VAMPIRE_393458" id="768" rarity="U" />
+  <card name="GALVANIC_BOMBARDMENT_392722" id="769" rarity="C" />
+  <card name="GAVONY_UNHALLOWED_394080" id="770" rarity="C" />
+  <card name="GEIER_REACH_SANITARIUM_395021" id="771" rarity="R" />
+  <card name="GISA_AND_GERALF_393484" id="772" rarity="M" />
+  <card name="GISELA_THE_BROKEN_BLADE_389346" id="773" rarity="M" />
+  <card name="GNARLWOOD_DRYAD_394929" id="774" rarity="U" />
+  <card name="GRAF_HARVEST_394935" id="775" rarity="U" />
+  <card name="GRAF_RATS_394933" id="776" rarity="C" />
+  <card name="GRAPPLE_WITH_THE_PAST_392526" id="777" rarity="C" />
+  <card name="GRIZZLED_ANGLER_394819" id="778" rarity="U" />
+  <card name="GUARDIAN_OF_PILGRIMS_394842" id="779" rarity="C" />
+  <card name="HAMLET_CAPTAIN_397216" id="780" rarity="U" />
+  <card name="HANWEIR_BATTLEMENTS_395033" id="781" rarity="R" />
+  <card name="HANWEIR_GARRISON_395038" id="782" rarity="R" />
+  <card name="HAUNTED_DEAD_392708" id="783" rarity="U" />
+  <card name="HERONS_GRACE_CHAMPION_394096" id="784" rarity="R" />
+  <card name="IMPETUOUS_DEVILS_395091" id="785" rarity="R" />
+  <card name="IMPRISONED_IN_THE_MOON_394807" id="786" rarity="R" />
+  <card name="INGENIOUS_SKAAB_392492" id="787" rarity="C" />
+  <card name="IRONCLAD_SLAYER_392506" id="788" rarity="C" />
+  <card name="ISHKANAH_GRAFWIDOW_395094" id="789" rarity="M" />
+  <card name="KESSIG_PROWLER_393180" id="790" rarity="U" />
+  <card name="LABORATORY_BRUTE_392498" id="791" rarity="C" />
+  <card name="LASHWEED_LURKER_395023" id="792" rarity="U" />
+  <card name="LILIANA_THE_LAST_HOPE_389365" id="793" rarity="M" />
+  <card name="LILIANAS_ELITE_394067" id="794" rarity="U" />
+  <card name="LONE_RIDER_393171" id="795" rarity="U" />
+  <card name="LONG_ROAD_HOME_393448" id="796" rarity="U" />
+  <card name="LUNAR_FORCE_393475" id="797" rarity="U" />
+  <card name="LUNARCH_MANTLE_392501" id="798" rarity="C" />
+  <card name="LUPINE_PROTOTYPE_394081" id="799" rarity="R" />
+  <card name="MAKE_MISCHIEF_392520" id="800" rarity="C" />
+  <card name="MARKOV_CRUSADER_392695" id="801" rarity="U" />
+  <card name="MERCURIAL_GEISTS_393198" id="802" rarity="U" />
+  <card name="MIDNIGHT_SCAVENGERS_394931" id="803" rarity="C" />
+  <card name="MIRRORWING_DRAGON_394845" id="804" rarity="M" />
+  <card name="MOCKERY_OF_NATURE_394896" id="805" rarity="U" />
+  <card name="MOURNWILLOW_395198" id="806" rarity="U" />
+  <card name="MURDER_392709" id="807" rarity="U" />
+  <card name="NEBELGAST_HERALD_394836" id="808" rarity="U" />
+  <card name="NIBLIS_OF_FROST_395098" id="809" rarity="R" />
+  <card name="OATH_OF_LILIANA_389366" id="810" rarity="R" />
+  <card name="OLIVIAS_DRAGOON_394833" id="811" rarity="C" />
+  <card name="PREY_UPON_392499" id="812" rarity="C" />
+  <card name="PRIMAL_DRUID_392525" id="813" rarity="C" />
+  <card name="RIDE_DOWN_394077" id="814" rarity="U" />
+  <card name="SAVAGE_ALLIANCE_392738" id="815" rarity="U" />
+  <card name="SCOUR_THE_LABORATORY_394820" id="816" rarity="U" />
+  <card name="VEXING_SCUTTLER_394889" id="817" rarity="U" />
+  <card name="SELFLESS_SPIRIT_393188" id="818" rarity="R" />
+  <card name="SHRILL_HOWLER_394108" id="819" rarity="U" />
+  <card name="SIGARDIAN_PRIEST_392516" id="820" rarity="C" />
+  <card name="SMOLDERING_WEREWOLF_389355" id="821" rarity="U" />
+  <card name="SPECTRAL_RESERVES_392518" id="822" rarity="C" />
+  <card name="SPELL_QUELLER_394075" id="823" rarity="R" />
+  <card name="SPIRIT_OF_THE_HUNT_394852" id="824" rarity="R" />
+  <card name="SPONTANEOUS_MUTATION_392496" id="825" rarity="C" />
+  <card name="STEADFAST_CATHAR_392728" id="826" rarity="C" />
+  <card name="STENSIA_BANQUET_393158" id="827" rarity="C" />
+  <card name="STENSIA_INNKEEPER_393452" id="828" rarity="C" />
+  <card name="STROMKIRK_CONDEMNED_393206" id="829" rarity="R" />
+  <card name="SUBJUGATOR_ANGEL_393445" id="830" rarity="U" />
+  <card name="TAKE_INVENTORY_394102" id="831" rarity="C" />
+  <card name="TAMIYO_FIELD_RESEARCHER_389356" id="832" rarity="M" />
+  <card name="TATTERED_HAUNTER_393194" id="833" rarity="C" />
+  <card name="THALIA_HERETIC_CATHAR_389348" id="834" rarity="R" />
+  <card name="THERMOALCHEMIST_392692" id="835" rarity="C" />
+  <card name="THRABEN_FOULBLOODS_392698" id="836" rarity="C" />
+  <card name="ULRICH_OF_THE_KRALLENHORDE_389380" id="837" rarity="M" />
+  <card name="ULVENWALD_OBSERVER_395082" id="838" rarity="R" />
+  <card name="UNSUBSTANTIATE_394837" id="839" rarity="U" />
+  <card name="VILDINPACK_OUTCAST_394065" id="840" rarity="C" />
+  <card name="WAXING_MOON_394810" id="841" rarity="C" />
+  <card name="WEAVER_OF_LIGHTNING_392715" id="842" rarity="U" />
+  <card name="WEIRDED_VAMPIRE_394811" id="843" rarity="C" />
+  <card name="WHARF_INFILTRATOR_395197" id="844" rarity="R" />
+  <card name="WHISPERS_OF_EMRAKUL_395089" id="845" rarity="U" />
+  <card name="WOLFKIN_BOND_393485" id="846" rarity="C" />
+  <card name="WOODCUTTERS_GRIT_392495" id="847" rarity="C" />
+  <card name="WOODLAND_PATROL_394109" id="848" rarity="C" />
+  <card name="DROWNYARD_BEHEMOTH_400146" id="849" rarity="U" />
+  <card name="ENLIGHTENED_MANIAC_400147" id="850" rarity="C" />
+  <card name="FOUL_EMISSARY_400148" id="851" rarity="U" />
+  <card name="WRETCHED_GRYFF_400149" id="852" rarity="C" />
+  <card name="IT_OF_THE_HORRID_SWARM_400150" id="853" rarity="C" />
+  <card name="ACCOMPLISHED_AUTOMATON_390674" id = "854" rarity = "C" />
+  <card name="ACROBATIC_MANEUVER_389807" id="855" rarity="C" />
+  <card name="AETHER_HUB_394189" id="856" rarity="U" />
+  <card name="AETHER_MELTDOWN_390516" id="857" rarity="U" />
+  <card name="AETHER_TRADEWINDS_392607" id="858" rarity="C" />
+  <card name="AETHERSQUALL_ANCIENT_391392" id="859" rarity="R" />
+  <card name="AETHERSTORM_ROC_400010" id="860" rarity="R" />
+  <card name="AETHERTORCH_RENEGADE_394198" id="861" rarity="U" />
+  <card name="AMBITIOUS_AETHERBORN_390664" id="862" rarity="C" />
+  <card name="ANGEL_OF_INVENTION_391346" id="863" rarity="M" />
+  <card name="APPETITE_FOR_THE_UNNATURAL_393314" id="864" rarity="C" />
+  <card name="ARADARA_EXPRESS_390662" id="865" rarity="C" />
+  <card name="ARBORBACK_STOMPER_395129" id="866" rarity="U" />
+  <card name="ARCHITECT_OF_THE_UNTAMED_393331" id="867" rarity="R" />
+  <card name="ARMORCRAFT_JUDGE_390494" id="868" rarity="U" />
+  <card name="AVIARY_MECHANIC_392619" id="869" rarity="C" />
+  <card name="BASTION_MASTODON_389733" id="870" rarity="C" />
+  <card name="BLOSSOMING_DEFENSE_390504" id="871" rarity="U" />
+  <card name="BOMAT_BAZAAR_BARGE_391515" id="872" rarity="U" />
+  <card name="BOMAT_COURIER_391415" id="873" rarity="R" />
+  <card name="BRAZEN_SCOURGE_390667" id="874" rarity="U" />
+  <card name="BRISTLING_HYDRA_389768" id="875" rarity="R" />
+  <card name="BUILT_TO_LAST_393324" id="876" rarity="C" />
+  <card name="BUILT_TO_SMASH_390676" id="877" rarity="C" />
+  <card name="CAPTURED_BY_THE_CONSULATE_395121" id="878" rarity="R" />
+  <card name="CATACLYSMIC_GEARHULK_395141" id="879" rarity="M" />
+  <card name="CATHARTIC_REUNION_389808" id="880" rarity="C" />
+  <card name="CHANDRA_TORCH_OF_DEFIANCE_391347" id="881" rarity="M" />
+  <card name="CLOUDBLAZER_391371" id="882" rarity="U" />
+  <card name="COMBUSTIBLE_GEARHULK_391229" id="883" rarity="M" />
+  <card name="COMMENCEMENT_OF_FESTIVITIES_389752" id="884" rarity="C" />
+  <card name="CONFISCATION_COUP_390686" id="885" rarity="R" />
+  <card name="CONSULS_SHIELDGUARD_389798" id="886" rarity="U" />
+  <card name="CONSULATE_SKYGATE_390700" id="887" rarity="C" />
+  <card name="CONTRABAND_KINGPIN_393347" id="888" rarity="U" />
+  <card name="COWL_PROWLER_391412" id="889" rarity="C" />
+  <card name="CREEPING_MOLD_390702" id="890" rarity="U" />
+  <card name="CULTIVATOR_OF_BLADES_391418" id="891" rarity="R" />
+  <card name="CULTIVATORS_CARAVAN_394195" id="892" rarity="R" />
+  <card name="CURIO_VENDOR_389837" id="893" rarity="C" />
+  <card name="DEMOLITION_STOMPER_390689" id="894" rarity="U" />
+  <card name="DEPALA_PILOT_EXEMPLAR_391235" id="895" rarity="R" />
+  <card name="DIABOLIC_TUTOR_393335" id="896" rarity="U" />
+  <card name="DIE_YOUNG_389828" id="897" rarity="C" />
+  <card name="DRAMATIC_REVERSAL_394194" id="898" rarity="C" />
+  <card name="DUKHARA_PEAFOWL_389853" id="899" rarity="C" />
+  <card name="DURABLE_HANDICRAFT_394196" id="900" rarity="U" />
+  <card name="DYNAVOLT_TOWER_395110" id="901" rarity="R" />
+  <card name="EAGER_CONSTRUCT_395113" id="902" rarity="C" />
+  <card name="ELECTROSTATIC_PUMMELER_398443" id="903" rarity="R" />
+  <card name="ELIMINATE_THE_COMPETITION_395130" id="904" rarity="R"/>
+  <card name="EMBRAAL_BRUISER_390682" id="905" rarity="U"/>
+  <card name="ENGINEERED_MIGHT_391339" id="906" rarity="U"/>
+  <card name="ERA_OF_INNOVATION_390499" id="907" rarity="U"/>
+  <card name="ESSENCE_EXTRACTION_389734" id="908" rarity="U"/>
+  <card name="FAIRGROUNDS_TRUMPETER_393338" id="909" rarity="U"/>
+  <card name="FATEFUL_SHOWDOWN_394178" id="910" rarity="R"/>
+  <card name="FILIGREE_FAMILIAR_395120" id="911" rarity="U"/>
+  <card name="FLEETWHEEL_CRUISER_391246" id="912" rarity="R"/>
+  <card name="FOUNDRY_INSPECTOR_394191" id="913" rarity="U"/>
+  <card name="FOUNDRY_SCREECHER_393316" id="914" rarity="C"/>
+  <card name="FRAGMENTIZE_389770" id="915" rarity="C"/>
+  <card name="FRETWORK_COLONY_392634" id="916" rarity="U"/>
+  <card name="GEARSEEKER_SERPENT_393322" id="917" rarity="C"/>
+  <card name="GEARSHIFT_ACE_390485" id="918" rarity="U"/>
+  <card name="GHIRAPUR_ORRERY_394192" id="919" rarity="R"/>
+  <card name="GIANT_SPECTACLE_389794" id="920" rarity="C"/>
+  <card name="GLIMMER_OF_GENIUS_390495" id="921" rarity="U"/>
+  <card name="GLINTNEST_CRANE_390482" id="922" rarity="U"/>
+  <card name="GLINTSLEEVE_ARTISAN_391424" id="923" rarity="C"/>
+  <card name="HARNESSED_LIGHTNING_394175" id="924" rarity="U"/>
+  <card name="HAZARDOUS_CONDITIONS_391388" id="925" rarity="U"/>
+  <card name="HIGHSPIRE_ARTISAN_391368" id="926" rarity="C"/>
+  <card name="HIGHTIDE_HERMIT_389758" id="927" rarity="C"/>
+  <card name="HIJACK_389822" id="928" rarity="C"/>
+  <card name="INCENDIARY_SABOTAGE_392637" id="929" rarity="U"/>
+  <card name="INSIDIOUS_WILL_395115" id="930" rarity="R"/>
+  <card name="INVENTORS_APPRENTICE_393325" id="931" rarity="U"/>
+  <card name="INVENTORS_GOGGLES_389730" id="932" rarity="C"/>
+  <card name="INVENTORS_FAIR_394197" id="933" rarity="R"/>
+  <card name="KAMBAL_CONSUL_OF_ALLOCATION_391345" id="934" rarity="R"/>
+  <card name="KEY_TO_THE_CITY_392636" id="935" rarity="R"/>
+  <card name="KUJAR_SEEDSCULPTOR_389791" id="936" rarity="C"/>
+  <card name="LARGER_THAN_LIFE_389850" id="937" rarity="C"/>
+  <card name="LATHNU_HELLION_391402" id="938" rarity="R"/>
+  <card name="LIVE_FAST_389765" id="939" rarity="C"/>
+  <card name="LONGFINNED_SKYWHALE_390695" id="940" rarity="U"/>
+  <card name="LONGTUSK_CUB_392649" id="941" rarity="U"/>
+  <card name="MALFUNCTION_389772" id="942" rarity="C"/>
+  <card name="MARIONETTE_MASTER_391365" id="943" rarity="R"/>
+  <card name="MASTER_TRINKETEER_391334" id="944" rarity="R"/>
+  <card name="METALWORK_COLOSSUS_390675" id="945" rarity="R"/>
+  <card name="MIDNIGHT_OIL_393360" id="946" rarity="R"/>
+  <card name="MINISTER_OF_INQUIRIES_389781" id="947" rarity="U"/>
+  <card name="MULTIFORM_WONDER_390509" id="948" rarity="R"/>
+  <card name="NARNAM_COBRA_389735" id="949" rarity="C"/>
+  <card name="NATURES_WAY_393329" id="950" rarity="U"/>
+  <card name="NIMBLE_INNOVATOR_394179" id="951" rarity="C"/>
+  <card name="NISSA_VITAL_FORCE_391378" id="952" rarity="M"/>
+  <card name="NOXIOUS_GEARHULK_391233" id="953" rarity="M"/>
+  <card name = "ORNAMENTAL_COURAGE_393356" id = "954" rarity = "C"/>
+  <card name = "OVALCHASE_DAREDEVIL_390701" id = "955" rarity = "U"/>
+  <card name = "OVALCHASE_DRAGSTER_389710" id = "956" rarity = "U"/>
+  <card name = "OVIYA_PASHIRI_SAGE_LIFECRAFTER_391364" id = "957" rarity = "R"/>
+  <card name = "PADEEM_CONSUL_OF_INNOVATION_391375" id = "958" rarity = "R"/>
+  <card name = "PEEMA_OUTRIDER_393337" id = "959" rarity = "C"/>
+  <card name = "PIA_NALAAR_391404" id = "960" rarity = "R"/>
+  <card name = "PRAKHATA_CLUB_SECURITY_391399" id = "961" rarity = "C"/>
+  <card name = "PRAKHATA_PILLARBUG_389827" id = "962" rarity = "C"/>
+  <card name = "PROPELLER_PIONEER_391427" id = "963" rarity = "C"/>
+  <card name = "RECKLESS_FIREWEAVER_389719" id = "964" rarity = "C"/>
+  <card name = "REFURBISH_390521" id = "965" rarity = "U"/>
+  <card name = "RENEGADE_FREIGHTER_395149" id = "966" rarity = "C"/>
+  <card name = "RESTORATION_GEARSMITH_391381" id = "967" rarity = "U"/>
+  <card name = "REVOKE_PRIVILEGES_389753" id = "968" rarity = "C"/>
+  <card name = "RUINOUS_GREMLIN_389846" id = "969" rarity = "C"/>
+  <card name = "RUSH_OF_VITALITY_393319" id = "970" rarity = "C"/>
+  <card name = "SAHEELI_RAI_392622" id = "971" rarity = "M"/>
+  <card name = "SAHEELIS_ARTISTRY_392625" id = "972" rarity = "R"/>
+  <card name = "SCRAPHEAP_SCROUNGER_398442" id = "973" rarity = "R"/>
+  <card name = "SELECT_FOR_INSPECTION_389809" id = "974" rarity = "C"/>
+  <card name = "SELFASSEMBLER_390489" id = "975" rarity = "C"/>
+  <card name = "SHREWD_NEGOTIATION_390511" id = "976" rarity = "U"/>
+  <card name = "SKY_SKIFF_390663" id = "977" rarity = "C"/>
+  <card name = "SKYSOVEREIGN_CONSUL_FLAGSHIP_395117" id = "978" rarity = "M"/>
+  <card name = "SKYSWIRL_HARRIER_392644" id = "979" rarity = "C"/>
+  <card name = "SKYWHALERS_SHOT_389811" id = "980" rarity = "U"/>
+  <card name = "SMUGGLERS_COPTER_391232" id = "981" rarity = "R"/>
+  <card name = "SNARE_THOPTER_392628" id = "982" rarity = "U"/>
+  <card name = "SPEEDWAY_FANATIC_389788" id = "983" rarity = "U"/>
+  <card name = "SPONTANEOUS_ARTIST_389742" id = "984" rarity = "C"/>
+  <card name = "START_YOUR_ENGINES_390476" id = "985" rarity = "U"/>
+  <card name = "SUBTLE_STRIKE_390685" id = "986" rarity = "C"/>
+  <card name = "SYNDICATE_TRAFFICKER_395134" id = "987" rarity = "R"/>
+  <card name = "TERRAIN_ELEMENTAL_397215" id = "988" rarity = "C"/>
+  <card name = "TERRITORIAL_GORGER_393326" id = "989" rarity = "R"/>
+  <card name = "THRIVING_GRUBS_394184" id = "990" rarity = "C"/>
+  <card name = "THRIVING_IBEX_389762" id = "991" rarity = "C"/>
+  <card name = "THRIVING_RATS_389803" id = "992" rarity = "C"/>
+  <card name = "TIDY_CONCLUSION_394167" id = "993" rarity = "C"/>
+  <card name = "TOOLCRAFT_EXEMPLAR_391342" id = "994" rarity = "R"/>
+  <card name = "TORCH_GAUNTLET_389716" id = "995" rarity = "C"/>
+  <card name = "TORRENTIAL_GEARHULK_395147" id = "996" rarity = "M"/>
+  <card name = "TRUSTY_COMPANION_394193" id = "997" rarity = "U"/>
+  <card name = "UNDERHANDED_DESIGNS_394182" id = "998" rarity = "U"/>
+  <card name = "UNLICENSED_DISINTEGRATION_393339" id = "999" rarity = "U"/>
+  <card name = "VEDALKEN_BLADEMASTER_389817" id = "1000" rarity = "C"/>
+  <card name = "VERDUROUS_GEARHULK_391240" id = "1001" rarity = "M"/>
+  <card name = "VETERAN_MOTORIST_391354" id = "1002" rarity = "U"/>
+  <card name = "VISIONARY_AUGMENTER_391331" id = "1003" rarity = "U"/>
+  <card name = "VOLTAIC_BRAWLER_391425" id = "1004" rarity = "U"/>
+  <card name = "WAYWARD_GIANT_389801" id = "1005" rarity = "C"/>
+  <card name = "WEAPONCRAFT_ENTHUSIAST_391395" id = "1006" rarity = "U"/>
+  <card name = "WELDFAST_MONITOR_389731" id = "1007" rarity = "C"/>
+  <card name = "WELDING_SPARKS_390670" id = "1008" rarity = "C"/>
+  <card name = "WHIRLER_VIRTUOSO_391359" id = "1009" rarity = "U"/>
+  <card name = "WISPWEAVER_ANGEL_392611" id = "1010" rarity = "U"/>
+  <card name = "WORKSHOP_ASSISTANT_395111" id = "1011" rarity = "C"/>
+  <card name="AETHER_THEORIST_403224" id="1012" rarity="C" />
+  <card name="BALLISTA_CHARGER_403218" id="1013" rarity="U" />
+  <card name="EMPYREAL_VOYAGER_403225" id="1014" rarity="U" />
+  <card name="RIPARIAN_TIGER_403226" id="1015" rarity="C" />
+  <card name="SAGE_OF_SHAILAS_CLAIM_403227" id="1016" rarity="C" />
+  <card name="SALIVATING_GREMLINS_403228" id="1017" rarity="C" />
+  <card name="THRIVING_RHINO_403229" id="1018" rarity="C" />
+  <card name="THRIVING_TURTLE_403230" id="1019" rarity="C" />
+  <card name="WELDFAST_WINGSMITH_403231" id="1020" rarity="C" />
+</card_pool>
