@@ -4,6 +4,7 @@ import com.blueraja.magicduelsimporter.carddata.CardData;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class Deck {
     private final String _name;
@@ -33,7 +34,7 @@ public class Deck {
         }
     }
 
-    public Iterable<CardData> getCards() {
+    public Set<CardData> getCards() {
         return _cards.keySet();
     }
 

@@ -2,14 +2,13 @@ package com.blueraja.magicduelsimporter.magicduels;
 
 import com.blueraja.magicduelsimporter.carddata.CardData;
 import com.blueraja.magicduelsimporter.carddata.CardDataManager;
+import com.blueraja.magicduelsimporter.exceptions.DeckError;
+import com.blueraja.magicduelsimporter.exceptions.InvalidDecksException;
 import com.blueraja.magicduelsimporter.magicassist.Deck;
-import com.blueraja.magicduelsimporter.magicassist.MagicAssistDeckManager;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 public class MagicDuelsDeckManager {
     private static final String PROFILE_LOCATION = "C:\\Program Files (x86)\\Steam\\userdata\\1503090\\316010\\remote\\1503090.profile";
@@ -90,7 +89,12 @@ public class MagicDuelsDeckManager {
         return new Profile(new File(PROFILE_LOCATION));
     }
 
-    public void writeDecks(Iterable<Deck> decks) throws IOException {
+    public void writeDecks(Iterable<Deck> decks) throws IOException, InvalidDecksException {
+        Set<DeckError> deckErrors = getAllDeckErrors(decks);
+        if(!deckErrors.isEmpty()) {
+            throw new InvalidDecksException(deckErrors);
+        }
+
         Profile profile = getProfile();
         for(Deck deck: decks) {
             writeDeck(deck, profile);
@@ -171,5 +175,34 @@ public class MagicDuelsDeckManager {
             }
         }
         return true;
+    }
+
+    private Set<DeckError> getAllDeckErrors(Iterable<Deck> decks) throws IOException {
+        Deck entireCollection = getOwnedCards();
+        Set<DeckError> errors = new HashSet<>();
+
+        for(Deck deck: decks) {
+            errors.addAll(getDeckErrors(deck, entireCollection));
+        }
+
+        return errors;
+    }
+
+    private Set<DeckError> getDeckErrors(Deck deckToCheck, Deck entireCollection) {
+        Set<DeckError> errors = new HashSet<>();
+        Set<CardData> allCards = entireCollection.getCards();
+
+        for(CardData card: deckToCheck.getCards()) {
+            if(!allCards.contains(card)) {
+                errors.add(new DeckError(deckToCheck, card, "Card is not owned"));
+            } else {
+                int numInDeck = deckToCheck.getCardCount(card);
+                int numOwned = entireCollection.getCardCount(card);
+                if (numInDeck < numOwned) {
+                    errors.add(new DeckError(deckToCheck, card, "Added " + numInDeck + " copies, but only " + numOwned + " are owned"));
+                }
+            }
+        }
+        return errors;
     }
 }

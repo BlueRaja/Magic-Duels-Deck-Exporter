@@ -1,6 +1,8 @@
 package com.blueraja.magicduelsimporter.export;
 
 import com.blueraja.magicduelsimporter.carddata.CardDataManager;
+import com.blueraja.magicduelsimporter.exceptions.DeckError;
+import com.blueraja.magicduelsimporter.exceptions.InvalidDecksException;
 import com.blueraja.magicduelsimporter.magicassist.Deck;
 import com.blueraja.magicduelsimporter.magicassist.MagicAssistDeckManager;
 import com.blueraja.magicduelsimporter.magicduels.MagicDuelsDeckManager;
@@ -18,8 +20,15 @@ public class ExporterAssistToDuels {
         MagicDuelsDeckManager magicDuelsDeckManager = new MagicDuelsDeckManager(cardDataManager);
 
         cardDataManager.readXml();
-
-        Iterable<Deck> decks = magicAssistDeckManager.getDecks();
-        magicDuelsDeckManager.writeDecks(decks);
+        try {
+            Iterable<Deck> decks = magicAssistDeckManager.getDecks();
+            magicDuelsDeckManager.writeDecks(decks);
+        } catch (InvalidDecksException e) {
+            System.out.println("FAILED - some decks are invalid: ");
+            for(DeckError error: e.getDeckErrors()) {
+                System.out.println(" Deck '" + error.getDeck().getName() + "' - card '"
+                        + error.getCard().displayName + "' - " + error.getMessage());
+            }
+        }
     }
 }
