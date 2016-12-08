@@ -2,7 +2,6 @@ package com.blueraja.magicduelsimporter.magicassist;
 
 import com.blueraja.magicduelsimporter.carddata.CardData;
 import com.blueraja.magicduelsimporter.carddata.CardDataManager;
-import com.blueraja.magicduelsimporter.carddata.Main;
 import com.blueraja.magicduelsimporter.utils.FileUtils;
 import com.blueraja.magicduelsimporter.utils.XmlUtils;
 import org.w3c.dom.Document;
@@ -15,15 +14,23 @@ import javax.xml.transform.TransformerException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 public class MagicAssistDeckManager {
     private final CardDataManager _cardDataManager;
+    private String _workspacePath;
 
-    public MagicAssistDeckManager(CardDataManager cardDataManager) {
+    public MagicAssistDeckManager(CardDataManager cardDataManager, String workspacePath) throws IOException {
         _cardDataManager = cardDataManager;
+        _workspacePath = workspacePath;
+
+        File workspaceDirectory = new File(_workspacePath);
+        if(!workspaceDirectory.isDirectory()) {
+            throw new IOException("Workspace directory could not be found at " + _workspacePath);
+        }
     }
 
     public List<Deck> getDecks() throws IOException, SAXException, ParserConfigurationException {
@@ -35,7 +42,7 @@ public class MagicAssistDeckManager {
     }
 
     private Iterable<File> getMagicAssistDeckFiles() {
-        String path = Main.MAGIC_ASSIST_DB_PATH + "/Decks";
+        String path = Paths.get(_workspacePath, "Decks").toAbsolutePath().toString();
         return FileUtils.getAllFilesWithExtension(path, ".xml");
     }
 
@@ -64,7 +71,8 @@ public class MagicAssistDeckManager {
 
     public void writeDeckToMagicAssistDeckFile(Deck deck, boolean isCollection)
             throws FileNotFoundException, TransformerException {
-        String path = Main.MAGIC_ASSIST_DB_PATH + (isCollection ? "/Collections/" : "/Decks/") + deck.getName() + ".xml";
+        String path = Paths.get(_workspacePath, (isCollection ? "Collections" : "Decks"), deck.getName() + ".xml")
+                .toAbsolutePath().toString();
         String xml = getXmlStringFromDeck(deck, isCollection);
         FileUtils.writeToFile(path, xml);
     }

@@ -15,11 +15,20 @@ import java.io.IOException;
 public class ExporterAssistToDuels {
     public static void main(String[] args)
             throws IOException, SAXException, ParserConfigurationException, TransformerException {
+        if(args.length != 2) {
+            System.out.println("Format: AssistToDuels <path-to-magic-assist-workspace> <path-to-magic-duels-profile>");
+            return;
+        }
+
+        String assistWorkspacePath = args[0];
+        String duelsProfilePath = args[1];
+
         CardDataManager cardDataManager = new CardDataManager();
-        MagicAssistDeckManager magicAssistDeckManager = new MagicAssistDeckManager(cardDataManager);
-        MagicDuelsDeckManager magicDuelsDeckManager = new MagicDuelsDeckManager(cardDataManager);
+        MagicAssistDeckManager magicAssistDeckManager = new MagicAssistDeckManager(cardDataManager, assistWorkspacePath);
+        MagicDuelsDeckManager magicDuelsDeckManager = new MagicDuelsDeckManager(cardDataManager, duelsProfilePath);
 
         cardDataManager.readXml();
+
         try {
             Iterable<Deck> decks = magicAssistDeckManager.getDecks();
             magicDuelsDeckManager.writeDecks(decks);

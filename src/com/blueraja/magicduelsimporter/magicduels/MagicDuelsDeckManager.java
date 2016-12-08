@@ -8,14 +8,20 @@ import com.blueraja.magicduelsimporter.magicassist.Deck;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.*;
 
 public class MagicDuelsDeckManager {
-    private static final String PROFILE_LOCATION = "C:\\Program Files (x86)\\Steam\\userdata\\1503090\\316010\\remote\\1503090.profile";
     private final CardDataManager _cardDataManager;
+    private final String _profilePath;
 
-    public MagicDuelsDeckManager(CardDataManager cardDataManager) {
+    public MagicDuelsDeckManager(CardDataManager cardDataManager, String profilePath) throws IOException {
         _cardDataManager = cardDataManager;
+        _profilePath = profilePath;
+        File profileFile = new File(_profilePath);
+        if(!profileFile.isFile()) {
+            throw new IOException("Profile could not be found at " + _profilePath);
+        }
     }
 
     public Deck getOwnedCards() throws IOException {
@@ -86,7 +92,7 @@ public class MagicDuelsDeckManager {
     }
 
     private Profile getProfile() throws IOException {
-        return new Profile(new File(PROFILE_LOCATION));
+        return new Profile(new File(_profilePath));
     }
 
     public void writeDecks(Iterable<Deck> decks) throws IOException, InvalidDecksException {
