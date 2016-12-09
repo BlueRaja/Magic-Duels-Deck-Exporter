@@ -45,6 +45,8 @@ public class CardDataGenerator {
             String name = element.getElementsByTagName("name").item(0).getTextContent();
             String idStr = element.getElementsByTagName("id").item(0).getTextContent();
             int id = Integer.parseInt(idStr);
+
+            name = cleanupName(name);
             String normalizedName = normalizeName(name);
 
             if(!_nameToMagicAssistEntry.containsKey(normalizedName)) {
@@ -81,10 +83,13 @@ public class CardDataGenerator {
         }
     }
 
-    public static String normalizeName(String name) {
+    private static String cleanupName(String name) {
         //There is a card named "Anchor to the Æther"
-        name = name.replace("Æ", "AE");
+        return name.replace("Æ", "Ae");
+    }
 
+    private static String normalizeName(String name) {
+        name = cleanupName(name);
         return name.replaceAll("[^a-zA-Z]", "").toUpperCase();
     }
 
