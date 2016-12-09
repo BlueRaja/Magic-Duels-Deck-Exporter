@@ -853,7 +853,7 @@
   <card name="FOUL_EMISSARY_400148" id="851" rarity="U" />
   <card name="WRETCHED_GRYFF_400149" id="852" rarity="C" />
   <card name="IT_OF_THE_HORRID_SWARM_400150" id="853" rarity="C" />
-  <card name="ACCOMPLISHED_AUTOMATON_390674" id = "854" rarity = "C" />
+  <card name="ACCOMPLISHED_AUTOMATON_390674" id="854" rarity="C" />
   <card name="ACROBATIC_MANEUVER_389807" id="855" rarity="C" />
   <card name="AETHER_HUB_394189" id="856" rarity="U" />
   <card name="AETHER_MELTDOWN_390516" id="857" rarity="U" />
@@ -953,64 +953,64 @@
   <card name="NIMBLE_INNOVATOR_394179" id="951" rarity="C"/>
   <card name="NISSA_VITAL_FORCE_391378" id="952" rarity="M"/>
   <card name="NOXIOUS_GEARHULK_391233" id="953" rarity="M"/>
-  <card name = "ORNAMENTAL_COURAGE_393356" id = "954" rarity = "C"/>
-  <card name = "OVALCHASE_DAREDEVIL_390701" id = "955" rarity = "U"/>
-  <card name = "OVALCHASE_DRAGSTER_389710" id = "956" rarity = "U"/>
-  <card name = "OVIYA_PASHIRI_SAGE_LIFECRAFTER_391364" id = "957" rarity = "R"/>
-  <card name = "PADEEM_CONSUL_OF_INNOVATION_391375" id = "958" rarity = "R"/>
-  <card name = "PEEMA_OUTRIDER_393337" id = "959" rarity = "C"/>
-  <card name = "PIA_NALAAR_391404" id = "960" rarity = "R"/>
-  <card name = "PRAKHATA_CLUB_SECURITY_391399" id = "961" rarity = "C"/>
-  <card name = "PRAKHATA_PILLARBUG_389827" id = "962" rarity = "C"/>
-  <card name = "PROPELLER_PIONEER_391427" id = "963" rarity = "C"/>
-  <card name = "RECKLESS_FIREWEAVER_389719" id = "964" rarity = "C"/>
-  <card name = "REFURBISH_390521" id = "965" rarity = "U"/>
-  <card name = "RENEGADE_FREIGHTER_395149" id = "966" rarity = "C"/>
-  <card name = "RESTORATION_GEARSMITH_391381" id = "967" rarity = "U"/>
-  <card name = "REVOKE_PRIVILEGES_389753" id = "968" rarity = "C"/>
-  <card name = "RUINOUS_GREMLIN_389846" id = "969" rarity = "C"/>
-  <card name = "RUSH_OF_VITALITY_393319" id = "970" rarity = "C"/>
-  <card name = "SAHEELI_RAI_392622" id = "971" rarity = "M"/>
-  <card name = "SAHEELIS_ARTISTRY_392625" id = "972" rarity = "R"/>
-  <card name = "SCRAPHEAP_SCROUNGER_398442" id = "973" rarity = "R"/>
-  <card name = "SELECT_FOR_INSPECTION_389809" id = "974" rarity = "C"/>
-  <card name = "SELFASSEMBLER_390489" id = "975" rarity = "C"/>
-  <card name = "SHREWD_NEGOTIATION_390511" id = "976" rarity = "U"/>
-  <card name = "SKY_SKIFF_390663" id = "977" rarity = "C"/>
-  <card name = "SKYSOVEREIGN_CONSUL_FLAGSHIP_395117" id = "978" rarity = "M"/>
-  <card name = "SKYSWIRL_HARRIER_392644" id = "979" rarity = "C"/>
-  <card name = "SKYWHALERS_SHOT_389811" id = "980" rarity = "U"/>
-  <card name = "SMUGGLERS_COPTER_391232" id = "981" rarity = "R"/>
-  <card name = "SNARE_THOPTER_392628" id = "982" rarity = "U"/>
-  <card name = "SPEEDWAY_FANATIC_389788" id = "983" rarity = "U"/>
-  <card name = "SPONTANEOUS_ARTIST_389742" id = "984" rarity = "C"/>
-  <card name = "START_YOUR_ENGINES_390476" id = "985" rarity = "U"/>
-  <card name = "SUBTLE_STRIKE_390685" id = "986" rarity = "C"/>
-  <card name = "SYNDICATE_TRAFFICKER_395134" id = "987" rarity = "R"/>
-  <card name = "TERRAIN_ELEMENTAL_397215" id = "988" rarity = "C"/>
-  <card name = "TERRITORIAL_GORGER_393326" id = "989" rarity = "R"/>
-  <card name = "THRIVING_GRUBS_394184" id = "990" rarity = "C"/>
-  <card name = "THRIVING_IBEX_389762" id = "991" rarity = "C"/>
-  <card name = "THRIVING_RATS_389803" id = "992" rarity = "C"/>
-  <card name = "TIDY_CONCLUSION_394167" id = "993" rarity = "C"/>
-  <card name = "TOOLCRAFT_EXEMPLAR_391342" id = "994" rarity = "R"/>
-  <card name = "TORCH_GAUNTLET_389716" id = "995" rarity = "C"/>
-  <card name = "TORRENTIAL_GEARHULK_395147" id = "996" rarity = "M"/>
-  <card name = "TRUSTY_COMPANION_394193" id = "997" rarity = "U"/>
-  <card name = "UNDERHANDED_DESIGNS_394182" id = "998" rarity = "U"/>
-  <card name = "UNLICENSED_DISINTEGRATION_393339" id = "999" rarity = "U"/>
-  <card name = "VEDALKEN_BLADEMASTER_389817" id = "1000" rarity = "C"/>
-  <card name = "VERDUROUS_GEARHULK_391240" id = "1001" rarity = "M"/>
-  <card name = "VETERAN_MOTORIST_391354" id = "1002" rarity = "U"/>
-  <card name = "VISIONARY_AUGMENTER_391331" id = "1003" rarity = "U"/>
-  <card name = "VOLTAIC_BRAWLER_391425" id = "1004" rarity = "U"/>
-  <card name = "WAYWARD_GIANT_389801" id = "1005" rarity = "C"/>
-  <card name = "WEAPONCRAFT_ENTHUSIAST_391395" id = "1006" rarity = "U"/>
-  <card name = "WELDFAST_MONITOR_389731" id = "1007" rarity = "C"/>
-  <card name = "WELDING_SPARKS_390670" id = "1008" rarity = "C"/>
-  <card name = "WHIRLER_VIRTUOSO_391359" id = "1009" rarity = "U"/>
-  <card name = "WISPWEAVER_ANGEL_392611" id = "1010" rarity = "U"/>
-  <card name = "WORKSHOP_ASSISTANT_395111" id = "1011" rarity = "C"/>
+  <card name="ORNAMENTAL_COURAGE_393356" id="954" rarity="C"/>
+  <card name="OVALCHASE_DAREDEVIL_390701" id="955" rarity="U"/>
+  <card name="OVALCHASE_DRAGSTER_389710" id="956" rarity="U"/>
+  <card name="OVIYA_PASHIRI_SAGE_LIFECRAFTER_391364" id="957" rarity="R"/>
+  <card name="PADEEM_CONSUL_OF_INNOVATION_391375" id="958" rarity="R"/>
+  <card name="PEEMA_OUTRIDER_393337" id="959" rarity="C"/>
+  <card name="PIA_NALAAR_391404" id="960" rarity="R"/>
+  <card name="PRAKHATA_CLUB_SECURITY_391399" id="961" rarity="C"/>
+  <card name="PRAKHATA_PILLARBUG_389827" id="962" rarity="C"/>
+  <card name="PROPELLER_PIONEER_391427" id="963" rarity="C"/>
+  <card name="RECKLESS_FIREWEAVER_389719" id="964" rarity="C"/>
+  <card name="REFURBISH_390521" id="965" rarity="U"/>
+  <card name="RENEGADE_FREIGHTER_395149" id="966" rarity="C"/>
+  <card name="RESTORATION_GEARSMITH_391381" id="967" rarity="U"/>
+  <card name="REVOKE_PRIVILEGES_389753" id="968" rarity="C"/>
+  <card name="RUINOUS_GREMLIN_389846" id="969" rarity="C"/>
+  <card name="RUSH_OF_VITALITY_393319" id="970" rarity="C"/>
+  <card name="SAHEELI_RAI_392622" id="971" rarity="M"/>
+  <card name="SAHEELIS_ARTISTRY_392625" id="972" rarity="R"/>
+  <card name="SCRAPHEAP_SCROUNGER_398442" id="973" rarity="R"/>
+  <card name="SELECT_FOR_INSPECTION_389809" id="974" rarity="C"/>
+  <card name="SELFASSEMBLER_390489" id="975" rarity="C"/>
+  <card name="SHREWD_NEGOTIATION_390511" id="976" rarity="U"/>
+  <card name="SKY_SKIFF_390663" id="977" rarity="C"/>
+  <card name="SKYSOVEREIGN_CONSUL_FLAGSHIP_395117" id="978" rarity="M"/>
+  <card name="SKYSWIRL_HARRIER_392644" id="979" rarity="C"/>
+  <card name="SKYWHALERS_SHOT_389811" id="980" rarity="U"/>
+  <card name="SMUGGLERS_COPTER_391232" id="981" rarity="R"/>
+  <card name="SNARE_THOPTER_392628" id="982" rarity="U"/>
+  <card name="SPEEDWAY_FANATIC_389788" id="983" rarity="U"/>
+  <card name="SPONTANEOUS_ARTIST_389742" id="984" rarity="C"/>
+  <card name="START_YOUR_ENGINES_390476" id="985" rarity="U"/>
+  <card name="SUBTLE_STRIKE_390685" id="986" rarity="C"/>
+  <card name="SYNDICATE_TRAFFICKER_395134" id="987" rarity="R"/>
+  <card name="TERRAIN_ELEMENTAL_397215" id="988" rarity="C"/>
+  <card name="TERRITORIAL_GORGER_393326" id="989" rarity="R"/>
+  <card name="THRIVING_GRUBS_394184" id="990" rarity="C"/>
+  <card name="THRIVING_IBEX_389762" id="991" rarity="C"/>
+  <card name="THRIVING_RATS_389803" id="992" rarity="C"/>
+  <card name="TIDY_CONCLUSION_394167" id="993" rarity="C"/>
+  <card name="TOOLCRAFT_EXEMPLAR_391342" id="994" rarity="R"/>
+  <card name="TORCH_GAUNTLET_389716" id="995" rarity="C"/>
+  <card name="TORRENTIAL_GEARHULK_395147" id="996" rarity="M"/>
+  <card name="TRUSTY_COMPANION_394193" id="997" rarity="U"/>
+  <card name="UNDERHANDED_DESIGNS_394182" id="998" rarity="U"/>
+  <card name="UNLICENSED_DISINTEGRATION_393339" id="999" rarity="U"/>
+  <card name="VEDALKEN_BLADEMASTER_389817" id="1000" rarity="C"/>
+  <card name="VERDUROUS_GEARHULK_391240" id="1001" rarity="M"/>
+  <card name="VETERAN_MOTORIST_391354" id="1002" rarity="U"/>
+  <card name="VISIONARY_AUGMENTER_391331" id="1003" rarity="U"/>
+  <card name="VOLTAIC_BRAWLER_391425" id="1004" rarity="U"/>
+  <card name="WAYWARD_GIANT_389801" id="1005" rarity="C"/>
+  <card name="WEAPONCRAFT_ENTHUSIAST_391395" id="1006" rarity="U"/>
+  <card name="WELDFAST_MONITOR_389731" id="1007" rarity="C"/>
+  <card name="WELDING_SPARKS_390670" id="1008" rarity="C"/>
+  <card name="WHIRLER_VIRTUOSO_391359" id="1009" rarity="U"/>
+  <card name="WISPWEAVER_ANGEL_392611" id="1010" rarity="U"/>
+  <card name="WORKSHOP_ASSISTANT_395111" id="1011" rarity="C"/>
   <card name="AETHER_THEORIST_403224" id="1012" rarity="C" />
   <card name="BALLISTA_CHARGER_403218" id="1013" rarity="U" />
   <card name="EMPYREAL_VOYAGER_403225" id="1014" rarity="U" />
