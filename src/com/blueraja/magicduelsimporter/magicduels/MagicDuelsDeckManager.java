@@ -198,6 +198,10 @@ public class MagicDuelsDeckManager {
         Set<DeckError> errors = new HashSet<>();
         Set<CardData> allCards = entireCollection.getCards();
 
+        if(deckToCheck.getCards().size() > 100) {
+            errors.add(new DeckError(deckToCheck, null, "Cannot have more than 100 cards"));
+        }
+
         for(CardData card: deckToCheck.getCards()) {
             if(!allCards.contains(card)) {
                 errors.add(new DeckError(deckToCheck, card, "Card is not owned"));

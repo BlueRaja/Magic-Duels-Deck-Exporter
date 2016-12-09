@@ -35,8 +35,9 @@ public class ExporterAssistToDuels {
         } catch (InvalidDecksException e) {
             System.out.println("FAILED - some decks are invalid: ");
             for(DeckError error: e.getDeckErrors()) {
-                System.out.println(" Deck '" + error.getDeck().getName() + "' - card '"
-                        + error.getCard().displayName + "' - " + error.getMessage());
+                System.out.println(" Deck '" + error.getDeck().getName()
+                        + (error.getCard() != null ? "' - card '" + error.getCard().displayName : "")
+                        + "' - " + error.getMessage());
             }
         }
     }
