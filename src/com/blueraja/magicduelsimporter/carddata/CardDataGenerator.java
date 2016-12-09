@@ -25,7 +25,7 @@ public class CardDataGenerator {
 
     private static void LoadAllMagicAssistCards(String assistWorkspacePath)
             throws IOException, SAXException, ParserConfigurationException {
-        String path = Paths.get(assistWorkspacePath, "MagicDB").toAbsolutePath().toString();
+        String path = Paths.get(assistWorkspacePath, "magiccards/MagicDB").toAbsolutePath().toString();
         if(!new File(path).isDirectory()) {
             throw new IOException("Could not find directory " + path);
         }
