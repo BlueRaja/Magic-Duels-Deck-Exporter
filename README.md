@@ -9,9 +9,10 @@ A tool to allow importing/exporting decks between Magic Duels and Magic Assistan
 
 ## Usage instructions
 1. _(Optional)_ Open Magic Duels and create a new deck.  Decks can only be edited within Magic Assistant, not created.
-2. Run `Import - Duels to Assist.bat`
-3. Open Magic Assistant and edit your decks however you'd like them.  The cards you have available are under the "Magic Duels collection" collection.
+2. _(Optional)_ Backup your Magic Duels profile before running.
+3. Run `Import - Duels to Assist.bat`
+4. Open Magic Assistant and edit your decks however you'd like them.  The cards you have available are under the "Magic Duels collection" collection.
 _Note: Due to the way Magic Assistant works, moving cards from "Magic Duels collection" to a deck removes them from your collection.  To work around this, either ctrl+click when dragging cards, or run these steps again before editing a second deck._
-4. When finished, close Magic Assistant and run `Export - Assist to Duels.bat`
+5. When finished, close Magic Assistant and run `Export - Assist to Duels.bat`
 
 That's it!
