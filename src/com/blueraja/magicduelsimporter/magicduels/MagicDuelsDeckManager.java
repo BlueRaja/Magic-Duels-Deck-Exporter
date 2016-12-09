@@ -27,7 +27,7 @@ public class MagicDuelsDeckManager {
     public Deck getOwnedCards() throws IOException {
         Profile profile = getProfile();
         byte[] cardsArray = profile.readCards();
-        Deck deck = new Deck("All owned Magic Duels cards");
+        Deck deck = new Deck("Magic Duels collection");
 
         for(int i = 0; i < cardsArray.length; i++) {
             Optional<CardData> cardData = _cardDataManager.getDataForMagicDuelsId(i);
@@ -69,7 +69,7 @@ public class MagicDuelsDeckManager {
                 }
             }
             addLands(magicDuelsDeck, deck);
-            if(deck.getCards().spliterator().getExactSizeIfKnown() > 0) {
+            if(deck.getName() != null && !deck.getName().equals("")) {
                 returnedDecks.add(deck);
             }
         }
@@ -208,7 +208,7 @@ public class MagicDuelsDeckManager {
             } else {
                 int numInDeck = deckToCheck.getCardCount(card);
                 int numOwned = entireCollection.getCardCount(card);
-                if (numInDeck < numOwned) {
+                if (numInDeck > numOwned) {
                     errors.add(new DeckError(deckToCheck, card, "Added " + numInDeck + " copies, but only " + numOwned + " are owned"));
                 }
             }

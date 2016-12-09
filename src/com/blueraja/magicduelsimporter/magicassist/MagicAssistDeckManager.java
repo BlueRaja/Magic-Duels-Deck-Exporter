@@ -14,6 +14,7 @@ import javax.xml.transform.TransformerException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,11 +26,12 @@ public class MagicAssistDeckManager {
 
     public MagicAssistDeckManager(CardDataManager cardDataManager, String workspacePath) throws IOException {
         _cardDataManager = cardDataManager;
-        _workspacePath = workspacePath;
+        _workspacePath = Paths.get(workspacePath, "magiccards").toAbsolutePath().toString();
 
         File workspaceDirectory = new File(_workspacePath);
         if(!workspaceDirectory.isDirectory()) {
-            throw new IOException("Workspace directory could not be found at " + _workspacePath);
+            throw new IOException("Workspace directory could not be found at "
+                    + Paths.get(workspacePath).toAbsolutePath().toString());
         }
     }
 
@@ -41,8 +43,13 @@ public class MagicAssistDeckManager {
         return returnMe;
     }
 
-    private Iterable<File> getMagicAssistDeckFiles() {
-        String path = Paths.get(_workspacePath, "Decks").toAbsolutePath().toString();
+    private Iterable<File> getMagicAssistDeckFiles() throws IOException {
+        String path = Paths.get(_workspacePath, "Decks/Magic Duels").toAbsolutePath().toString();
+        File pathFile = new File(path);
+        if(!pathFile.exists()) {
+            throw new IOException("Magic Duels decks could not be found in Magic Assistant.  "
+                    + "Is it installed?  If so, please put new decks under 'Decks/Magic Duels'");
+        }
         return FileUtils.getAllFilesWithExtension(path, ".xml");
     }
 
@@ -69,12 +76,24 @@ public class MagicAssistDeckManager {
         return deck;
     }
 
+    public void deleteAllMagicAssistDeckFiles() throws IOException {
+        for(File file: getMagicAssistDeckFiles()) {
+            file.delete();
+        }
+    }
+
     public void writeDeckToMagicAssistDeckFile(Deck deck, boolean isCollection)
             throws FileNotFoundException, TransformerException {
-        String path = Paths.get(_workspacePath, (isCollection ? "Collections" : "Decks"), deck.getName() + ".xml")
+        String directoryPath = Paths.get(_workspacePath, (isCollection ? "Collections" : "Decks/Magic Duels"))
                 .toAbsolutePath().toString();
-        String xml = getXmlStringFromDeck(deck, isCollection);
-        FileUtils.writeToFile(path, xml);
+        File directoryFile = new File(directoryPath);
+        if(!directoryFile.exists()) {
+            directoryFile.mkdirs();
+        }
+
+        String xmlPath = Paths.get(directoryPath, deck.getName() + ".xml").toAbsolutePath().toString();
+        String xmlString = getXmlStringFromDeck(deck, isCollection);
+        FileUtils.writeToFile(xmlPath, xmlString);
     }
 
     private String getXmlStringFromDeck(Deck deck, boolean isCollection) throws TransformerException {
@@ -112,7 +131,7 @@ public class MagicAssistDeckManager {
             mcpElement.appendChild(countElement);
 
             Element locationElement = doc.createElement("location");
-            locationElement.setTextContent((isCollection ? "Collections/" : "Decks/") + deck.getName());
+            locationElement.setTextContent((isCollection ? "Collections/" : "Decks/Magic Duels/") + deck.getName());
             mcpElement.appendChild(locationElement);
         }
     }
@@ -123,7 +142,7 @@ public class MagicAssistDeckManager {
         rootElement.appendChild(nameElement);
 
         Element keyElement = doc.createElement("key");
-        keyElement.setTextContent((isCollection ? "Collections/" : "Decks/") + deck.getName());
+        keyElement.setTextContent((isCollection ? "Collections/" : "Decks/Magic Duels/") + deck.getName());
         rootElement.appendChild(keyElement);
 
         Element typeElement = doc.createElement("type");
@@ -140,7 +159,7 @@ public class MagicAssistDeckManager {
 
         Element virtualPropertyElement = doc.createElement("property");
         virtualPropertyElement.setAttribute("name", "virtual");
-        virtualPropertyElement.setAttribute("value", isCollection ? "false" : "true");
+        virtualPropertyElement.setAttribute("value", "true");
         propertiesElement.appendChild(virtualPropertyElement);
     }
 }

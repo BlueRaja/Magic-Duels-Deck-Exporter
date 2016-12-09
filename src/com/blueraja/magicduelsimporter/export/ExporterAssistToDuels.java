@@ -32,6 +32,7 @@ public class ExporterAssistToDuels {
         try {
             Iterable<Deck> decks = magicAssistDeckManager.getDecks();
             magicDuelsDeckManager.writeDecks(decks);
+            System.out.println("Assistant --> Duels completed successfully");
         } catch (InvalidDecksException e) {
             System.out.println("FAILED - some decks are invalid: ");
             for(DeckError error: e.getDeckErrors()) {

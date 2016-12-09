@@ -30,8 +30,11 @@ public class ExporterDuelsToAssist {
         Deck ownedCards = magicDuelsDeckManager.getOwnedCards();
         magicAssistDeckManager.writeDeckToMagicAssistDeckFile(ownedCards, true);
 
+        magicAssistDeckManager.deleteAllMagicAssistDeckFiles();
         for(Deck deck: magicDuelsDeckManager.getDecks()) {
             magicAssistDeckManager.writeDeckToMagicAssistDeckFile(deck, false);
         }
+
+        System.out.println("Duels --> Assistant completed successfully");
     }
 }
