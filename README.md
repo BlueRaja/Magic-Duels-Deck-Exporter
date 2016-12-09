@@ -29,3 +29,7 @@ This is just how Magic Assistant works, which is unfortunate for our use-case.
 To work around it, either:
 * ctrl+click to copy the card while dragging, or
 * Rerun the steps 'usage instructions' between editing decks to reimport your card list
+
+---
+
+_Thanks to [spirolone](http://www.slightlymagic.net/forum/viewtopic.php?f=99&t=17931) for his work reverse-engineering the Magic Duels file format_
