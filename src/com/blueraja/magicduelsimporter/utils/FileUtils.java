@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
@@ -36,8 +37,13 @@ public class FileUtils {
 
     public static Iterable<File> getAllFilesWithExtension(String folderPath, String extension) {
         File folder = new File(folderPath);
-        return Arrays.asList(folder.listFiles()).stream()
-                .filter(file -> file.isFile() && file.getName().endsWith(extension))
+        File[] files = folder.listFiles();
+        if(files == null) {
+            return new ArrayList<>();
+        }
+
+        return Arrays.asList(files).stream()
+                .filter(file -> file.isFile() && file.getName().toLowerCase().endsWith(extension.toLowerCase()))
                 .collect(Collectors.toList());
     }
 

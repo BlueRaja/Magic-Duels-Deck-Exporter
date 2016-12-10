@@ -14,6 +14,7 @@ import javax.xml.transform.TransformerException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -44,13 +45,19 @@ public class MagicAssistDeckManager {
     }
 
     private Iterable<File> getMagicAssistDeckFiles() throws IOException {
-        String path = Paths.get(_workspacePath, "Decks/Magic Duels").toAbsolutePath().toString();
-        File pathFile = new File(path);
-        if(!pathFile.exists()) {
-            throw new IOException("Magic Duels decks could not be found in Magic Assistant.  "
-                    + "Is it installed?  If so, please put new decks under 'Decks/Magic Duels'");
+        String decksPath = Paths.get(_workspacePath, "Decks").toAbsolutePath().toString();
+        File decksDirectory = new File(decksPath);
+        if(!decksDirectory.exists()) {
+            throw new IOException("Magic Assistant decks directory could not be found at " + decksPath);
         }
-        return FileUtils.getAllFilesWithExtension(path, ".xml");
+
+        String magicDuelsDecksPath = Paths.get(decksPath, "Magic Duels").toString();
+        File magicDuelsDecksDirectory = new File(decksPath);
+        if(!magicDuelsDecksDirectory.exists()) {
+            magicDuelsDecksDirectory.mkdir();
+        }
+
+        return FileUtils.getAllFilesWithExtension(magicDuelsDecksPath, ".xml");
     }
 
     private Deck magicAssistDeckFileToDeck(File magicAssistDeckFile) throws ParserConfigurationException, SAXException, IOException {
