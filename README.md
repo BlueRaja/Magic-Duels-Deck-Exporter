@@ -7,8 +7,7 @@ A tool to allow importing/exporting decks between Magic Duels and Magic Assistan
   * _Battle for Zendikar, Eldritch Moon, Kaladesh, Magic Origins, Oath of the Gatewatch, Shadows over Innistrad_
   
   If any are missing _(as they were for me)_, go to file --> Update Magic Cards Database, and download the missing sets.
-3. Open the `<Magic Assistant Workspace>/magiccards/Decks` folder and create a folder named `Magic Duels` _(the next version will do this automatically, sorry about that)_
-3. Download [the latest `Magic.Duels.Deck.Exporter.zip` file](https://github.com/BlueRaja/Magic-Duels-Deck-Exporter/releases) and extract it somewhere.
+3. Download [the latest `Magic.Duels.Deck.Exporter.zip` file](https://github.com/BlueRaja/Magic-Duels-Deck-Exporter/releases/latest) and extract it somewhere.
 4. Open `Settings.bat` in a text editor and update the values to match your machine.
 
 ## Usage instructions
