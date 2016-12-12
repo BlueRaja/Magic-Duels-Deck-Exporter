@@ -30,6 +30,11 @@ To work around it, either:
 * ctrl+click to copy the card while dragging, or
 * Rerun the steps 'usage instructions' between editing decks to reimport your card list
 
+### Exporting to Magic Duels gives `MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence`
+This is a bug some users have reported when their deck names contain non-English characters.  Removing the characters seems to fix the issue.
+
+I've been unable to reproduce this error, so I can't fix it.  If you encounter this bug, I'd appreciate if you could export your decks from Magic Assistant and post them to the issues-tracker.
+
 ---
 
 _Thanks to [spirolone](http://www.slightlymagic.net/forum/viewtopic.php?f=99&t=17931) for his work reverse-engineering the Magic Duels file format_
