@@ -23,7 +23,7 @@
 <card idMagicAssist="194217" idMagicDuels="20" name="Darkslick Drake"/>
 <card idMagicAssist="383223" idMagicDuels="21" name="Dauntless River Marshal"/>
 <card idMagicAssist="45244" idMagicDuels="22" name="Dehydration"/>
-<card idMagicAssist="407688" idMagicDuels="23" name="Submerged Boneyard"/>
+<card idMagicAssist="425701" idMagicDuels="23" name="Submerged Boneyard"/>
 <card idMagicAssist="386667" idMagicDuels="24" name="Siegecraft"/>
 <card idMagicAssist="191091" idMagicDuels="25" name="Dragonskull Summit"/>
 <card idMagicAssist="370683" idMagicDuels="26" name="Minotaur Abomination"/>
@@ -75,7 +75,7 @@
 <card idMagicAssist="191057" idMagicDuels="72" name="Rootbound Crag"/>
 <card idMagicAssist="139674" idMagicDuels="73" name="Scarred Vinebreeder"/>
 <card idMagicAssist="383372" idMagicDuels="74" name="Scrapyard Mongrel"/>
-<card idMagicAssist="407690" idMagicDuels="75" name="Tranquil Expanse"/>
+<card idMagicAssist="425696" idMagicDuels="75" name="Tranquil Expanse"/>
 <card idMagicAssist="193931" idMagicDuels="76" name="Siege Mastodon"/>
 <card idMagicAssist="420487" idMagicDuels="77" name="Woodland Stream"/>
 <card idMagicAssist="194103" idMagicDuels="78" name="Sky-Eel School"/>
@@ -812,7 +812,7 @@
 <card idMagicAssist="414367" idMagicDuels="809" name="Niblis of Frost"/>
 <card idMagicAssist="414395" idMagicDuels="810" name="Oath of Liliana"/>
 <card idMagicAssist="414396" idMagicDuels="811" name="Olivia's Dragoon"/>
-<card idMagicAssist="373348" idMagicDuels="812" name="Prey Upon"/>
+<card idMagicAssist="423787" idMagicDuels="812" name="Prey Upon"/>
 <card idMagicAssist="414469" idMagicDuels="813" name="Primal Druid"/>
 <card idMagicAssist="414493" idMagicDuels="814" name="Ride Down"/>
 <card idMagicAssist="414439" idMagicDuels="815" name="Savage Alliance"/>
@@ -1021,4 +1021,142 @@
 <card idMagicAssist="417744" idMagicDuels="1018" name="Thriving Rhino"/>
 <card idMagicAssist="417639" idMagicDuels="1019" name="Thriving Turtle"/>
 <card idMagicAssist="417642" idMagicDuels="1020" name="Weldfast Wingsmith"/>
+<card idMagicAssist="423668" idMagicDuels="1021" name="Aerial Modification"/>
+<card idMagicAssist="423771" idMagicDuels="1022" name="Aetherwind Basker"/>
+<card idMagicAssist="423743" idMagicDuels="1023" name="Aether Chaser"/>
+<card idMagicAssist="423809" idMagicDuels="1024" name="Aethersphere Harvester"/>
+<card idMagicAssist="423769" idMagicDuels="1025" name="Aether Herder"/>
+<card idMagicAssist="423670" idMagicDuels="1026" name="Aether Inspector"/>
+<card idMagicAssist="423712" idMagicDuels="1027" name="Shipwreck Moray"/>
+<card idMagicAssist="423718" idMagicDuels="1028" name="Aether Poisoner"/>
+<card idMagicAssist="423693" idMagicDuels="1029" name="Aether Swooper"/>
+<card idMagicAssist="423770" idMagicDuels="1030" name="Aetherstream Leopard"/>
+<card idMagicAssist="423694" idMagicDuels="1031" name="Aethertide Whale"/>
+<card idMagicAssist="423772" idMagicDuels="1032" name="Aid from the Cowl"/>
+<card idMagicAssist="423672" idMagicDuels="1033" name="Airdrop Aeronauts"/>
+<card idMagicAssist="423794" idMagicDuels="1034" name="Ajani Unyielding"/>
+<card idMagicAssist="423673" idMagicDuels="1035" name="Alley Evasion"/>
+<card idMagicAssist="423674" idMagicDuels="1036" name="Audacious Infiltrator"/>
+<card idMagicAssist="423695" idMagicDuels="1037" name="Baral, Chief of Compliance"/>
+<card idMagicAssist="423696" idMagicDuels="1038" name="Baral's Expertise"/>
+<card idMagicAssist="423811" idMagicDuels="1039" name="Barricade Breaker"/>
+<card idMagicAssist="423675" idMagicDuels="1040" name="Bastion Enforcer"/>
+<card idMagicAssist="423697" idMagicDuels="1041" name="Bastion Inventor"/>
+<card idMagicAssist="423720" idMagicDuels="1042" name="Battle at the Bridge"/>
+<card idMagicAssist="423676" idMagicDuels="1043" name="Call for Unity"/>
+<card idMagicAssist="423677" idMagicDuels="1044" name="Caught in the Brights"/>
+<card idMagicAssist="423744" idMagicDuels="1045" name="Chandra's Revolution"/>
+<card idMagicAssist="423812" idMagicDuels="1046" name="Cogwork Assembler"/>
+<card idMagicAssist="423761" idMagicDuels="1047" name="Ravenous Intruder"/>
+<card idMagicAssist="423813" idMagicDuels="1048" name="Consulate Dreadnought"/>
+<card idMagicAssist="423814" idMagicDuels="1049" name="Consulate Turret"/>
+<card idMagicAssist="423679" idMagicDuels="1050" name="Conviction"/>
+<card idMagicAssist="423816" idMagicDuels="1051" name="Daredevil Dragster"/>
+<card idMagicAssist="423722" idMagicDuels="1052" name="Daring Demolition"/>
+<card idMagicAssist="423795" idMagicDuels="1053" name="Dark Intimations"/>
+<card idMagicAssist="423681" idMagicDuels="1054" name="Dawnfeather Eagle"/>
+<card idMagicAssist="423723" idMagicDuels="1055" name="Defiant Salvager"/>
+<card idMagicAssist="423684" idMagicDuels="1056" name="Deft Dismissal"/>
+<card idMagicAssist="423745" idMagicDuels="1057" name="Destructive Tampering"/>
+<card idMagicAssist="423773" idMagicDuels="1058" name="Druid of the Cowl"/>
+<card idMagicAssist="423700" idMagicDuels="1059" name="Efficient Construction"/>
+<card idMagicAssist="423746" idMagicDuels="1060" name="Embraal Gear-Smasher"/>
+<card idMagicAssist="423747" idMagicDuels="1061" name="Enraged Giant"/>
+<card idMagicAssist="423685" idMagicDuels="1062" name="Exquisite Archangel"/>
+<card idMagicAssist="423724" idMagicDuels="1063" name="Fatal Push"/>
+<card idMagicAssist="423725" idMagicDuels="1064" name="Fen Hauler"/>
+<card idMagicAssist="423817" idMagicDuels="1065" name="Filigree Crawler"/>
+<card idMagicAssist="423818" idMagicDuels="1066" name="Foundry Assembler"/>
+<card idMagicAssist="423727" idMagicDuels="1067" name="Fourth Bridge Prowler"/>
+<card idMagicAssist="423748" idMagicDuels="1068" name="Freejam Regent"/>
+<card idMagicAssist="423749" idMagicDuels="1069" name="Frontline Rebel"/>
+<card idMagicAssist="423687" idMagicDuels="1070" name="Ghirapur Osprey"/>
+<card idMagicAssist="423728" idMagicDuels="1071" name="Gifted Aetherborn"/>
+<card idMagicAssist="423729" idMagicDuels="1072" name="Glint-Sleeve Siphoner"/>
+<card idMagicAssist="423730" idMagicDuels="1073" name="Gonti's Machinations"/>
+<card idMagicAssist="423774" idMagicDuels="1074" name="Greenbelt Rampager"/>
+<card idMagicAssist="423775" idMagicDuels="1075" name="Greenwheel Liberator"/>
+<card idMagicAssist="423820" idMagicDuels="1076" name="Heart of Kiran"/>
+<card idMagicAssist="423731" idMagicDuels="1077" name="Herald of Anguish"/>
+<card idMagicAssist="423796" idMagicDuels="1078" name="Hidden Stockpile"/>
+<card idMagicAssist="423778" idMagicDuels="1079" name="Highspire Infusion"/>
+<card idMagicAssist="423701" idMagicDuels="1080" name="Hinterland Drake"/>
+<card idMagicAssist="423751" idMagicDuels="1081" name="Hungry Flames"/>
+<card idMagicAssist="423702" idMagicDuels="1082" name="Ice Over"/>
+<card idMagicAssist="423822" idMagicDuels="1083" name="Implement of Combustion"/>
+<card idMagicAssist="423825" idMagicDuels="1084" name="Implement of Improvement"/>
+<card idMagicAssist="423823" idMagicDuels="1085" name="Implement of Examination"/>
+<card idMagicAssist="423824" idMagicDuels="1086" name="Implement of Ferocity"/>
+<card idMagicAssist="423826" idMagicDuels="1087" name="Implement of Malice"/>
+<card idMagicAssist="423753" idMagicDuels="1088" name="Invigorated Rampage"/>
+<card idMagicAssist="423754" idMagicDuels="1089" name="Kari Zev, Skyship Raider"/>
+<card idMagicAssist="423755" idMagicDuels="1090" name="Kari Zev's Expertise"/>
+<card idMagicAssist="423704" idMagicDuels="1091" name="Leave in the Dust"/>
+<card idMagicAssist="423829" idMagicDuels="1092" name="Lifecrafter's Bestiary"/>
+<card idMagicAssist="423781" idMagicDuels="1093" name="Lifecrafter's Gift"/>
+<card idMagicAssist="423797" idMagicDuels="1094" name="Maverick Thopterist"/>
+<card idMagicAssist="423705" idMagicDuels="1095" name="Mechanized Production"/>
+<card idMagicAssist="423830" idMagicDuels="1096" name="Merchant's Dockhand"/>
+<card idMagicAssist="423706" idMagicDuels="1097" name="Metallic Rebuke"/>
+<card idMagicAssist="423783" idMagicDuels="1098" name="Monstrous Onslaught"/>
+<card idMagicAssist="423784" idMagicDuels="1099" name="Narnam Renegade"/>
+<card idMagicAssist="423734" idMagicDuels="1100" name="Night Market Aeronaut"/>
+<card idMagicAssist="423833" idMagicDuels="1101" name="Night Market Guard"/>
+<card idMagicAssist="423798" idMagicDuels="1102" name="Oath of Ajani"/>
+<card idMagicAssist="423799" idMagicDuels="1103" name="Outland Boar"/>
+<card idMagicAssist="423837" idMagicDuels="1104" name="Peacewalker Colossus"/>
+<card idMagicAssist="423786" idMagicDuels="1105" name="Peema Aether-Seer"/>
+<card idMagicAssist="423758" idMagicDuels="1106" name="Pia's Revolution"/>
+<card idMagicAssist="423838" idMagicDuels="1107" name="Planar Bridge"/>
+<card idMagicAssist="423737" idMagicDuels="1108" name="Resourceful Return"/>
+<card idMagicAssist="423736" idMagicDuels="1109" name="Renegade's Getaway"/>
+<card idMagicAssist="423841" idMagicDuels="1110" name="Reservoir Walker"/>
+<card idMagicAssist="423709" idMagicDuels="1111" name="Reverse Engineer"/>
+<card idMagicAssist="423788" idMagicDuels="1112" name="Ridgescale Tusker"/>
+<card idMagicAssist="423790" idMagicDuels="1113" name="Rishkar's Expertise"/>
+<card idMagicAssist="423802" idMagicDuels="1114" name="Rogue Refiner"/>
+<card idMagicAssist="423842" idMagicDuels="1115" name="Scrap Trawler"/>
+<card idMagicAssist="423764" idMagicDuels="1116" name="Scrapper Champion"/>
+<card idMagicAssist="423791" idMagicDuels="1117" name="Scrounging Bandar"/>
+<card idMagicAssist="423843" idMagicDuels="1118" name="Servo Schematic"/>
+<card idMagicAssist="423711" idMagicDuels="1119" name="Shielded Aether Thief"/>
+<card idMagicAssist="423765" idMagicDuels="1120" name="Shock"/>
+<card idMagicAssist="423792" idMagicDuels="1121" name="Silkweaver Elite"/>
+<card idMagicAssist="423713" idMagicDuels="1122" name="Skyship Plunderer"/>
+<card idMagicAssist="423739" idMagicDuels="1123" name="Sly Requisitioner"/>
+<card idMagicAssist="423689" idMagicDuels="1124" name="Solemn Recruit"/>
+<card idMagicAssist="423803" idMagicDuels="1125" name="Spire Patrol"/>
+<card idMagicAssist="423690" idMagicDuels="1126" name="Sram, Senior Edificer"/>
+<card idMagicAssist="423691" idMagicDuels="1127" name="Sram's Expertise"/>
+<card idMagicAssist="423767" idMagicDuels="1128" name="Sweatworks Brawler"/>
+<card idMagicAssist="423714" idMagicDuels="1129" name="Take into Custody"/>
+<card idMagicAssist="423804" idMagicDuels="1130" name="Tezzeret the Schemer"/>
+<card idMagicAssist="423805" idMagicDuels="1131" name="Tezzeret's Touch"/>
+<card idMagicAssist="423692" idMagicDuels="1132" name="Thopter Arrest"/>
+<card idMagicAssist="423844" idMagicDuels="1133" name="Treasure Keeper"/>
+<card idMagicAssist="423715" idMagicDuels="1134" name="Trophy Mage"/>
+<card idMagicAssist="423719" idMagicDuels="1135" name="Alley Strangler"/>
+<card idMagicAssist="423845" idMagicDuels="1136" name="Universal Solvent"/>
+<card idMagicAssist="423846" idMagicDuels="1137" name="Untethered Express"/>
+<card idMagicAssist="423740" idMagicDuels="1138" name="Vengeful Rebel"/>
+<card idMagicAssist="423848" idMagicDuels="1139" name="Walking Ballista"/>
+<card idMagicAssist="423806" idMagicDuels="1140" name="Weldfast Engineer"/>
+<card idMagicAssist="423716" idMagicDuels="1141" name="Whir of Invention"/>
+<card idMagicAssist="423807" idMagicDuels="1142" name="Winding Constrictor"/>
+<card idMagicAssist="423717" idMagicDuels="1143" name="Wind-Kin Raiders"/>
+<card idMagicAssist="423768" idMagicDuels="1144" name="Wrangle"/>
+<card idMagicAssist="423741" idMagicDuels="1145" name="Yahenni, Undying Partisan"/>
+<card idMagicAssist="423742" idMagicDuels="1146" name="Yahenni's Expertise"/>
+<card idMagicAssist="423800" idMagicDuels="1147" name="Renegade Rallier"/>
+<card idMagicAssist="423766" idMagicDuels="1148" name="Siege Modification"/>
+<card idMagicAssist="423801" idMagicDuels="1149" name="Renegade Wheelsmith"/>
+<card idMagicAssist="423832" idMagicDuels="1150" name="Mobile Garrison"/>
+<card idMagicAssist="423828" idMagicDuels="1151" name="Irontread Crusher"/>
+<card idMagicAssist="423780" idMagicDuels="1152" name="Lifecraft Cavalry"/>
+<card idMagicAssist="423840" idMagicDuels="1153" name="Renegade Map"/>
+<card idMagicAssist="423762" idMagicDuels="1154" name="Reckless Racer"/>
+<card idMagicAssist="423682" idMagicDuels="1155" name="Deadeye Harpooner"/>
+<card idMagicAssist="423669" idMagicDuels="1156" name="Aeronaut Admiral"/>
+<card idMagicAssist="423680" idMagicDuels="1157" name="Countless Gears Renegade"/>
+<card idMagicAssist="423793" idMagicDuels="1158" name="Unbridled Growth"/>
 </cards>

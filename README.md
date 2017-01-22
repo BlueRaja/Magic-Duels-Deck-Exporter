@@ -4,8 +4,14 @@ A tool to allow importing/exporting decks between Magic Duels and Magic Assistan
 ## Installation Instructions
 1. Download and install [Magic Assistant](https://sourceforge.net/projects/mtgbrowser/).  Run it and let it update.  Keep track of where you save the workspace.
 2. In Magic Assistant, open the card filter dialog _(looks like three arrows point right)_. Click _'Set filter'_, then make sure the following sets all have icons:
-  * _Battle for Zendikar, Eldritch Moon, Kaladesh, Magic Origins, Oath of the Gatewatch, Shadows over Innistrad_
-  
+  * _Aether Revolt_
+  * _Battle for Zendikar_
+  * _Eldritch Moon_
+  * _Kaladesh_
+  * _Magic Origins_
+  * _Oath of the Gatewatch_
+  * _Shadows over Innistrad_
+ 
   If any are missing _(as they were for me)_, go to file --> Update Magic Cards Database, and download the missing sets.
 3. Download [the latest `Magic.Duels.Deck.Exporter.zip` file](https://github.com/BlueRaja/Magic-Duels-Deck-Exporter/releases/latest) and extract it somewhere.
 4. Open `Settings.bat` in a text editor and update the values to match your machine.
