@@ -26,15 +26,16 @@ public class MagicDuelsDeckManager {
 
     public Deck getOwnedCards() throws IOException {
         Profile profile = getProfile();
-        byte[] cardsArray = profile.readCards();
+        int numCards = _cardDataManager.getAllCards().size();
+        byte[] cardsArray = profile.readCards(numCards);
         Deck deck = new Deck("Magic Duels collection");
 
         for(int i = 0; i < cardsArray.length; i++) {
             Optional<CardData> cardData = _cardDataManager.getDataForMagicDuelsId(i);
-            int numCards = cardsArray[i]&7; //number of cards are determined by 3 LSB
-            if(numCards > 0) {
+            int numOwned = cardsArray[i]&7; //number of cards are determined by 3 LSB
+            if(numOwned > 0) {
                 if(cardData.isPresent()) {
-                    deck.addCard(cardData.get(), numCards);
+                    deck.addCard(cardData.get(), numOwned);
                 } else {
                     System.out.println("Missing data for magic duels card #" + i + ", which is owned");
                 }

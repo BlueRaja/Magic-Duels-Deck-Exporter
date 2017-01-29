@@ -29,12 +29,14 @@ public class Profile {
         content[0x45A] ^= content[0x459+fieldLen];
     }
     
-    public byte[] readCards() {
-        byte[] cards = new byte[1024];
+    public byte[] readCards(int numCards) {
+        byte[] cards = new byte[numCards+1];
         int offset = (content[0x45E] & 0xFF) + ((content[0x45F] & 0xFF)<<8) + 0x4E0;
-        for (int i=0; i<512; i++) {
+        for (int i=0; i<numCards/2; i++) {
             cards[2*i] = (byte)(content[offset+i] & 0x0F);
-            cards[2*i+1] = (byte)((content[offset+i]>>4) & 0x0F);
+            if(2*i+1 < cards.length) {
+                cards[2*i+1] = (byte) ((content[offset + i]>>4) & 0x0F);
+            }
         }
         return cards;
     }
@@ -326,7 +328,7 @@ public class Profile {
             File profileFile = new File(fileName);
             Profile myProfile = new Profile(profileFile);
             myProfile.exportProfile(profileFile.toString()+".bin");
-            byte[] cards = myProfile.readCards();
+            byte[] cards = myProfile.readCards(1024);
             (new RandomAccessFile("Cards.bin", "rw")).write(cards);
 //            (new RandomAccessFile("Cards.bin", "r")).read(cards);
 //            myProfile.writeCards(cards);

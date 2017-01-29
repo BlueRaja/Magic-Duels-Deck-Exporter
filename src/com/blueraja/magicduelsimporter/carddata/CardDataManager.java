@@ -34,7 +34,7 @@ public class CardDataManager {
         _cardEntries.clear();
     }
 
-    public Iterable<CardData> getAllCards() {
+    public List<CardData> getAllCards() {
         return _cardEntries;
     }
 
