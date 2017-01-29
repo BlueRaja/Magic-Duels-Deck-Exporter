@@ -28,11 +28,11 @@ public class Profile {
             content[i] ^= content[i-1];
         content[0x45A] ^= content[0x459+fieldLen];
     }
-    
+
     public byte[] readCards(int numCards) {
-        byte[] cards = new byte[numCards+1];
-        int offset = (content[0x45E] & 0xFF) + ((content[0x45F] & 0xFF)<<8) + 0x4E0;
-        for (int i=0; i<numCards/2; i++) {
+        byte[] cards = new byte[numCards];
+        int offset = content.length - 1026;
+        for (int i=0; i<=numCards/2; i++) {
             cards[2*i] = (byte)(content[offset+i] & 0x0F);
             if(2*i+1 < cards.length) {
                 cards[2*i+1] = (byte) ((content[offset + i]>>4) & 0x0F);
@@ -40,9 +40,9 @@ public class Profile {
         }
         return cards;
     }
-    
+
     public void writeCards(byte[] cards) {
-        int offset = (content[0x45E] & 0xFF) + ((content[0x45F] & 0xFF)<<8) + 0x4E0;
+        int offset = content.length - 1026;
         for (int i=0; i<(cards.length/2); i++)
             content[offset+i] = (byte)((cards[2*i] & 0x0F) + ((cards[2*i+1]<<4) & 0xF0));
     }
