@@ -24,10 +24,10 @@ public class ExporterDuelsToAssist {
         String duelsProfilePath = args[1];
 
         CardDataManager cardDataManager = new CardDataManager();
+        cardDataManager.readXml();
+
         MagicAssistDeckManager magicAssistDeckManager = new MagicAssistDeckManager(cardDataManager, assistWorkspacePath);
         MagicDuelsDeckManager magicDuelsDeckManager = new MagicDuelsDeckManager(cardDataManager, duelsProfilePath);
-
-        cardDataManager.readXml();
 
         Deck ownedCards = magicDuelsDeckManager.getOwnedCards();
         magicAssistDeckManager.writeDeckToMagicAssistDeckFile(ownedCards, true);
