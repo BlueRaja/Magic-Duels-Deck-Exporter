@@ -10,11 +10,13 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.IOException;
 
+import static com.blueraja.magicduelsimporter.Main.Modality.DUELS_TO_ASSIST;
+
 public class ExporterDuelsToAssist {
     public static void main(String[] args)
             throws IOException, SAXException, ParserConfigurationException, TransformerException {
-        if(args.length != 2) {
-            System.out.println("Format: DuelsToAssist <path-to-magic-assist-workspace> <path-to-magic-duels-profile>");
+        if (args.length != 2) {
+            System.out.println(DUELS_TO_ASSIST + " <path-to-magic-assist-workspace> <path-to-magic-duels-profile>");
             return;
         }
 
