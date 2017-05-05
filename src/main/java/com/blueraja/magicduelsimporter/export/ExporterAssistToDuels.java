@@ -12,11 +12,13 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.IOException;
 
+import static com.blueraja.magicduelsimporter.Main.Modality.ASSIST_TO_DUELS;
+
 public class ExporterAssistToDuels {
     public static void main(String[] args)
             throws IOException, SAXException, ParserConfigurationException, TransformerException {
-        if(args.length != 2) {
-            System.out.println("Format: AssistToDuels <path-to-magic-assist-workspace> <path-to-magic-duels-profile>");
+        if (args.length != 2) {
+            System.out.println(ASSIST_TO_DUELS + " <path-to-magic-assist-workspace> <path-to-magic-duels-profile>");
             return;
         }
 
@@ -24,10 +26,10 @@ public class ExporterAssistToDuels {
         String duelsProfilePath = args[1];
 
         CardDataManager cardDataManager = new CardDataManager();
+        cardDataManager.readXml();
+
         MagicAssistDeckManager magicAssistDeckManager = new MagicAssistDeckManager(cardDataManager, assistWorkspacePath);
         MagicDuelsDeckManager magicDuelsDeckManager = new MagicDuelsDeckManager(cardDataManager, duelsProfilePath);
-
-        cardDataManager.readXml();
 
         try {
             Iterable<Deck> decks = magicAssistDeckManager.getDecks();

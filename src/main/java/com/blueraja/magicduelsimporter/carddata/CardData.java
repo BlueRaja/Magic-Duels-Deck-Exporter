@@ -30,4 +30,8 @@ public class CardData {
         result = 31 * result + idMagicAssist;
         return result;
     }
+
+    public String getDisplayName() {
+        return displayName;
+    }
 }
