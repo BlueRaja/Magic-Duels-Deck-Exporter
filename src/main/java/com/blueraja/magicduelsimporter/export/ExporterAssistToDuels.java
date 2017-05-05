@@ -26,10 +26,10 @@ public class ExporterAssistToDuels {
         String duelsProfilePath = args[1];
 
         CardDataManager cardDataManager = new CardDataManager();
+        cardDataManager.readXml();
+
         MagicAssistDeckManager magicAssistDeckManager = new MagicAssistDeckManager(cardDataManager, assistWorkspacePath);
         MagicDuelsDeckManager magicDuelsDeckManager = new MagicDuelsDeckManager(cardDataManager, duelsProfilePath);
-
-        cardDataManager.readXml();
 
         try {
             Iterable<Deck> decks = magicAssistDeckManager.getDecks();

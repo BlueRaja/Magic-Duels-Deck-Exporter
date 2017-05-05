@@ -57,9 +57,9 @@ public class Main {
                 "\n" +
                 "Available modalities are: " + Arrays.asList(Modality.values()) + "\n" +
                 "\n" +
-                ASSIST_TO_DUELS + "<path-to-magic-assist-workspace> <path-to-magic-duels-profile>" + "\n" +
-                DUELS_TO_ASSIST + "<path-to-magic-assist-workspace> <path-to-magic-duels-profile>" + "\n" +
-                DUELS_TO_DECKBOX + "<path-to-magic-duels-profile>" + "\n" +
+                ASSIST_TO_DUELS + " <path-to-magic-assist-workspace> <path-to-magic-duels-profile>" + "\n" +
+                DUELS_TO_ASSIST + " <path-to-magic-assist-workspace> <path-to-magic-duels-profile>" + "\n" +
+                DUELS_TO_DECKBOX + " <path-to-deckbox-out-file> <path-to-magic-duels-profile>" + "\n" +
                 "\n"
         );
     }
