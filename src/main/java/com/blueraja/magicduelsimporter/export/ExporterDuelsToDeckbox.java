@@ -11,11 +11,13 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.IOException;
 
+import static com.blueraja.magicduelsimporter.Main.Modality.DUELS_TO_DECKBOX;
+
 public class ExporterDuelsToDeckbox {
     public static void main(String[] args)
             throws IOException, SAXException, ParserConfigurationException, TransformerException {
         if (args.length != 1) {
-            System.out.println("Format: DuelsToDeckbox <path-to-magic-duels-profile>");
+            System.out.println(DUELS_TO_DECKBOX + " <path-to-magic-duels-profile>");
             return;
         }
 
