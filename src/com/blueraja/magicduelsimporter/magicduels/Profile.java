@@ -32,7 +32,7 @@ public class Profile {
     public byte[] readCards(int numCards) {
         byte[] cards = new byte[numCards];
         int offset = content.length - 1026;
-        for (int i=0; i<=numCards/2; i++) {
+        for (int i=0; i*2 < cards.length; i++) {
             cards[2*i] = (byte)(content[offset+i] & 0x0F);
             if(2*i+1 < cards.length) {
                 cards[2*i+1] = (byte) ((content[offset + i]>>4) & 0x0F);

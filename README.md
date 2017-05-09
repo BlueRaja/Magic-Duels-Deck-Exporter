@@ -5,6 +5,7 @@ A tool to allow importing/exporting decks between Magic Duels and Magic Assistan
 1. Download and install [Magic Assistant](https://sourceforge.net/projects/mtgbrowser/).  Run it and let it update.  Keep track of where you save the workspace.
 2. In Magic Assistant, open the card filter dialog _(looks like three arrows point right)_. Click _'Set filter'_, then make sure the following sets all have icons:
   * _Aether Revolt_
+  * _Amonkhet_
   * _Battle for Zendikar_
   * _Eldritch Moon_
   * _Kaladesh_

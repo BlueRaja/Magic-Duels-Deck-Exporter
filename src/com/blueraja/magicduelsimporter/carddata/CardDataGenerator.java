@@ -76,7 +76,7 @@ public class CardDataGenerator {
             int id = Integer.parseInt(idStr);
 
             if(!_nameToMagicAssistEntry.containsKey(normalizedName)) {
-                throw new Exception("Card is missing: " + name + " (" + normalizedName + ")");
+                throw new Exception("Card is missing: " + name + " (" + normalizedName + ") - Did you update Magic Assistant?");
             }
             MagicAssistEntry magicAssistEntry = _nameToMagicAssistEntry.get(normalizedName);
             _cardDataManager.addEntry(magicAssistEntry.originalName, id, magicAssistEntry.id);
@@ -85,7 +85,15 @@ public class CardDataGenerator {
 
     private static String cleanupName(String name) {
         //There is a card named "Anchor to the Æther"
-        return name.replace("Æ", "Ae");
+        name = name.replace("Æ", "Ae");
+
+        // The new "Aftermath" cards have different names in Magic: Duels
+        if(name.contains("//")) {
+            int index = name.indexOf("//");
+            name = name.substring(0, index-1);
+        }
+
+        return name;
     }
 
     private static String normalizeName(String name) {
