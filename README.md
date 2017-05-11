@@ -1,6 +1,8 @@
 # Magic Duels Deck Exporter
 A tool to allow importing/exporting decks between Magic Duels and Magic Assistant, to ease the pain of deckbuilding
 
+
+
 ## Installation Instructions
 1. Download and install [Magic Assistant](https://sourceforge.net/projects/mtgbrowser/).  Run it and let it update.  Keep track of where you save the workspace.
 2. In Magic Assistant, open the card filter dialog _(looks like three arrows point right)_. Click _'Set filter'_, then make sure the following sets all have icons:
@@ -17,12 +19,34 @@ A tool to allow importing/exporting decks between Magic Duels and Magic Assistan
 3. Download [the latest `Magic.Duels.Deck.Exporter.zip` file](https://github.com/BlueRaja/Magic-Duels-Deck-Exporter/releases/latest) and extract it somewhere.
 4. Open `Settings.bat` in a text editor and update the values to match your machine.
 
-## Usage instructions
+## Magic Assistant - Usage instructions
 1. _(Optional)_ Open Magic Duels and create a new deck.  Decks can only be edited within Magic Assistant, not created.
 2. _(Optional)_ Backup your Magic Duels profile before running.
 3. Run `Import - Duels to Assist.bat`
 4. Open Magic Assistant and edit your decks however you'd like them.  The cards you have available are under the "Magic Duels collection" collection.
 5. When finished, close Magic Assistant and run `Export - Assist to Duels.bat`
+
+## Low level instructions
+
+It is possible to directly run the jar file with one of the following commands:
+
+    java -jar magic-duels-deck-exporter.jar ASSIST_TO_DUELS  <path-to-magic-assist-workspace> <path-to-magic-duels-profile>
+    java -jar magic-duels-deck-exporter.jar DUELS_TO_ASSIST  <path-to-magic-assist-workspace> <path-to-magic-duels-profile>
+    java -jar magic-duels-deck-exporter.jar DUELS_TO_DECKBOX <path-to-deckbox-out-file> <path-to-magic-duels-profile>
+    java -jar magic-duels-deck-exporter.jar DUELS_TO_DECKBOX <path-to-deckbox-deck-file> <path-to-magic-duels-profile>
+
+**path-to-magic-assist-workspace**: Path to Magic Assist workspace.
+
+**path-to-magic-duels-profile**: Usually under C:\Program Files (x86)\Steam\userdata\<your-id>\316010\remote\<your-id>.profile
+
+**path-to-deckbox-out-file**: File that will be generated to import into [deckbox](https://deckbox.org)
+                              from Inventory -> Add Cards -> Add From Card List -> <Paste> -> Import
+                              Note: it will overwrite an existing path-to-deckbox-out-file file.
+
+**path-to-deckbox-deck-file**: File exported from [deckbox](https://deckbox.org) with
+                               Deck To Export -> Tools -> Export to Text
+                               The name of the file will be used as name of the deck created in Magic Duels.
+                               If there's already a deck in Magic Duels with the same name then the deck will be overwritten.
 
 ## FAQ
 
@@ -41,6 +65,22 @@ To work around it, either:
 This is a bug some users have reported when their deck names contain non-English characters.  Removing the characters seems to fix the issue.
 
 I've been unable to reproduce this error, so I can't fix it.  If you encounter this bug, I'd appreciate if you could export your decks from Magic Assistant and post them to the issues-tracker.
+
+
+## Development
+
+The project uses [Maven](https://maven.apache.org/)
+and developed using [IntelliJ](https://www.jetbrains.com/idea/)
+
+### Run tests with mvn
+
+    mvn test
+
+### Build runnable jar with mvn
+
+    mvn clean compile assembly:single
+    # jar will be under target
+
 
 ---
 

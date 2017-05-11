@@ -14,9 +14,12 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class FileUtils {
+
     public static String getFileAsString(String path)
             throws IOException {
         byte[] encoded = Files.readAllBytes(Paths.get(path));
@@ -52,5 +55,17 @@ public class FileUtils {
         try(PrintWriter writer = new PrintWriter(path)) {
             writer.println(text);
         }
+    }
+
+    public static String getBaseName(String filename) {
+        File file = new File(filename);
+        String basename = file.getName();
+
+        Pattern compile = Pattern.compile("([^.]*)\\.?.*$");
+        Matcher matcher = compile.matcher(basename);
+        if (matcher.find()) {
+            return matcher.group(1);
+        }
+        throw new RuntimeException("Filename [" + filename + "] not valid.");
     }
 }

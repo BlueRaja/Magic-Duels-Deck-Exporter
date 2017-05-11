@@ -5,10 +5,10 @@ import com.blueraja.magicduelsimporter.carddata.CardDataManager;
 import com.blueraja.magicduelsimporter.exceptions.DeckError;
 import com.blueraja.magicduelsimporter.exceptions.InvalidDecksException;
 import com.blueraja.magicduelsimporter.magicassist.Deck;
+import com.blueraja.magicduelsimporter.magicassist.ToDeckTransformer;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
 import java.util.*;
 
 public class MagicDuelsDeckManager {
@@ -56,40 +56,12 @@ public class MagicDuelsDeckManager {
 
         for (int deckPos=0; deckPos<32; deckPos++) {
             MagicDuelsDeck magicDuelsDeck = profile.readDeck(deckPos);
-            Deck deck = new Deck(magicDuelsDeck.name);
-            for (int i=0; i<100; i++) {
-                int cardId = magicDuelsDeck.cards[0][i];
-                int numCards = magicDuelsDeck.cards[1][i];
-                if(numCards > 0) {
-                    Optional<CardData> cardData = _cardDataManager.getDataForMagicDuelsId(cardId);
-                    if(cardData.isPresent()) {
-                        deck.addCard(cardData.get(), numCards);
-                    } else {
-                        System.out.println("Missing data for magic duels card #" + cardId + " which is required for deck " + magicDuelsDeck.name);
-                    }
-                }
-            }
-            addLands(magicDuelsDeck, deck);
+            Deck deck = new ToDeckTransformer(_cardDataManager).transform(magicDuelsDeck);
             if(deck.getName() != null && !deck.getName().equals("")) {
                 returnedDecks.add(deck);
             }
         }
         return returnedDecks;
-    }
-
-    private void addLands(MagicDuelsDeck magicDuelsDeck, Deck deck) {
-        addLand(magicDuelsDeck, deck, MagicDuelsDeck.LAND_FORESTS, CardDataManager.Lands.FOREST);
-        addLand(magicDuelsDeck, deck, MagicDuelsDeck.LAND_ISLANDS, CardDataManager.Lands.ISLAND);
-        addLand(magicDuelsDeck, deck, MagicDuelsDeck.LAND_MOUNTAINS, CardDataManager.Lands.MOUNTAIN);
-        addLand(magicDuelsDeck, deck, MagicDuelsDeck.LAND_PLAINS, CardDataManager.Lands.PLAINS);
-        addLand(magicDuelsDeck, deck, MagicDuelsDeck.LAND_SWAMPS, CardDataManager.Lands.SWAMP);
-    }
-
-    private void addLand(MagicDuelsDeck magicDuelsDeck, Deck deck, int landOffset, CardData landCardData) {
-        int numLand = magicDuelsDeck.lands[landOffset];
-        if(numLand > 0) {
-            deck.addCard(landCardData, numLand);
-        }
     }
 
     private Profile getProfile() throws IOException {
@@ -106,6 +78,12 @@ public class MagicDuelsDeckManager {
         for(Deck deck: decks) {
             writeDeck(deck, profile);
         }
+        profile.save();
+    }
+
+    public void writeDeck(Deck deck) throws IOException {
+        Profile profile = getProfile();
+        writeDeck(deck, profile);
         profile.save();
     }
 

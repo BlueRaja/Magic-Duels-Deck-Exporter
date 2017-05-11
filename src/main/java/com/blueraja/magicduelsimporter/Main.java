@@ -1,6 +1,7 @@
 package com.blueraja.magicduelsimporter;
 
 import com.blueraja.magicduelsimporter.export.ExporterAssistToDuels;
+import com.blueraja.magicduelsimporter.export.ExporterDeckboxToDuels;
 import com.blueraja.magicduelsimporter.export.ExporterDuelsToAssist;
 import com.blueraja.magicduelsimporter.export.ExporterDuelsToDeckbox;
 
@@ -13,7 +14,8 @@ public class Main {
     public enum Modality {
         ASSIST_TO_DUELS,
         DUELS_TO_ASSIST,
-        DUELS_TO_DECKBOX
+        DUELS_TO_DECKBOX,
+        DECKBOX_TO_DUELS
     }
 
 
@@ -45,6 +47,10 @@ public class Main {
 
             case DUELS_TO_DECKBOX:
                 ExporterDuelsToDeckbox.main(otherArguments);
+                break;
+
+            case DECKBOX_TO_DUELS:
+                ExporterDeckboxToDuels.main(otherArguments);
                 break;
         }
 
