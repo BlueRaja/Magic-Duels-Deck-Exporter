@@ -6,10 +6,7 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -26,9 +23,11 @@ public class FileUtils {
         return new String(encoded);
     }
 
-    public static Document getFileAsXMLDocument(String path)
+    public static Document getFileAsXMLDocument(InputStream inputStream)
             throws ParserConfigurationException, SAXException, IOException {
-        return getFileAsXMLDocument(new File(path));
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        return builder.parse(inputStream);
     }
 
     public static Document getFileAsXMLDocument(File file)

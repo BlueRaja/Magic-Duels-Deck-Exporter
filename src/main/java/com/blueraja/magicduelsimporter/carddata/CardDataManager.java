@@ -96,7 +96,8 @@ public class CardDataManager {
     public void readXml() throws ParserConfigurationException, IOException, SAXException {
         this.clear();
 
-        Document doc = FileUtils.getFileAsXMLDocument("CardData.xml");
+        InputStream cardDataInput = ClassLoader.getSystemResourceAsStream("CardData.xml");
+        Document doc = FileUtils.getFileAsXMLDocument(cardDataInput);
         NodeList cards = doc.getElementsByTagName("card");
         for(int i = 0; i < cards.getLength(); i++) {
             Element element = (Element)cards.item(i);
