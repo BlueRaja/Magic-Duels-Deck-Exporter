@@ -21,10 +21,9 @@ public class DeckboxDeckManager {
     }
 
     public Deck loadDeck(String deckboxDeckFilePath) throws IOException {
-        return fromString(
-                FileUtils.getBaseName(deckboxDeckFilePath),
-                FileUtils.getFileAsString(deckboxDeckFilePath)
-        );
+        String deckName = FileUtils.getBaseName(deckboxDeckFilePath);
+        String fileAsString = FileUtils.getFileAsString(deckboxDeckFilePath);
+        return fromString(deckName, FileUtils.toUnix(fileAsString));
     }
 
     String asString(Deck ownedCards) {

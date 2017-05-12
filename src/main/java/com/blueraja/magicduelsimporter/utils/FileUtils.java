@@ -23,6 +23,10 @@ public class FileUtils {
         return new String(encoded);
     }
 
+    public static String toUnix(String string) {
+        return string.replaceAll("\r", "");
+    }
+
     public static Document getFileAsXMLDocument(InputStream inputStream)
             throws ParserConfigurationException, SAXException, IOException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
