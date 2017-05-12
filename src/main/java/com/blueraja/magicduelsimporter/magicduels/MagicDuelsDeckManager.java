@@ -64,6 +64,19 @@ public class MagicDuelsDeckManager {
         return returnedDecks;
     }
 
+    public Optional<Deck> getDeck(String deckName) throws IOException {
+        Profile profile = getProfile();
+
+        for (int deckPos=0; deckPos<32; deckPos++) {
+            MagicDuelsDeck magicDuelsDeck = profile.readDeck(deckPos);
+            Deck deck = new ToDeckTransformer(_cardDataManager).transform(magicDuelsDeck);
+            if (deckName.equals(deck.getName())) {
+                return Optional.of(deck);
+            }
+        }
+        return Optional.empty();
+    }
+
     private Profile getProfile() throws IOException {
         return new Profile(new File(_profilePath));
     }
@@ -194,4 +207,5 @@ public class MagicDuelsDeckManager {
         }
         return errors;
     }
+
 }

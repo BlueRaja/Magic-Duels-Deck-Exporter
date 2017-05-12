@@ -30,10 +30,13 @@ A tool to allow importing/exporting decks between Magic Duels and Magic Assistan
 
 It is possible to directly run the jar file with one of the following commands:
 
+    java -jar magic-duels-deck-exporter.jar BROWSE <path-to-magic-duels-profile>
     java -jar magic-duels-deck-exporter.jar ASSIST_TO_DUELS  <path-to-magic-assist-workspace> <path-to-magic-duels-profile>
     java -jar magic-duels-deck-exporter.jar DUELS_TO_ASSIST  <path-to-magic-assist-workspace> <path-to-magic-duels-profile>
     java -jar magic-duels-deck-exporter.jar DUELS_TO_DECKBOX <path-to-deckbox-out-file> <path-to-magic-duels-profile>
     java -jar magic-duels-deck-exporter.jar DUELS_TO_DECKBOX <path-to-deckbox-deck-file> <path-to-magic-duels-profile>
+
+**BROWSE** Allow to inspect the Magic Duels profile.
 
 **path-to-magic-assist-workspace**: Path to Magic Assist workspace.
 

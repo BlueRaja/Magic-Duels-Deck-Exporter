@@ -1,9 +1,7 @@
 package com.blueraja.magicduelsimporter;
 
-import com.blueraja.magicduelsimporter.export.ExporterAssistToDuels;
-import com.blueraja.magicduelsimporter.export.ExporterDeckboxToDuels;
-import com.blueraja.magicduelsimporter.export.ExporterDuelsToAssist;
-import com.blueraja.magicduelsimporter.export.ExporterDuelsToDeckbox;
+import com.blueraja.magicduelsimporter.export.*;
+import com.blueraja.magicduelsimporter.export.browser.ExporterBrowser;
 
 import java.util.Arrays;
 
@@ -12,6 +10,7 @@ import static com.blueraja.magicduelsimporter.Main.Modality.*;
 public class Main {
 
     public enum Modality {
+        BROWSE,
         ASSIST_TO_DUELS,
         DUELS_TO_ASSIST,
         DUELS_TO_DECKBOX,
@@ -37,6 +36,10 @@ public class Main {
 
         String[] otherArguments = Arrays.copyOfRange(args, 1, args.length);
         switch (Modality.valueOf(args[0])) {
+            case BROWSE:
+                ExporterBrowser.main(otherArguments);
+                break;
+
             case ASSIST_TO_DUELS:
                 ExporterAssistToDuels.main(otherArguments);
                 break;
