@@ -35,6 +35,6 @@ public class ExporterDeckboxToDuels {
         magicDuelsDeckManager.writeDeck(deckboxDeck);
 
         System.out.println("Deckbox --> Duels completed successfully.");
-        System.out.println("Deck '" + FileUtils.getBaseName(deckboxDeckFilePath) + "' successfully created.");
+        System.out.println("Deck '" + FileUtils.getBaseName(deckboxDeckFilePath) + "' successfully created/updated.");
     }
 }
