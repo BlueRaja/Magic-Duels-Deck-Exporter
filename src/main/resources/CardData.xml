@@ -1174,19 +1174,19 @@
 <card idMagicAssist="426934" idMagicDuels="1171" name="Luxa River Shrine"/>
 <card idMagicAssist="426906" idMagicDuels="1172" name="Nissa, Steward of Elements"/>
 <card idMagicAssist="426907" idMagicDuels="1173" name="Samut, Voice of Dissent"/>
-<card idMagicAssist="426926" idMagicDuels="1174" name="Heaven"/>
-<card idMagicAssist="426925" idMagicDuels="1175" name="Cut"/>
-<card idMagicAssist="426924" idMagicDuels="1176" name="Rags"/>
-<card idMagicAssist="426922" idMagicDuels="1177" name="Prepare"/>
+<card idMagicAssist="426926" idMagicDuels="1174" name="Heaven // Earth"/>
+<card idMagicAssist="426925" idMagicDuels="1175" name="Cut // Ribbons"/>
+<card idMagicAssist="426924" idMagicDuels="1176" name="Rags // Riches"/>
+<card idMagicAssist="426922" idMagicDuels="1177" name="Prepare // Fight"/>
 <card idMagicAssist="426898" idMagicDuels="1178" name="Bounty of the Luxa"/>
 <card idMagicAssist="426905" idMagicDuels="1179" name="Neheb, the Worthy"/>
 <card idMagicAssist="426901" idMagicDuels="1180" name="Hapatra, Vizier of Poisons"/>
 <card idMagicAssist="426909" idMagicDuels="1181" name="Temmet, Vizier of Naktamun"/>
-<card idMagicAssist="426921" idMagicDuels="1182" name="Spring"/>
-<card idMagicAssist="426920" idMagicDuels="1183" name="Onward"/>
-<card idMagicAssist="426919" idMagicDuels="1184" name="Destined"/>
-<card idMagicAssist="426918" idMagicDuels="1185" name="Reduce"/>
-<card idMagicAssist="426917" idMagicDuels="1186" name="Start"/>
+<card idMagicAssist="426921" idMagicDuels="1182" name="Spring // Mind"/>
+<card idMagicAssist="426920" idMagicDuels="1183" name="Onward // Victory"/>
+<card idMagicAssist="426919" idMagicDuels="1184" name="Destined // Lead"/>
+<card idMagicAssist="426918" idMagicDuels="1185" name="Reduce // Rubble"/>
+<card idMagicAssist="426917" idMagicDuels="1186" name="Start // Finish"/>
 <card idMagicAssist="426911" idMagicDuels="1187" name="Weaver of Currents"/>
 <card idMagicAssist="426902" idMagicDuels="1188" name="Honored Crop-Captain"/>
 <card idMagicAssist="426899" idMagicDuels="1189" name="Decimator Beetle"/>
@@ -1198,11 +1198,11 @@
 <card idMagicAssist="426908" idMagicDuels="1195" name="Shadowstorm Vizier"/>
 <card idMagicAssist="426897" idMagicDuels="1196" name="Aven Wind Guide"/>
 <card idMagicAssist="426884" idMagicDuels="1197" name="Rhonas the Indomitable"/>
-<card idMagicAssist="426916" idMagicDuels="1198" name="Mouth"/>
+<card idMagicAssist="426916" idMagicDuels="1198" name="Mouth // Feed"/>
 <card idMagicAssist="426885" idMagicDuels="1199" name="Sandwurm Convergence"/>
 <card idMagicAssist="426874" idMagicDuels="1200" name="Honored Hydra"/>
 <card idMagicAssist="426861" idMagicDuels="1201" name="Champion of Rhonas"/>
-<card idMagicAssist="426913" idMagicDuels="1202" name="Commit"/>
+<card idMagicAssist="426913" idMagicDuels="1202" name="Commit // Memory"/>
 <card idMagicAssist="426893" idMagicDuels="1203" name="Trial of Strength"/>
 <card idMagicAssist="426892" idMagicDuels="1204" name="Synchronized Strike"/>
 <card idMagicAssist="426864" idMagicDuels="1205" name="Crocodile of the Crossing"/>
@@ -1223,7 +1223,7 @@
 <card idMagicAssist="426879" idMagicDuels="1220" name="Oashra Cultivator"/>
 <card idMagicAssist="426838" idMagicDuels="1221" name="Hazoret the Fervent"/>
 <card idMagicAssist="426839" idMagicDuels="1222" name="Hazoret's Favor"/>
-<card idMagicAssist="426915" idMagicDuels="1223" name="Insult"/>
+<card idMagicAssist="426915" idMagicDuels="1223" name="Insult // Injury"/>
 <card idMagicAssist="426836" idMagicDuels="1224" name="Glorybringer"/>
 <card idMagicAssist="426840" idMagicDuels="1225" name="Heart-Piercer Manticore"/>
 <card idMagicAssist="426837" idMagicDuels="1226" name="Harsh Mentor"/>
@@ -1246,7 +1246,7 @@
 <card idMagicAssist="426799" idMagicDuels="1243" name="Liliana, Death's Majesty"/>
 <card idMagicAssist="426786" idMagicDuels="1244" name="Cruel Reality"/>
 <card idMagicAssist="426784" idMagicDuels="1245" name="Bontu the Glorified"/>
-<card idMagicAssist="426914" idMagicDuels="1246" name="Never"/>
+<card idMagicAssist="426914" idMagicDuels="1246" name="Never // Return"/>
 <card idMagicAssist="426780" idMagicDuels="1247" name="Archfiend of Ifnir"/>
 <card idMagicAssist="426800" idMagicDuels="1248" name="Liliana's Mastery"/>
 <card idMagicAssist="426806" idMagicDuels="1249" name="Plague Belcher"/>
@@ -1294,7 +1294,7 @@
 <card idMagicAssist="426743" idMagicDuels="1291" name="Angler Drake"/>
 <card idMagicAssist="426716" idMagicDuels="1292" name="Gideon of the Trials"/>
 <card idMagicAssist="426723" idMagicDuels="1293" name="Oketra the True"/>
-<card idMagicAssist="426912" idMagicDuels="1294" name="Dusk"/>
+<card idMagicAssist="426912" idMagicDuels="1294" name="Dusk // Dawn"/>
 <card idMagicAssist="426704" idMagicDuels="1295" name="Anointed Procession"/>
 <card idMagicAssist="426726" idMagicDuels="1296" name="Regal Caracal"/>
 <card idMagicAssist="426718" idMagicDuels="1297" name="Glory-Bound Initiate"/>
