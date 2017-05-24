@@ -156,6 +156,10 @@ public class MagicAssistDeckManager {
         typeElement.setTextContent(isCollection ? "collection" : "deck");
         rootElement.appendChild(typeElement);
 
+        Element commentElement = doc.createElement("comment");
+        commentElement.setTextContent(isCollection ? "Magic Duels collection." : deck.getDescription());
+        rootElement.appendChild((commentElement));
+
         Element propertiesElement = doc.createElement("properties");
         rootElement.appendChild(propertiesElement);
 

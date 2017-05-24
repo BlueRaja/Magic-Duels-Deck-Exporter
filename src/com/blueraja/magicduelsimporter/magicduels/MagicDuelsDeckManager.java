@@ -57,6 +57,13 @@ public class MagicDuelsDeckManager {
         for (int deckPos=0; deckPos<32; deckPos++) {
             MagicDuelsDeck magicDuelsDeck = profile.readDeck(deckPos);
             Deck deck = new Deck(magicDuelsDeck.name);
+
+            deck.setScoreSpeed(magicDuelsDeck.values[0]);
+            deck.setScoreStrength(magicDuelsDeck.values[1]);
+            deck.setScoreControl(magicDuelsDeck.values[2]);
+            deck.setScoreSynergy(magicDuelsDeck.values[3]);
+            deck.setOnlineDeckNumber(magicDuelsDeck.onlineDeckNumber);
+
             for (int i=0; i<100; i++) {
                 int cardId = magicDuelsDeck.cards[0][i];
                 int numCards = magicDuelsDeck.cards[1][i];
