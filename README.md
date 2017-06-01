@@ -14,6 +14,7 @@ A tool to allow importing/exporting decks between Magic Duels and Magic Assistan
   * _Shadows over Innistrad_
  
   If any are missing _(as they were for me)_, go to file --> Update Magic Cards Database, and download the missing sets.
+
 3. Download [the latest `Magic.Duels.Deck.Exporter.zip` file](https://github.com/BlueRaja/Magic-Duels-Deck-Exporter/releases/latest) and extract it somewhere.
 4. Open `Settings.bat` in a text editor and update the values to match your machine.
 
