@@ -17,13 +17,13 @@ import java.util.Optional;
 
 public class CardDataManager {
     public static abstract class Lands {
+
         public static final CardData FOREST = new CardData("Forest", -1, 383241);
         public static final CardData ISLAND = new CardData("Island", -2, 383281);
         public static final CardData MOUNTAIN = new CardData("Mountain", -3, 383315);
         public static final CardData PLAINS = new CardData("Plains", -4, 383346);
         public static final CardData SWAMP = new CardData("Swamp", -5, 383408);
     }
-
     public List<CardData> _cardEntries = new ArrayList<>();
 
     public void addEntry(String name, int idMagicDuels, int idMagicAssist) {
@@ -36,6 +36,22 @@ public class CardDataManager {
 
     public List<CardData> getAllCards() {
         return _cardEntries;
+    }
+
+    public List<CardData> getAllCardsWithBasicLands() {
+        List<CardData> allCardsAndLands = new ArrayList<>();
+        allCardsAndLands.addAll(getAllLands());
+        allCardsAndLands.addAll(getAllCards());
+        return allCardsAndLands;
+    }
+
+    public CardData getCard(String cardName) {
+        for (CardData cardEntry : getAllCardsWithBasicLands()) {
+            if (cardEntry.getDisplayName().equals(cardName)) {
+                return cardEntry;
+            }
+        }
+        throw new RuntimeException("Card " + cardName + " not found.");
     }
 
     public List<CardData> getAllLands() {
@@ -80,7 +96,8 @@ public class CardDataManager {
     public void readXml() throws ParserConfigurationException, IOException, SAXException {
         this.clear();
 
-        Document doc = FileUtils.getFileAsXMLDocument("CardData.xml");
+        InputStream cardDataInput = ClassLoader.getSystemResourceAsStream("CardData.xml");
+        Document doc = FileUtils.getFileAsXMLDocument(cardDataInput);
         NodeList cards = doc.getElementsByTagName("card");
         for(int i = 0; i < cards.getLength(); i++) {
             Element element = (Element)cards.item(i);

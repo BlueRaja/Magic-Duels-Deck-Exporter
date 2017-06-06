@@ -9,6 +9,7 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
@@ -59,13 +60,11 @@ public class CardDataGenerator {
         }
     }
 
-    private static void LoadMagicDuelsCardPool(String cardpoolPath)
+    private static void LoadMagicDuelsCardPool()
             throws Exception {
-        if(!new File(cardpoolPath).isFile()) {
-            throw new IOException("Cardpool.xml cannot be found at " + cardpoolPath);
-        }
 
-        Document doc = FileUtils.getFileAsXMLDocument(cardpoolPath);
+        InputStream cardPoolInput = ClassLoader.getSystemResourceAsStream("CardData.xml");
+        Document doc = FileUtils.getFileAsXMLDocument(cardPoolInput);
         NodeList cards = doc.getElementsByTagName("card");
         for(int i = 0; i < cards.getLength(); i++) {
             Element element = (Element)cards.item(i);
@@ -103,16 +102,15 @@ public class CardDataGenerator {
 
     public static void main(String[] args)
             throws Exception {
-        if(args.length != 2) {
-            System.out.println("Format: CardDataGenerator <path-to-magic-assist-workspace> <path-to-CardPool.xml>");
+        if(args.length != 1) {
+            System.out.println("Format: CardDataGenerator <path-to-magic-assist-workspace>");
             return;
         }
 
         String assistWorkspacePath = args[0];
-        String cardpoolPath = args[1];
 
         LoadAllMagicAssistCards(assistWorkspacePath);
-        LoadMagicDuelsCardPool(cardpoolPath);
+        LoadMagicDuelsCardPool();
         _cardDataManager.writeXml();
     }
 }
